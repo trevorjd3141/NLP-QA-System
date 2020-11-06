@@ -2,7 +2,6 @@ import sys
 import spacy
 import os
 
-
 def getStoryFilenames():
     cwd = os.getcwd()
     filenames = []
