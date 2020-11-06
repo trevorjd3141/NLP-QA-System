@@ -1,6 +1,5 @@
 import sys
 import spacy
-from spacy.lang.en import English
 import os
 
 
