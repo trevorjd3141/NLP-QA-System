@@ -14,7 +14,7 @@ class Question:
 
         self.type = ''
         potentialTypes = (['Who'], ['What', 'Which'], ['Why'], ['When', 'What Year','How Far Back', 'How Long Ago'],
-                            ['Where'], ['Quantity', 'How Much', 'How Many', 'How Far', 'How Old', 'Cost'], ['How'])
+                            ['Where'], ['Quantity', 'How Much', 'How Many', 'How Far', 'How Old', 'Cost', 'How Big'], ['How'])
         for i in range(len(potentialTypes)):
             if self.containsSubstrings(text, potentialTypes[i], True):
                 self.type = potentialTypes[i][0]
