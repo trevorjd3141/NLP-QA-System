@@ -11,7 +11,6 @@ def classify(question, token):
 def filterTokens(storyID):
     # Grabs all questions that pertain to the 
     # story in question and sorts them
-
     pass
 
 def filterQuestions(storyID):
