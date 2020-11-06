@@ -11,6 +11,7 @@ def classify(question, token):
     potentialAnswers = []
 
     # !! need to handle WHY and HOW
+
     for t in token[1]:
         if t.ent_ in potentialEnts:
             potentialAnswers.append(t.text)
@@ -69,6 +70,15 @@ def qa():
     file.close()
     pass
 
+def handleWHY(question):
+    answer = 'WHY'
+    # Here we could likely use syntax of the question to help solve for an answer
+    return answer
+
+def handleHOW(question):
+    answer = 'HOW'
+    # Here we could likely use syntax of the question to help solve for an answer
+    return answer
 
 def questionMatchEnt(question):
     # !! @Set up type and subtype distinction properly
