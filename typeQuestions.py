@@ -14,7 +14,7 @@ class Question:
 
         self.type = ''
         potentialTypes = (['Who'], ['What', 'Which'], ['Why'], ['When', 'What Year','How Far Back', 'How Long Ago'],
-                            ['Where'], ['How'], ['Quantity', 'How Much', 'How Many', 'How Far'])
+                            ['Where'], ['Quantity', 'How Much', 'How Many', 'How Far', 'How Old', 'Cost'], ['How'])
         for i in range(len(potentialTypes)):
             if self.containsSubstrings(text, potentialTypes[i], True):
                 self.type = potentialTypes[i][0]
@@ -36,10 +36,12 @@ class Question:
             self.subtype = 'length'
         elif self.containsSubstrings(self.text, ['weigh', 'heavy']) and self.type in ('Quantity'):
             self.subtype = 'weight'
-        elif self.containsSubstrings(self.text, ['Who is']) and len(self.text) == 4:
+        elif self.containsSubstrings(self.text, ['Who is']) and 6 > len(self.text.split()) > 2:
             self.subtype = 'simple who'
-        elif self.containsSubstrings(self.text, ['What is']) and 5 > len(self.text) > 2:
+        elif self.containsSubstrings(self.text, ['What is']) and 6 > len(self.text.split()) > 2:
             self.subtype = 'simple what'
+        elif self.containsSubstrings(self.text, ['Where is']) and 6 > len(self.text.split()) > 2:
+            self.subtype = 'simple where'
         elif self.containsSubstrings(self.text, ['country', 'nation']) and self.type == 'What':
             self.subtype = 'country'
         elif self.containsSubstrings(self.text, ['province', 'territory']) and self.type == 'What':
@@ -50,8 +52,10 @@ class Question:
             self.subtype = 'city'
         elif self.containsSubstrings(self.text, ['type', 'what kind', 'which kind']) and self.type == 'What':
             self.subtype = 'class'
+        elif self.containsSubstrings(self.text, ['work', 'volunteer']) and self.type == 'Where':
+            self.subtype = 'organization'
 
-        print(self.id, self.text, self.difficulty, self.type, self.subtype)
+        #print(self.id, self.text, self.difficulty, self.type, self.subtype)
     
     def cleanline(self, line):
         return line.split(':')[1].strip()
@@ -59,11 +63,11 @@ class Question:
     # Add the extra spaces to avoid cases such as 'age' in
     # 'teenage' triggering a true value
     def containsSubstrings(self, line, matches, lower=False):
-        line += ' '
+        line = ' ' + line + ' '
         if lower:
             return any(' ' + value.lower() + ' ' in line.lower() for value in matches)
         else:
-            return any(' ' + value + ' ' in line.lower() for value in matches)
+            return any(' ' + value + ' ' in line for value in matches)
 
 
 def getQuestionFilenames():
