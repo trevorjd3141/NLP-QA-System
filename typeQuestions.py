@@ -24,23 +24,6 @@ class Question:
             self.type = 'What'
 
         self.subtype = ''
-        self.defineSubtype()
-
-        print(self.id, self.text, self.difficulty, self.type, self.subtype)
-    
-    def cleanline(self, line):
-        return line.split(':')[1].strip()
-
-    # Add the extra spaces to avoid cases such as 'age' in
-    # 'teenage' triggering a true value
-    def containsSubstrings(self, line, matches, lower=False):
-        line += ' '
-        if lower:
-            return any(' ' + value.lower() + ' ' in line.lower() for value in matches)
-        else:
-            return any(' ' + value + ' ' in line.lower() for value in matches)
-
-    def defineSubtype(self):
         if self.containsSubstrings(self.text, ['time', 'hour', 'How long']) and self.type in ('When', 'Quantity'):
             self.subtype = 'time'
         elif self.containsSubstrings(self.text, ['date', 'year']) and self.type in ('When'):
@@ -67,6 +50,21 @@ class Question:
             self.subtype = 'city'
         elif self.containsSubstrings(self.text, ['type', 'what kind', 'which kind']) and self.type == 'What':
             self.subtype = 'class'
+
+        print(self.id, self.text, self.difficulty, self.type, self.subtype)
+    
+    def cleanline(self, line):
+        return line.split(':')[1].strip()
+
+    # Add the extra spaces to avoid cases such as 'age' in
+    # 'teenage' triggering a true value
+    def containsSubstrings(self, line, matches, lower=False):
+        line += ' '
+        if lower:
+            return any(' ' + value.lower() + ' ' in line.lower() for value in matches)
+        else:
+            return any(' ' + value + ' ' in line.lower() for value in matches)
+
 
 def getQuestionFilenames():
     cwd = os.getcwd()
