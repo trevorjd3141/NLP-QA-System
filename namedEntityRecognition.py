@@ -18,6 +18,7 @@ def getStoryTexts(filenames):
         texts.append([line.strip() for line in file.readlines()])
     return texts
 
+# given
 def groupStoryInfo(texts):
     groupedStories = []
     

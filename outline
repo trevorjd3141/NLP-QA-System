@@ -1,0 +1,26 @@
+What we're returning:
+How we call:
+    - Input: Input File
+    -
+
+TypeQuestions:
+    - QID, text, difficulty, type, and subtype
+    - How we get ID's (multiple per story)
+    - typeQuestions.getQuestions()
+            * list question instances
+            * ID, Type, Text, Subtype
+
+namedEntityRecognition:
+    -
+    - List of tuples containing story ID and list of tokens for said story
+    - namedEntityRecognition.getNamedEntities()
+            * returns 'tokens'
+
+classifier:
+    -  input file (parse for storyIDs -> story/questions)
+            * think this done in 'getQuestions' and 'getNamedEntities'
+    -  run typeQ's and NER
+    -  somehow match these appropriately to produce some answer (magic)
+            * most basic is to just match same type (good basis to start testing)
+            * what we really want is to be able to find the sentence (surrounding
+              area) to find answer
