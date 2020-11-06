@@ -70,10 +70,10 @@ class Question:
             return any(' ' + value + ' ' in line for value in matches)
 
 
-def getQuestionFilenames():
+def getQuestionFilenames(directory):
     cwd = os.getcwd()
     filenames = []
-    for entry in os.scandir(cwd+'\\data'):
+    for entry in os.scandir(directory):
         if entry.path.endswith(".questions"):
             filenames.append(entry.path)
     return filenames
@@ -100,12 +100,9 @@ def groupQuestionTexts(texts):
 def createQuestions(questionInfo):
     return [Question(tupe[0], tupe[1], tupe[2]) for tupe in questionInfo]
 
-def getQuestions():
-    questionFilenames = getQuestionFilenames()
+def getQuestions(directory):
+    questionFilenames = getQuestionFilenames(directory)
     questionTexts = getQuestionTexts(questionFilenames)
     questionInformation = groupQuestionTexts(questionTexts)
     questions = createQuestions(questionInformation)
     return questions
-
-if __name__ == '__main__':
-    getQuestions()

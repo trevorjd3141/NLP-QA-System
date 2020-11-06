@@ -1,0 +1,20 @@
+QuestionID: mc500.train.192-1
+Question:  What happened to John's friend
+Answer: John didn't know.
+Difficulty: Moderate
+
+QuestionID: mc500.train.192-2
+Question:   What happened to John?
+Answer: His boat sank, and he was stuck at sea.
+Difficulty: Moderate
+
+QuestionID: mc500.train.192-3
+Question:   Did John have food or water in his box?
+Answer: No food or water.
+Difficulty: Easy
+
+QuestionID: mc500.train.192-4
+Question:  Did John ever go home?
+Answer: Yes
+Difficulty: Easy
+

@@ -1,0 +1,20 @@
+QuestionID: mc500.train.0-1
+Question:  What city is Alyssa in?
+Answer: Miami
+Difficulty: Easy
+
+QuestionID: mc500.train.0-2
+Question:   Why did Alyssa go to Miami?
+Answer: visit friends
+Difficulty: Easy
+
+QuestionID: mc500.train.0-3
+Question:   How many friends does Alyssa have?
+Answer: 3
+Difficulty: Moderate
+
+QuestionID: mc500.train.0-4
+Question:  What did Alyssa eat at the restaurant?
+Answer: catfish
+Difficulty: Moderate
+
