@@ -129,23 +129,23 @@ def foo(question, possibleTokens):
     # each time nsubj, dobj, or root appear in a token's subtree we increase it's score
     for token in possibleTokens:
         if token.text not in possibleAnswers:
-            print(token.text)
+            #print(token.text)
             possibleAnswers[token.text] = 0
         for s in token.subtree:
             if type(nsubj) != type(''):
-                print('n: ' + nsubj.text)
+                #print('n: ' + nsubj.text)
                 if nsubj.lemma == s.lemma:
                     possibleAnswers[token.text] += 1
             if type(dobj) != type(''):
-                print('d: ' + dobj.text)
+                #print('d: ' + dobj.text)
                 if dobj.lemma == s.lemma:
                     possibleAnswers[token.text] += 1
             if type(root) != type(''):
-                print('r: ' + root.text)
+                #print('r: ' + root.text)
                 if root.lemma == s.lemma:
                     possibleAnswers[token.text] += 1
 
-    #for t in possibleAnswers:
+    print(possibleAnswers)
 
     sorted_answers = sorted(possibleAnswers, key=possibleAnswers.get)
 
@@ -153,7 +153,7 @@ def foo(question, possibleTokens):
 
 def fooTest():
     nlp = spacy.load("en_core_web_sm")
-    question = 'How tall was jared?'
+    question = 'How tall was Jared?'
     story = 'The car was red. The car was man. The man was Jared. Jared was 6ft tall.'
     tokens = nlp(story)
 
@@ -161,5 +161,5 @@ def fooTest():
 
 
 if __name__ == '__main__':
-    # fooTest()
-    qa()
+    fooTest()
+    #qa()
