@@ -71,8 +71,6 @@ class Question:
 
 
 def getQuestionFilenames(directory):
-    # !!@ this will handle CWD's but path might not have to be in CWD (and likely won't) from project.pdf
-    cwd = os.getcwd()
     filenames = []
     for entry in os.scandir(directory):
         if entry.path.endswith(".questions"):
