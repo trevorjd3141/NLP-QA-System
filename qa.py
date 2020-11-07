@@ -83,7 +83,7 @@ def questionMatchEntity(question):
             return ['ORG']
         return ['FAC', 'ORG', 'GPE', 'LOC', 'EVENT']
     elif question.type == 'Why':
-        return ['EVENT']
+        return []
     elif question.type == 'How':
         if question.subtype == 'length':
             return ['QUANTITY']

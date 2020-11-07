@@ -1,4 +1,6 @@
 # Sophisticated Sharks
+How to Run:
+./QA-script.txt input.txt outputpath
 
 External Libraries:
 * spaCy (https://spacy.io/).

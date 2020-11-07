@@ -1,9 +1,30 @@
 #!/bin/bash
 
+if [ "$#" -ne 2 ]; then
+    echo "Not enough arguments provided"
+    echo "Usage: ./QA-script.txt /path/to/inputfile.txt /path/to/<out.answers>"
+    echo ""
+
+    echo "Or to use the developset-v2 data: ./QA-script.txt ./data/inputfile.txt /path/to/<out.answers>"
+    exit 1
+fi
+
+echo "Creating virtual environment"
+
 python3 -m venv .venv
 source .venv/bin/activate
 
+echo "Installing nltk"
+pip install -U --disable-pip-version-check nltk > /dev/null
+
+echo "Installing SpaCy"
 pip install -U --disable-pip-version-check spacy > /dev/null
+
+echo "Installing SpaCy Generic Model for NER, POS, etc."
 python -m spacy download en_core_web_md > /dev/null 2>&1
-python3 qa.py $1
+
+echo "Running program"
+python3 qa.py $1 > $2
+
+echo "Done. Removing virtual environment"
 rm -rf .venv

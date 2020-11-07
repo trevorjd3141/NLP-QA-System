@@ -1,3 +1,15 @@
+TODO:
+Code Cleanup-
+Merge qaSB.py into qa.py
+Create documentation folder
+Create input/output folder can be separate or same.
+Make Trevor's computer less bad
+
+Goals-
+Locate direct object find noun subject and use to help locate better answers - Spencer
+Split "Why" questions at because and take remainder - Trevor
+Rank potential sentences - Trevor
+
 What we're returning:
 How we call:
     - Input: Input File
