@@ -1,7 +1,6 @@
 import typeQuestions
 import namedEntityRecognition
 import sys
-import random
 import spacy
 
 
