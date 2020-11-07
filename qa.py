@@ -5,8 +5,7 @@ import random
 
 
 def classify(question, story):
-    # match q type with possible ent types
-    potentialEntities = questionMatchEnt(question)
+    potentialEntities = questionMatchEntity(question)
 
     potentialAnswers = []
 
@@ -18,18 +17,15 @@ def classify(question, story):
 
     return random.choice(potentialAnswers)
 
-
 def filterStories(storyID, stories):
     for story in stories:
         if story[0] == storyID:
             return story
 
-
 def filterQuestions(storyID, questions):
     filteredQuestions = [question for question in questions if question.id.startswith(storyID)]
     sortedQuestions = sorted(filteredQuestions, key=lambda question: question.id)
     return sortedQuestions
-
 
 def output(id, answer):
     print('QuestionID: ' + id)
@@ -62,7 +58,7 @@ def qa():
     pass
 
 # Return valid entity types given the question type
-def questionMatchEnt(question):
+def questionMatchEntity(question):
     if question.type == 'Who':
         return ['PERSON', 'ORG', 'NORP']
     elif question.type == 'What':
