@@ -1,0 +1,9 @@
+#!/bin/bash
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+pip install -U --disable-pip-version-check spacy > /dev/null
+python -m spacy download en_core_web_md > /dev/null 2>&1
+python3 qa.py $1
+rm -rf .venv

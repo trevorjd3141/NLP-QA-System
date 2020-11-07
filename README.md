@@ -1,8 +1,11 @@
-# NLP-QA-System
+# Sophisticated Sharks
 
 External Libraries:
 * spaCy (https://spacy.io/).
-* sys and os.
+
+Team Members:
+Trevor Dalton
+Spencer Bonds
 
 Time Estimate:
 1 second per document.
