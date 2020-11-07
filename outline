@@ -24,3 +24,12 @@ classifier:
             * most basic is to just match same type (good basis to start testing)
             * what we really want is to be able to find the sentence (surrounding
               area) to find answer
+
+
+
+foo(question, tokens, possibleEntities)
+    doc = nlp(question.txt)
+    get direct object and its verb from question
+    for each t in tokens
+          if DO in t.children/ancestors and t.ent_ in possibleEntities
+               add t.text to answers
