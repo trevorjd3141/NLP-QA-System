@@ -4,7 +4,10 @@ import sys
 import os
 
 def classify(question, story):
+<<<<<<< HEAD
     # print('CLASSIFY')
+=======
+>>>>>>> f4c9fd447565b3c736cc221e5b6b0e02ed2909a4
     potentialEntities = questionMatchEntity(question)
 
     potentialAnswers = []
@@ -43,7 +46,10 @@ def qa():
 
     questions = typeQuestions.getQuestions(directory)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f4c9fd447565b3c736cc221e5b6b0e02ed2909a4
     stories = namedEntityRecognition.getNamedEntities(directory)
 
     for id in storyIDs:
@@ -57,6 +63,7 @@ def qa():
             answer = classify(question, story)
             output(question.id, answer)
 
+<<<<<<< HEAD
     # Close file
     file.close()
     pass
@@ -82,6 +89,11 @@ def qa():
 #         return []
 
 # Return valid entity types given the question type
+=======
+    file.close()
+    pass
+
+>>>>>>> f4c9fd447565b3c736cc221e5b6b0e02ed2909a4
 def questionMatchEntity(question):
     if question.type == 'Who':
         if question.subtype == 'simple who':
@@ -94,7 +106,10 @@ def questionMatchEntity(question):
             return ['PRODUCT', 'EVENT', 'DATE']
         else:
             return ['PERSON', 'NORP', 'FAC', 'ORG', 'GPE', 'LOC', 'PRODUCT', 'EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENTAGE', 'ORDINAL']
+<<<<<<< HEAD
         # return []
+=======
+>>>>>>> f4c9fd447565b3c736cc221e5b6b0e02ed2909a4
     elif question.type == 'When':
         if question.subtype == 'time':
             return ['TIME']
@@ -108,7 +123,11 @@ def questionMatchEntity(question):
             return ['ORG']
         return ['FAC', 'ORG', 'GPE', 'LOC', 'EVENT']
     elif question.type == 'Why':
+<<<<<<< HEAD
         return []
+=======
+        return ['EVENT']
+>>>>>>> f4c9fd447565b3c736cc221e5b6b0e02ed2909a4
     elif question.type == 'How':
         if question.subtype == 'length':
             return ['QUANTITY']
