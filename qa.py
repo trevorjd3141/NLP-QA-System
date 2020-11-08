@@ -2,14 +2,17 @@ import typeQuestions
 import namedEntityRecognition
 import sys
 import os
+import spacy
 
 def classify(question, story):
+    # Grab potential entity types the answer will fit
     potentialEntities = questionMatchEntity(question)
-
-    potentialAnswers = []
-
+    
+    # Loop over entire story and grab all words that
+    # fit the desired entity types
     storyID = story[0]
     tokens = story[1]
+    potentialAnswers = []
     for token in tokens:
         if token.ent_type_ in potentialEntities:
             potentialAnswers.append(token.text)
@@ -26,6 +29,9 @@ def filterStories(storyID, stories):
 
 def filterQuestions(storyID, questions):
     filteredQuestions = [question for question in questions if question.id.startswith(storyID)]
+
+    # Sort questions not by ascii value as that leads to xxx-10
+    # being sorted before xxx-9 but my the value of the last digits.
     sortedQuestions = sorted(filteredQuestions, key=lambda question: int(question.id.split('-')[-1]))
     return sortedQuestions
 
@@ -41,13 +47,14 @@ def qa():
     storyIDs = lines[1:]
 
     questions = typeQuestions.getQuestions(directory)
-
     stories = namedEntityRecognition.getNamedEntities(directory)
 
     for id in storyIDs:
         filteredQuestions = filterQuestions(id, questions)
         story = filterStories(id, stories)
 
+        # If there are no stories or questions return early
+        # not likely to happen but included for robustness
         if story is None or filteredQuestions is None:
             continue
 
@@ -56,8 +63,9 @@ def qa():
             output(question.id, answer)
 
     file.close()
-    pass
 
+# Find the potential entity types the answer will
+# fit given the question type and subtype
 def questionMatchEntity(question):
     if question.type == 'Who':
         if question.subtype == 'simple who':
