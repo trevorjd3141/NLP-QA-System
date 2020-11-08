@@ -5,6 +5,7 @@ Who, What, Why, Where, When, How
 """
 import os
 
+# Represents all information contained within a question
 class Question:
 
     def __init__(self, id, text, difficulty):
@@ -12,6 +13,9 @@ class Question:
         self.text = self.cleanline(text)
         self.difficulty = self.cleanline(difficulty)
 
+        # Final type values can be between Who, What, Why, When, Where, Quantity, and How.
+        # That is, only the left most value of each item in potetialTypes
+        # The other values are used purely for string recognition
         self.type = ''
         potentialTypes = (['Who'], ['What', 'Which'], ['Why'], ['When', 'What Year','How Far Back', 'How Long Ago'],
                             ['Where'], ['Quantity', 'How Much', 'How Many', 'How Far', 'How Old', 'Cost', 'How Big'], ['How'])
@@ -20,9 +24,16 @@ class Question:
                 self.type = potentialTypes[i][0]
                 break
 
+        # Default type name is What in case the real
+        # type was unable to be found
         if self.type == '':
             self.type = 'What'
 
+        # Depending the strings contained within the text
+        # and the type of question a further subtype can be
+        # inferred.
+        # EX: "How old is Johnny" obviously requires and numerical answer
+        # Which can be inferred later if subtype is specified.
         self.subtype = ''
         if self.containsSubstrings(self.text, ['time', 'hour', 'How long']) and self.type in ('When', 'Quantity'):
             self.subtype = 'time'
@@ -54,22 +65,26 @@ class Question:
             self.subtype = 'class'
         elif self.containsSubstrings(self.text, ['work', 'volunteer']) and self.type == 'Where':
             self.subtype = 'organization'
-
-        #print(self.id, self.text, self.difficulty, self.type, self.subtype)
     
     def cleanline(self, line):
         return line.split(':')[1].strip()
 
-    # Add the extra spaces to avoid cases such as 'age' in
-    # 'teenage' triggering a true value
+    # Returns true if any of the strings in matches
+    # can be found in line
+    #
+    # lower is a variable requiring that case is not an issue
+    # case should specifically be ignored when determined
+    # question type but matters less when finding subtype
     def containsSubstrings(self, line, matches, lower=False):
+        # Add the extra spaces to avoid cases such as 'age' in
+        # 'teenage' triggering a true value
         line = ' ' + line + ' '
         if lower:
             return any(' ' + value.lower() + ' ' in line.lower() for value in matches)
         else:
             return any(' ' + value + ' ' in line for value in matches)
 
-
+# Finds all question file names within directory
 def getQuestionFilenames(directory):
     filenames = []
     for entry in os.scandir(directory):
@@ -77,6 +92,8 @@ def getQuestionFilenames(directory):
             filenames.append(entry.path)
     return filenames
 
+# Maps question file names to a list of the texts
+# of those files
 def getQuestionTexts(filenames):
     texts = []
     for filename in filenames:
@@ -84,6 +101,8 @@ def getQuestionTexts(filenames):
         texts.append([line.strip() for line in file.readlines()])
     return texts
 
+# Removes whitespace to keep only
+# the QuestionID, Question Text, and Difficulty
 def groupQuestionTexts(texts):
     groupedQuestions = []
     group = []
@@ -96,6 +115,8 @@ def groupQuestionTexts(texts):
                     group = []
     return groupedQuestions
 
+# Creates instances of the Question class based
+# upon information generated in groupQuestionTexts()
 def createQuestions(questionInfo):
     return [Question(tupe[0], tupe[1], tupe[2]) for tupe in questionInfo]
 

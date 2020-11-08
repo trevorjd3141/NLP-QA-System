@@ -2,6 +2,7 @@ import sys
 import spacy
 import os
 
+# Grab the names of all story filetypes
 def getStoryFilenames(directory):
     filenames = []
     for entry in os.scandir(directory):
@@ -9,6 +10,8 @@ def getStoryFilenames(directory):
             filenames.append(entry.path)
     return filenames
 
+# For each story file name map that stories
+# text to a list
 def getStoryTexts(filenames):
     texts = []
     for filename in filenames:
@@ -16,6 +19,7 @@ def getStoryTexts(filenames):
         texts.append([line.strip() + ' ' for line in file.readlines()])
     return texts
 
+# Separate the storyID and the actual text
 def groupStoryInfo(texts):
     groupedStories = []
     
@@ -30,6 +34,7 @@ def groupStoryInfo(texts):
         groupedStories.append([storyID, storyText])
     return groupedStories
 
+# Run spaCy on the stories
 def NER(info, nlp):
     text = info[1]
     tokens = nlp(text)
