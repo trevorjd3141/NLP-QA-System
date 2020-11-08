@@ -111,5 +111,61 @@ def questionMatchEntity(question):
     else:
         return []
 
+def foo(question, possibleTokens):
+    nlp = spacy.load("en_core_web_sm")
+    #doc = nlp(question.text)
+    doc = nlp(question)
+
+    # get direct object and its verb from question
+    for d in doc:
+        if d.dep_ == 'nsubj':
+            nsubj = d
+            dobj=''
+            root=''
+        elif d.dep_ == 'dobj':
+            dobj = d
+            nsubj=''
+            root=''
+        elif d.dep_ == 'ROOT':
+            root = d
+            dobj=''
+            nsubj=''
+
+
+    # create a dictionary of possible answers
+    possibleAnswers = {}
+    # each time nsubj, dobj, or root appear in a token's subtree we increase it's score
+    for token in possibleTokens:
+        if token.text not in possibleAnswers:
+            #print(token.text)
+            possibleAnswers[token.text] = 0
+        for s in token.subtree:
+            if type(nsubj) != type(''):
+                #print('n: ' + nsubj.text)
+                if nsubj.lemma == s.lemma:
+                    possibleAnswers[token.text] += 1
+            if type(dobj) != type(''):
+                #print('d: ' + dobj.text)
+                if dobj.lemma == s.lemma:
+                    possibleAnswers[token.text] += 1
+            if type(root) != type(''):
+                #print('r: ' + root.text)
+                if root.lemma == s.lemma:
+                    possibleAnswers[token.text] += 1
+
+    print(possibleAnswers)
+
+    sorted_answers = sorted(possibleAnswers, key=possibleAnswers.get)
+
+    print(sorted_answers)
+
+def fooTest():
+    nlp = spacy.load("en_core_web_sm")
+    question = 'How tall was Jared?'
+    story = 'The car was red. The car was man. The man was Jared. Jared was 6ft tall.'
+    tokens = nlp(story)
+
+    foo(question, tokens)
+
 if __name__ == '__main__':
     qa()
