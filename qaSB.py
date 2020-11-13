@@ -158,6 +158,64 @@ def fooTest():
 
     foo(question, tokens)
 
+# http://ciir.cs.umass.edu/pubfiles/ir-239.pdf
+def score(topPassages, possibleAnswers):
+    # still need to define these
+    bestWindow = ''
+    answerScores = []
+
+    for passage in topPassages:
+        score = 0
+        for answerCandidate in possibleAnswers:
+            occurences = getOccurrences(answerCandidate, passage)
+            matchedWords = occurences[1]
+            score += occurences[0]
+            # need way of grabbing best window, might be done in getOccurences/inSingleSentence
+            # might have to be bigger than sing sentence
+            # lets say we already have it
+            score += matchedWords.len()/bestWindow.len()
+            score += .5/distanceFromCenterOfWindow(answerCandidate, bestWindow)
+
+def getOccurrences(answerCandidate, passage):
+    score = 0
+    matchingWords = []
+    for word in answerCandidate:
+        if word in passage:
+            score += 1
+            matchingWords.append(word)
+    # tuple ( bool of if one sent, sent)
+    allOneSentence = inSingleSentence(matchingWords, passage)
+    if (allOneSentence[0]):
+        score += .5
+
+    return (score, matchingWords)
+
+def inSingleSentence(words, passage):
+    # Place holder for actual sentence splitter (check spacy)
+    sentences = passage.split('.')
+    for sent in sentences:
+        allOneSent = True
+        for word in words:
+            if word not in sent.split():
+                allOneSent = False
+                break
+
+        if allOneSent:
+            # only supposed to get score but could be helpful later
+            return (True, sent)
+
+    # we could return the best sentence here instead of ''
+    return (False, '')
+
+def getWindow(answerCandidate, passage):
+    score = 0
+    sentence = ''
+    return (sentence, score)
+
+def distanceFromCenterOfWindow(answerCandidate, bestWindow):
+    # mentions token offset here instead of just length.. might check
+
+    return abs(round(bestWindow.len/2) - bestWindow.index(answerCandidate))
 
 if __name__ == '__main__':
     fooTest()
