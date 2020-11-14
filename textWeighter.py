@@ -47,7 +47,7 @@ def cosineDistance(x, y):
         return 0
 
 # Main
-def filterQuestions(question, story, k=3):
+def filterQuestions(question, story, k=3, ranked=False):
 
     # Get stopwords
     stopwords = fetchStopwords('data/stopwords.txt')
@@ -62,7 +62,6 @@ def filterQuestions(question, story, k=3):
 
     # Filter question
     filteredQuestion = filterSplitText(question.text, stopwords)
-    #print("FILTERING QUESTION:", question.text, filteredQuestion)
 
     scores = []
     for i in range(len(filteredSentences)):
@@ -74,9 +73,11 @@ def filterQuestions(question, story, k=3):
         score = cosineDistance(sentenceVector, questionVector)
         scores.append((score, i))
     scores.sort(key = lambda score: score[0])
-    #print("SCORES", scores)
-    winners = scores[-k:]
-    winners = [pair[1] for pair in winners]
 
-    newStory = '. '.join([sentences[i] for i in range(len(sentences)) if i in winners])
-    return newStory
+    if ranked:
+        return [sentences[pair[1]] for pair in scores]
+    else:
+        winners = scores[-k:]
+        winners = [pair[1] for pair in winners]
+        newStory = '. '.join([sentences[i] for i in range(len(sentences)) if i in winners])
+        return newStory

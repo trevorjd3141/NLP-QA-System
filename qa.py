@@ -5,11 +5,33 @@ import sys
 import os
 import spacy
 
+SENTENCEWINDOW = 3
+BACKUPWINDOW = 1
+
 def classify(question, story, nlp):
-    # Grab potential entity types the answer will fit
     text = story[1]
-    text = textWeighter.filterQuestions(question, text, 3)
+
+    # Grab potential entity types the answer will fit
+    text = textWeighter.filterQuestions(question, text, SENTENCEWINDOW)
     potentialEntities = questionMatchEntity(question)
+
+    # Find the 'because' for why questions
+    # starting with the most likely.
+    indicators = ['because', 'so that', 'Because']
+    if question.type == 'Why' and any([indicator in story[1] for indicator in indicators]):
+        ranked = textWeighter.filterQuestions(question, story[1], ranked=True)
+        i = 1
+        
+        # Make sure i never goes higher than the length
+        # of the list
+        for i in range(len(ranked)):
+            sentence = ranked[i]
+            if 'because' in ranked[i]:
+                return 'because' + sentence.split('because')[1]
+            elif 'so that' in ranked[i]:
+                return 'so that' + sentence.split('so that')[1]
+            elif 'Because' in ranked[i]:
+                return sentence.split(',')[0]
     
     # Loop over entire story and grab all words that
     # fit the desired entity types
@@ -19,11 +41,11 @@ def classify(question, story, nlp):
     for token in tokens:
         if token.ent_type_ in potentialEntities:
             potentialAnswers.append(token.text)
-
+            
     if len(potentialAnswers) > 0:
-        return ' '.join(potentialAnswers)
+        return ' '.join(list(set(potentialAnswers)))
     else:
-        return ''
+        return textWeighter.filterQuestions(question, story[1], BACKUPWINDOW)
 
 def filterStories(storyID, stories):
     for story in stories:
