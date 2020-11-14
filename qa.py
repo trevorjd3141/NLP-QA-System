@@ -1,17 +1,20 @@
 import typeQuestions
 import namedEntityRecognition
+import textWeighter
 import sys
 import os
 import spacy
 
-def classify(question, story):
+def classify(question, story, nlp):
     # Grab potential entity types the answer will fit
+    text = story[1]
+    text = textWeighter.filterQuestions(question, text, 3)
     potentialEntities = questionMatchEntity(question)
     
     # Loop over entire story and grab all words that
     # fit the desired entity types
     storyID = story[0]
-    tokens = story[1]
+    tokens = nlp(text)
     potentialAnswers = []
     for token in tokens:
         if token.ent_type_ in potentialEntities:
@@ -39,30 +42,6 @@ def output(id, answer):
     print('QuestionID: ' + id)
     print('Answer: ' + answer)
     print()
-
-def qa():
-    file = open(sys.argv[1], "r")
-    lines = [line.strip() for line in file.readlines()]
-    directory = lines[0]
-    storyIDs = lines[1:]
-
-    questions = typeQuestions.getQuestions(directory)
-    stories = namedEntityRecognition.getNamedEntities(directory)
-
-    for id in storyIDs:
-        filteredQuestions = filterQuestions(id, questions)
-        story = filterStories(id, stories)
-
-        # If there are no stories or questions return early
-        # not likely to happen but included for robustness
-        if story is None or filteredQuestions is None:
-            continue
-
-        for question in filteredQuestions:
-            answer = classify(question, story)
-            output(question.id, answer)
-
-    file.close()
 
 # Find the potential entity types the answer will
 # fit given the question type and subtype
@@ -111,61 +90,30 @@ def questionMatchEntity(question):
     else:
         return []
 
-def foo(question, possibleTokens):
+def qa():
+    file = open(sys.argv[1], "r")
+    lines = [line.strip() for line in file.readlines()]
+    directory = lines[0]
+    storyIDs = lines[1:]
+
+    questions = typeQuestions.getQuestions(directory)
+    stories = namedEntityRecognition.getNamedEntities(directory)
+
     nlp = spacy.load("en_core_web_sm")
-    #doc = nlp(question.text)
-    doc = nlp(question)
+    for id in storyIDs:
+        filteredQuestions = filterQuestions(id, questions)
+        story = filterStories(id, stories)
 
-    # get direct object and its verb from question
-    for d in doc:
-        if d.dep_ == 'nsubj':
-            nsubj = d
-            dobj=''
-            root=''
-        elif d.dep_ == 'dobj':
-            dobj = d
-            nsubj=''
-            root=''
-        elif d.dep_ == 'ROOT':
-            root = d
-            dobj=''
-            nsubj=''
+        # If there are no stories or questions return early
+        # not likely to happen but included for robustness
+        if story is None or filteredQuestions is None:
+            continue
 
+        for question in filteredQuestions:
+            answer = classify(question, story, nlp)
+            output(question.id, answer)
 
-    # create a dictionary of possible answers
-    possibleAnswers = {}
-    # each time nsubj, dobj, or root appear in a token's subtree we increase it's score
-    for token in possibleTokens:
-        if token.text not in possibleAnswers:
-            #print(token.text)
-            possibleAnswers[token.text] = 0
-        for s in token.subtree:
-            if type(nsubj) != type(''):
-                #print('n: ' + nsubj.text)
-                if nsubj.lemma == s.lemma:
-                    possibleAnswers[token.text] += 1
-            if type(dobj) != type(''):
-                #print('d: ' + dobj.text)
-                if dobj.lemma == s.lemma:
-                    possibleAnswers[token.text] += 1
-            if type(root) != type(''):
-                #print('r: ' + root.text)
-                if root.lemma == s.lemma:
-                    possibleAnswers[token.text] += 1
-
-    print(possibleAnswers)
-
-    sorted_answers = sorted(possibleAnswers, key=possibleAnswers.get)
-
-    print(sorted_answers)
-
-def fooTest():
-    nlp = spacy.load("en_core_web_sm")
-    question = 'How tall was Jared?'
-    story = 'The car was red. The car was man. The man was Jared. Jared was 6ft tall.'
-    tokens = nlp(story)
-
-    foo(question, tokens)
+    file.close()
 
 if __name__ == '__main__':
     qa()
