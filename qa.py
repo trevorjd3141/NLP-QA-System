@@ -1,17 +1,20 @@
 import typeQuestions
 import namedEntityRecognition
+import textWeighter
 import sys
 import os
 import spacy
 
-def classify(question, story):
+def classify(question, story, nlp):
     # Grab potential entity types the answer will fit
+    text = story[1]
+    text = textWeighter.filterQuestions(question, text, 3)
     potentialEntities = questionMatchEntity(question)
     
     # Loop over entire story and grab all words that
     # fit the desired entity types
     storyID = story[0]
-    tokens = story[1]
+    tokens = nlp(text)
     potentialAnswers = []
     for token in tokens:
         if token.ent_type_ in potentialEntities:
@@ -39,30 +42,6 @@ def output(id, answer):
     print('QuestionID: ' + id)
     print('Answer: ' + answer)
     print()
-
-def qa():
-    file = open(sys.argv[1], "r")
-    lines = [line.strip() for line in file.readlines()]
-    directory = lines[0]
-    storyIDs = lines[1:]
-
-    questions = typeQuestions.getQuestions(directory)
-    stories = namedEntityRecognition.getNamedEntities(directory)
-
-    for id in storyIDs:
-        filteredQuestions = filterQuestions(id, questions)
-        story = filterStories(id, stories)
-
-        # If there are no stories or questions return early
-        # not likely to happen but included for robustness
-        if story is None or filteredQuestions is None:
-            continue
-
-        for question in filteredQuestions:
-            answer = classify(question, story)
-            output(question.id, answer)
-
-    file.close()
 
 # Find the potential entity types the answer will
 # fit given the question type and subtype
@@ -110,6 +89,31 @@ def questionMatchEntity(question):
         return ['DATE', 'TIME', 'PERCENT', 'MONEY', 'QUANTITY', 'ORDINAL', 'CARDINAL']
     else:
         return []
+
+def qa():
+    file = open(sys.argv[1], "r")
+    lines = [line.strip() for line in file.readlines()]
+    directory = lines[0]
+    storyIDs = lines[1:]
+
+    questions = typeQuestions.getQuestions(directory)
+    stories = namedEntityRecognition.getNamedEntities(directory)
+
+    nlp = spacy.load("en_core_web_sm")
+    for id in storyIDs:
+        filteredQuestions = filterQuestions(id, questions)
+        story = filterStories(id, stories)
+
+        # If there are no stories or questions return early
+        # not likely to happen but included for robustness
+        if story is None or filteredQuestions is None:
+            continue
+
+        for question in filteredQuestions:
+            answer = classify(question, story, nlp)
+            output(question.id, answer)
+
+    file.close()
 
 if __name__ == '__main__':
     qa()
