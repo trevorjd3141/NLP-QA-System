@@ -47,6 +47,9 @@ def cosineDistance(x, y):
         return 0
 
 # Main
+# k is the amount of sentences to return
+# ranked designates whether to return in sentence
+# form or the order of the sentences but ranked
 def filterQuestions(question, story, k=3, ranked=False):
 
     # Get stopwords

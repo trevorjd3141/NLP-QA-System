@@ -17,7 +17,7 @@ def classify(question, story, nlp):
 
     # Find the 'because' for why questions
     # starting with the most likely.
-    indicators = ['because', 'so that', 'Because']
+    indicators = ['because', 'so that', 'Because', 'so they', 'so she', 'so he', 'Due to', 'due to']
     if question.type == 'Why' and any([indicator in story[1] for indicator in indicators]):
         ranked = textWeighter.filterQuestions(question, story[1], ranked=True)
         i = 1
@@ -30,6 +30,16 @@ def classify(question, story, nlp):
                 return 'because' + sentence.split('because')[1]
             elif 'so that' in ranked[i]:
                 return 'so that' + sentence.split('so that')[1]
+            elif 'so they' in ranked[i]:
+                return 'so they' + sentence.split('so they')[1]
+            elif 'so he' in ranked[i]:
+                return 'so he' + sentence.split('so he')[1]
+            elif 'so she' in ranked[i]:
+                return 'so she' + sentence.split('so she')[1]
+            elif 'due to' in ranked[i]:
+                return 'due to' + sentence.split('due to')[1]
+            elif 'Due to' in ranked[i]:
+                return sentence.split(',')[0]
             elif 'Because' in ranked[i]:
                 return sentence.split(',')[0]
     
@@ -43,7 +53,7 @@ def classify(question, story, nlp):
             potentialAnswers.append(token.text)
 
     if len(potentialAnswers) > 0:
-        return ' '.join(list(set(potentialAnswers)))
+        return ' '.join(set(word for word in potentialAnswers if word not in question.text))
     else:
         return textWeighter.filterQuestions(question, story[1], BACKUPWINDOW)
 

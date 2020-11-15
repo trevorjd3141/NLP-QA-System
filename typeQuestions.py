@@ -17,7 +17,7 @@ class Question:
         # That is, only the left most value of each item in potetialTypes
         # The other values are used purely for string recognition
         self.type = ''
-        potentialTypes = (['Who'], ['What', 'Which'], ['Why'], ['When', 'What Year','How Far Back', 'How Long Ago'],
+        potentialTypes = (['Who', 'Whose'], ['What', 'Which'], ['Why'], ['When', 'What Year','How Far Back', 'How Long Ago'],
                             ['Where'], ['Quantity', 'How Much', 'How Many', 'How Far', 'How Old', 'Cost', 'How Big'], ['How'])
         for i in range(len(potentialTypes)):
             if self.containsSubstrings(text, potentialTypes[i], True):
