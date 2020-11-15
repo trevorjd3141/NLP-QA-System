@@ -7,14 +7,16 @@ import spacy
 
 SENTENCEWINDOW = 3
 BACKUPWINDOW = 1
+SENTENCETRIM = 2
+
+# Retrieves all common words like
+# 'of', 'and', and 'the' that we don't
+# want to consider.
+def fetchStopwords(filename):
+    file = open(filename, 'r')
+    return [line.strip().lower() for line in file.readlines()]
 
 def classify(question, story, nlp):
-    text = story[1]
-
-    # Grab potential entity types the answer will fit
-    text = textWeighter.filterQuestions(question, text, SENTENCEWINDOW)
-    potentialEntities = questionMatchEntity(question)
-
     # Find the 'because' for why questions
     # starting with the most likely.
     indicators = ['because', 'so that', 'Because', 'so they', 'so she', 'so he', 'Due to', 'due to']
@@ -45,7 +47,12 @@ def classify(question, story, nlp):
     
     # Loop over entire story and grab all words that
     # fit the desired entity types
-    storyID = story[0]
+    # This is only for 'Who', 'What', 'Where' types
+    # and various other subtypes
+    # Grab potential entity types the answer will fit
+    potentialEntities = questionMatchEntity(question)
+
+    text = textWeighter.filterQuestions(question, story[1], SENTENCEWINDOW)
     tokens = nlp(text)
     potentialAnswers = []
     for token in tokens:
@@ -54,8 +61,46 @@ def classify(question, story, nlp):
 
     if len(potentialAnswers) > 0:
         return ' '.join(set(word for word in potentialAnswers if word not in question.text))
-    else:
-        return textWeighter.filterQuestions(question, story[1], BACKUPWINDOW)
+
+    # If not specific entity types where found resort
+    # to finding the most likely sentence and hopefully
+    # trimming it down
+
+    # Get all combinations of the question sentence
+    splitQuestion = question.text.split(' ')
+    combinations = []
+    for i in range(len(splitQuestion)):
+        for j in range(i+1, len(splitQuestion)+1):
+            string = ' '.join(splitQuestion[i:j])
+            if string[-1] in '.?!':
+                string = string[:-1]
+            combinations.append(string)
+    combinations.sort(key=len, reverse=True)
+
+    mostLikelySentence = textWeighter.filterQuestions(question, story[1], BACKUPWINDOW)
+
+    stopwords = fetchStopwords('data/stopwords.txt')
+    for combination in combinations:
+        # only keep combinations that have a length
+        # of SENTENCETRIM without stopwords so we don't
+        # have short splits or splits on stopwords
+        if combination in mostLikelySentence and \
+                len([word for word in combination.split(' ') if word not in stopwords]) > SENTENCETRIM:
+            split = mostLikelySentence.split(combination)
+
+            # Words that would cause the answer to come
+            # before the explanation
+            reverseWords = ['if', 'unless', 'but', 'By']
+
+            if len(split[-1]) > 0 and \
+                    not any([word in mostLikelySentence for word in reverseWords]) and \
+                    split[-1][0] != "'":
+                return split[-1]
+            else:
+                return split[0]
+    
+    return mostLikelySentence
+
 
 def filterStories(storyID, stories):
     for story in stories:

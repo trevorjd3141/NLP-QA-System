@@ -60,22 +60,7 @@ def filterQuestions(question, story, k=3, ranked=False):
     words = filterSplitText(story, stopwords)
     vocab = list(set(words))
 
-    # Filter story
-    # Fix split after first for acronyms
-    firstSentences = [sentence for sentence in story.split('. ')]
-    sentences = []
-
-    i = 0
-    while i < len(firstSentences):
-        sentence = firstSentences[i]
-        nextSentence = firstSentences[i-1]
-        if len(sentence) > 0 and sentence[-1].isupper():
-            sentences.append('.'.join([sentence, nextSentence]))
-            i += 2
-        else:
-            sentences.append(sentence)
-            i +=1
-
+    sentences = [sentence for sentence in story.split('. ')]
     filteredSentences = [filterSplitText(sentence, stopwords) for sentence in sentences]
 
     # Filter question
