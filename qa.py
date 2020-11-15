@@ -125,13 +125,13 @@ def output(id, answer):
 def questionMatchEntity(question):
     if question.type == 'Who':
         if question.subtype == 'simple who':
-            return ['PERSON']
+            return []
         return ['PERSON', 'ORG', 'NORP']
     elif question.type == 'What':
         if question.subtype == 'price':
             return ['MONEY']
         if question.subtype == 'simple what':
-            return ['PRODUCT', 'EVENT', 'DATE']
+            return []
         else:
             return []
     elif question.type == 'When':
@@ -141,11 +141,11 @@ def questionMatchEntity(question):
             return ['DATE']
         elif question.subtype == 'simple when':
             return ['TIME', 'DATE']
-        return ['DATE', 'TIME', 'PERCENT', 'ORDINAL']
+        return ['DATE', 'TIME']
     elif question.type == 'Where':
         if question.subtype == 'organization':
             return ['ORG']
-        return ['FAC', 'ORG', 'GPE', 'LOC', 'EVENT']
+        return ['FAC', 'ORG', 'GPE', 'LOC']
     elif question.type == 'Why':
         return []
     elif question.type == 'How':
@@ -158,12 +158,12 @@ def questionMatchEntity(question):
         elif question.subtype == 'age':
             return ['DATE', 'TIME']
         elif question.subtype == 'price':
-            return ['PERCENT', 'MONEY']
+            return ['MONEY']
         elif question.subtype == 'length':
             return ['QUANTITY']
         elif question.subtype == 'weight':
             return ['QUANTITY']
-        return ['DATE', 'TIME', 'PERCENT', 'MONEY', 'QUANTITY', 'ORDINAL', 'CARDINAL']
+        return ['PERCENT', 'MONEY', 'QUANTITY', 'CARDINAL']
     else:
         return []
 
