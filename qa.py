@@ -41,7 +41,7 @@ def classify(question, story, nlp):
     for token in tokens:
         if token.ent_type_ in potentialEntities:
             potentialAnswers.append(token.text)
-            
+
     if len(potentialAnswers) > 0:
         return ' '.join(list(set(potentialAnswers)))
     else:
@@ -78,7 +78,7 @@ def questionMatchEntity(question):
         if question.subtype == 'simple what':
             return ['PRODUCT', 'EVENT', 'DATE']
         else:
-            return ['PERSON', 'NORP', 'FAC', 'ORG', 'GPE', 'LOC', 'PRODUCT', 'EVENT', 'WORK_OF_ART', 'LAW', 'LANGUAGE', 'DATE', 'TIME', 'PERCENTAGE', 'ORDINAL']
+            return []
     elif question.type == 'When':
         if question.subtype == 'time':
             return ['TIME']
