@@ -4,6 +4,7 @@ weed out sentences that are extremely unlikely to have the answer.
 """
 import string
 import math
+import spacy
 from collections import defaultdict
 
 # Retrieves all common words like
@@ -60,7 +61,21 @@ def filterQuestions(question, story, k=3, ranked=False):
     vocab = list(set(words))
 
     # Filter story
-    sentences = [sentence for sentence in story.split('. ')]
+    # Fix split after first for acronyms
+    firstSentences = [sentence for sentence in story.split('. ')]
+    sentences = []
+
+    i = 0
+    while i < len(firstSentences):
+        sentence = firstSentences[i]
+        nextSentence = firstSentences[i-1]
+        if len(sentence) > 0 and sentence[-1].isupper():
+            sentences.append('.'.join([sentence, nextSentence]))
+            i += 2
+        else:
+            sentences.append(sentence)
+            i +=1
+
     filteredSentences = [filterSplitText(sentence, stopwords) for sentence in sentences]
 
     # Filter question
