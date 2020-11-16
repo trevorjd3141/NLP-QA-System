@@ -4,6 +4,7 @@ weed out sentences that are extremely unlikely to have the answer.
 """
 import string
 import math
+import spacy
 from collections import defaultdict
 
 # Retrieves all common words like
@@ -47,6 +48,9 @@ def cosineDistance(x, y):
         return 0
 
 # Main
+# k is the amount of sentences to return
+# ranked designates whether to return in sentence
+# form or the order of the sentences but ranked
 def filterQuestions(question, story, k=3, ranked=False):
 
     # Get stopwords
@@ -56,7 +60,6 @@ def filterQuestions(question, story, k=3, ranked=False):
     words = filterSplitText(story, stopwords)
     vocab = list(set(words))
 
-    # Filter story
     sentences = [sentence for sentence in story.split('. ')]
     filteredSentences = [filterSplitText(sentence, stopwords) for sentence in sentences]
 
@@ -72,12 +75,12 @@ def filterQuestions(question, story, k=3, ranked=False):
         
         score = cosineDistance(sentenceVector, questionVector)
         scores.append((score, i))
-    scores.sort(key = lambda score: score[0])
+    scores.sort(key = lambda score: score[0], reverse=True)
 
     if ranked:
         return [sentences[pair[1]] for pair in scores]
     else:
-        winners = scores[-k:]
+        winners = scores[:k]
         winners = [pair[1] for pair in winners]
         newStory = '. '.join([sentences[i] for i in range(len(sentences)) if i in winners])
         return newStory
