@@ -16,9 +16,9 @@ def fetchStopwords(filename):
     file = open(filename, 'r')
     return [line.strip().lower() for line in file.readlines()]
 
-def classify(question, story, nlp):
-    # Find the 'because' for why questions
-    # starting with the most likely.
+# Find the 'because' for why questions
+# starting with the most likely.
+def whySplit(question, story):
     indicators = ['because', 'so that', 'Because', 'so they', 'so she', 'so he', 'Due to', 'due to']
     if question.type == 'Why' and any([indicator in story[1] for indicator in indicators]):
         ranked = textWeighter.filterQuestions(question, story[1], ranked=True)
@@ -44,12 +44,13 @@ def classify(question, story, nlp):
                 return sentence.split(',')[0]
             elif 'Because' in ranked[i]:
                 return sentence.split(',')[0]
-    
-    # Loop over entire story and grab all words that
-    # fit the desired entity types
-    # This is only for 'Who', 'What', 'Where' types
-    # and various other subtypes
-    # Grab potential entity types the answer will fit
+
+# Loop over entire story and grab all words that
+# fit the desired entity types
+# This is only for 'Who', 'What', 'Where' types
+# and various other subtypes
+# Grab potential entity types the answer will fit
+def entityMatch(question, story, nlp):
     potentialEntities = questionMatchEntity(question)
 
     text = textWeighter.filterQuestions(question, story[1], SENTENCEWINDOW)
@@ -62,10 +63,15 @@ def classify(question, story, nlp):
     if len(potentialAnswers) > 0:
         return ' '.join(set(word for word in potentialAnswers if word not in question.text))
 
-    # If not specific entity types where found resort
-    # to finding the most likely sentence and hopefully
-    # trimming it down
-
+# If all else fails resort
+# to finding the most likely sentence and hopefully
+# trimming it down
+# For sentences like 'The fire hydrant allows
+# firefighters to fight fires'
+# and questions like 'what does a fire hydrant allow'
+# to trim to 'allow firefighters to fight fires'
+def trimParse(question, story, requirements=None):
+    
     # Get all combinations of the question sentence
     splitQuestion = question.text.split(' ')
     combinations = []
@@ -77,8 +83,18 @@ def classify(question, story, nlp):
             combinations.append(string)
     combinations.sort(key=len, reverse=True)
 
-    mostLikelySentence = textWeighter.filterQuestions(question, story[1], BACKUPWINDOW)
+    mostLikelySentences = textWeighter.filterQuestions(question, story[1], ranked=True)
+    mostLikelySentence = mostLikelySentences[0]
 
+    if requirements is not None:
+        for sentence in mostLikelySentences:
+            if any([requirement in sentence for requirement in requirements]):
+                mostLikelySentence = sentence
+                break
+
+    # Go through all combinations and if that combination
+    # is in the mostLikelySentence then split and return either
+    # before or after that depending on the contents
     stopwords = fetchStopwords('data/stopwords.txt')
     for combination in combinations:
         # only keep combinations that have a length
@@ -101,6 +117,49 @@ def classify(question, story, nlp):
     
     return mostLikelySentence
 
+# Given a quote question find
+# the asker
+def findSubject(question):
+    if 'According to' in question:
+        return findBetween(question, 'According to', ',')
+    elif 'according to' in question:
+        return findBetween(question, 'according to', '?')
+
+# Find a string between two substrings
+def findBetween(s, first, last):
+    try:
+        start = s.index(first) + len(first)
+        end = s.index(last, start)
+        return s[start:end]
+    except ValueError:
+        return ''
+
+# Steps in order
+# Split on 'why' questions
+# Try and match entities
+# Check if it's a quote to get more
+# restrictions
+# Resort to recalling most likely
+# sentence
+def classify(question, story, nlp):
+    whySplitAnswer = whySplit(question, story)
+    if whySplitAnswer and len(whySplitAnswer) > 0:
+        return whySplitAnswer
+    
+    entityMatchAnswer = entityMatch(question, story, nlp)
+    if entityMatchAnswer and len(entityMatchAnswer) > 0:
+        return entityMatchAnswer
+
+    if question.type == 'According' and False:
+        subject = findSubject(question.text)
+        trimParseAnswer = trimParse(question, story, [subject] + ['said', 'say', 'suggested'])
+    else:
+        trimParseAnswer = trimParse(question, story)
+
+    if trimParseAnswer and len(trimParseAnswer) > 0:
+        return trimParseAnswer
+
+    return ''
 
 def filterStories(storyID, stories):
     for story in stories:
@@ -141,11 +200,11 @@ def questionMatchEntity(question):
             return ['DATE']
         elif question.subtype == 'simple when':
             return ['TIME', 'DATE']
-        return ['DATE', 'TIME']
+        return ['DATE']
     elif question.type == 'Where':
         if question.subtype == 'organization':
             return ['ORG']
-        return ['FAC', 'ORG', 'GPE', 'LOC']
+        return ['FAC', 'GPE', 'LOC']
     elif question.type == 'Why':
         return []
     elif question.type == 'How':
@@ -156,14 +215,16 @@ def questionMatchEntity(question):
         if question.subtype == 'time':
             return ['TIME']
         elif question.subtype == 'age':
-            return ['DATE', 'TIME']
+            return ['DATE', 'CARDINAL']
         elif question.subtype == 'price':
             return ['MONEY']
         elif question.subtype == 'length':
             return ['QUANTITY']
         elif question.subtype == 'weight':
             return ['QUANTITY']
-        return ['PERCENT', 'MONEY', 'QUANTITY', 'CARDINAL']
+        return ['PERCENT', 'QUANTITY', 'CARDINAL']
+    elif question.type == 'According':
+        return []
     else:
         return []
 
