@@ -75,12 +75,12 @@ def filterQuestions(question, story, k=3, ranked=False):
         
         score = cosineDistance(sentenceVector, questionVector)
         scores.append((score, i))
-    scores.sort(key = lambda score: score[0])
+    scores.sort(key = lambda score: score[0], reverse=True)
 
     if ranked:
         return [sentences[pair[1]] for pair in scores]
     else:
-        winners = scores[-k:]
+        winners = scores[:k]
         winners = [pair[1] for pair in winners]
         newStory = '. '.join([sentences[i] for i in range(len(sentences)) if i in winners])
         return newStory
