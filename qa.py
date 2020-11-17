@@ -108,10 +108,16 @@ def trimParse(question, story, requirements=None):
             # before the explanation
             reverseWords = ['if', 'unless', 'but', 'By']
 
+
+
             if len(split[-1]) > 0 and \
                     not any([word in mostLikelySentence for word in reverseWords]) and \
                     split[-1][0] != "'":
                 return split[-1]
+            elif 'By' in mostLikelySentence and ',' in mostLikelySentence:
+                # For cases like "By doing this, this will happen"
+                # only keep the "this will happen"
+                return ''.join(mostLikelySentence.split(',')[1:])
             else:
                 return split[0]
     
