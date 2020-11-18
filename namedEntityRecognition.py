@@ -1,7 +1,7 @@
 import sys
-import spacy
 import os
 
+# Grab the names of all story filetypes
 def getStoryFilenames(directory):
     filenames = []
     for entry in os.scandir(directory):
@@ -9,6 +9,8 @@ def getStoryFilenames(directory):
             filenames.append(entry.path)
     return filenames
 
+# For each story file name map that stories
+# text to a list
 def getStoryTexts(filenames):
     texts = []
     for filename in filenames:
@@ -16,6 +18,7 @@ def getStoryTexts(filenames):
         texts.append([line.strip() + ' ' for line in file.readlines()])
     return texts
 
+# Separate the storyID and the actual text
 def groupStoryInfo(texts):
     groupedStories = []
     
@@ -30,17 +33,11 @@ def groupStoryInfo(texts):
         groupedStories.append([storyID, storyText])
     return groupedStories
 
-def NER(info, nlp):
-    text = info[1]
-    tokens = nlp(text)
-    return [info[0], tokens]
-
 def getNamedEntities(directory):
     storyFilenames = getStoryFilenames(directory)
     storyTexts = getStoryTexts(storyFilenames)
-    groupedStories = groupStoryInfo(storyTexts)
+    stories = groupStoryInfo(storyTexts)
 
-    # Each token fits this form (storyID, Token for the text)
-    nlp = spacy.load("en_core_web_sm") 
-    stories = [NER(story, nlp) for story in groupedStories]
+    # Each story fits this form
+    # (storyID, text)
     return stories
