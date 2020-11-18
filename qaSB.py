@@ -144,80 +144,142 @@ def foo(question, possibleTokens):
                 if root.lemma == s.lemma:
                     possibleAnswers[token.text] += 1
 
-    print(possibleAnswers)
+    # print(possibleAnswers)
+    #
+    # sorted_answers = sorted(possibleAnswers, key=possibleAnswers.get)
+    #
+    # print(sorted_answers)
 
-    sorted_answers = sorted(possibleAnswers, key=possibleAnswers.get)
 
-    print(sorted_answers)
 
-def fooTest():
+# # http://ciir.cs.umass.edu/pubfiles/ir-239.pdf
+# def score(topPassages, possibleAnswers):
+#     # still need to define these
+#     bestWindow = ''
+#     answerScores = []
+#
+#     for passage in topPassages:
+#         score = 0
+#         for answerCandidate in possibleAnswers:
+#             occurences = getOccurrences(answerCandidate, passage)
+#             matchedWords = occurences[1]
+#             score += occurences[0]
+#             # need way of grabbing best window, might be done in getOccurences/inSingleSentence
+#             # might have to be bigger than sing sentence
+#             # lets say we already have it
+#             score += matchedWords.len()/bestWindow.len()
+#             score += .5/distanceFromCenterOfWindow(answerCandidate, bestWindow)
+#
+# def getOccurrences(answerCandidate, passage):
+#     score = 0
+#     matchingWords = []
+#     for word in answerCandidate:
+#         if word in passage:
+#             score += 1
+#             matchingWords.append(word)
+#     # tuple ( bool of if one sent, sent)
+#     allOneSentence = inSingleSentence(matchingWords, passage)
+#     if (allOneSentence[0]):
+#         score += .5
+#
+#     return (score, matchingWords)
+#
+# def inSingleSentence(words, passage):
+#     # Place holder for actual sentence splitter (check spacy)
+#     sentences = passage.split('.')
+#     for sent in sentences:
+#         allOneSent = True
+#         for word in words:
+#             if word not in sent.split():
+#                 allOneSent = False
+#                 break
+#
+#         if allOneSent:
+#             # only supposed to get score but could be helpful later
+#             return (True, sent)
+#
+#     # we could return the best sentence here instead of ''
+#     return (False, '')
+#
+# def getWindow(answerCandidate, passage):
+#     score = 0
+#     sentence = ''
+#     return (sentence, score)
+#
+# def distanceFromCenterOfWindow(answerCandidate, bestWindow):
+#     # mentions token offset here instead of just length.. might check
+#
+#     return abs(round(bestWindow.len/2) - bestWindow.index(answerCandidate))
+#
+# # stop implementing above if Trevor's system is similar
+#
+
+# given a sentence
+def dependency():
     nlp = spacy.load("en_core_web_sm")
+
     question = 'How tall was Jared?'
-    story = 'The car was red. The car was man. The man was Jared. Jared was 6ft tall.'
-    tokens = nlp(story)
+    parsedQuestionTokensAndRoot = sentenceParse(question, nlp)
+    questionTokens = parsedQuestionTokensAndRoot[0]
+    questionRoots = parsedQuestionTokensAndRoot[1]
 
-    foo(question, tokens)
+    story = 'Jared was 6ft tall.'
+    parsedStoryTokensAndRoot = sentenceParse(story, nlp)
+    storyTokens = parsedQuestionTokensAndRoot[0]
+    storyRoots = parsedQuestionTokensAndRoot[1]
 
-# http://ciir.cs.umass.edu/pubfiles/ir-239.pdf
-def score(topPassages, possibleAnswers):
-    # still need to define these
-    bestWindow = ''
-    answerScores = []
+    rootPairTuples = rootPairs(questionRoots, storyRoots)
 
-    for passage in topPassages:
-        score = 0
-        for answerCandidate in possibleAnswers:
-            occurences = getOccurrences(answerCandidate, passage)
-            matchedWords = occurences[1]
-            score += occurences[0]
-            # need way of grabbing best window, might be done in getOccurences/inSingleSentence
-            # might have to be bigger than sing sentence
-            # lets say we already have it
-            score += matchedWords.len()/bestWindow.len()
-            score += .5/distanceFromCenterOfWindow(answerCandidate, bestWindow)
+    # from here it'll likely get more dependent on question type
+    # if the question is just asking for a factoid, it'll likely only need the direct obj
+    # let's assume this to be the case
+    rTupe = rootPairTuples[0]
+    sRoot = rTupe[1]
+    for child in sRoot.children:
+        if child.dep_ == 'dobj':
+            if child.text not in question:
+                return child
+        if child.dep_ == 'nsubj':
+            if child.text not in question:
+                return child
+    # if we don't find what we're looking for, just return the story sentence
+    return story
 
-def getOccurrences(answerCandidate, passage):
-    score = 0
-    matchingWords = []
-    for word in answerCandidate:
-        if word in passage:
-            score += 1
-            matchingWords.append(word)
-    # tuple ( bool of if one sent, sent)
-    allOneSentence = inSingleSentence(matchingWords, passage)
-    if (allOneSentence[0]):
-        score += .5
+def sentenceParse (sent, nlp):
+    tokens = nlp(sent)
+    roots = []
+    for t in tokens:
+        if t.dep_ == 'root':
+            roots.append(t)
 
-    return (score, matchingWords)
+    return (tokens, roots)
 
-def inSingleSentence(words, passage):
-    # Place holder for actual sentence splitter (check spacy)
-    sentences = passage.split('.')
-    for sent in sentences:
-        allOneSent = True
-        for word in words:
-            if word not in sent.split():
-                allOneSent = False
-                break
+def rootPairs(questionRoots, storyRoots):
+    rootPairs = []
+    for qRoot in questionRoots:
+        qRootLemm = qRoot.lemma_
 
-        if allOneSent:
-            # only supposed to get score but could be helpful later
-            return (True, sent)
+        for sRoot in storyRoots:
+            sRootLemm = sRoot.lemma_
 
-    # we could return the best sentence here instead of ''
-    return (False, '')
+            if qRootLemm ==  sRootLemm:
+                rootPairs.append((qRoot, sRoot))
 
-def getWindow(answerCandidate, passage):
-    score = 0
-    sentence = ''
-    return (sentence, score)
+    return rootPairs
 
-def distanceFromCenterOfWindow(answerCandidate, bestWindow):
-    # mentions token offset here instead of just length.. might check
 
-    return abs(round(bestWindow.len/2) - bestWindow.index(answerCandidate))
+
+
+
+
+
+
+
+
+def nltk_tree(nodes):
+
 
 if __name__ == '__main__':
-    fooTest()
+    dependency()
     #qa()
 
