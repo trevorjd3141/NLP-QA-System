@@ -1,0 +1,3959 @@
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W07-5-1
+
+Comparing Key  `a ski resort'
+      and Resp `Father Michael Kolla was at the resort after a sleepless night when he got the word the boys were safe and sound'
+
+Comparing Key  `the Schweitzer Mountain Ski Resort in Sandpoint, Idaho'
+      and Resp `Father Michael Kolla was at the resort after a sleepless night when he got the word the boys were safe and sound'
+
+Comparing Key  `the Schweitzer Mountain Ski Resort'
+      and Resp `Father Michael Kolla was at the resort after a sleepless night when he got the word the boys were safe and sound'
+
+=> Best match in answer key is:
+   `a ski resort'
+
+Recall    = 0.67 (2/3)
+Precision = 0.09 (2/22)
+F-measure = 0.16
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W07-5-2
+
+Comparing Key  `A.J. Kolla'
+      and Resp `Kolla, who celebrated his 14th birthday on Tuesday, two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho'
+
+Recall    = 0.50 (1/2)
+Precision = 0.04 (1/28)
+F-measure = 0.07
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W07-5-4
+
+Comparing Key  `when they reached a riverbank around 4 p.m.'
+      and Resp `"They helped my boys live."  The boys soon figured they would have to stick together to survive'
+
+Comparing Key  `when they reached a riverbank'
+      and Resp `"They helped my boys live."  The boys soon figured they would have to stick together to survive'
+
+Comparing Key  `around 4 p.m'
+      and Resp `"They helped my boys live."  The boys soon figured they would have to stick together to survive'
+
+=> Best match in answer key is:
+   `when they reached a riverbank'
+
+Recall    = 0.20 (1/5)
+Precision = 0.06 (1/17)
+F-measure = 0.09
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W07-5-5
+
+Comparing Key  `the base of a tree'
+      and Resp `Shivering, hungry, lost on a mountain in blizzard conditions, two Alberta boys spent a night in a snow cave sleeping in shifts and dreaming of food and rescue'
+
+Comparing Key  `the snow hollow around the base of a tree'
+      and Resp `Shivering, hungry, lost on a mountain in blizzard conditions, two Alberta boys spent a night in a snow cave sleeping in shifts and dreaming of food and rescue'
+
+=> Best match in answer key is:
+   `the snow hollow around the base of a tree'
+
+Recall    = 0.33 (3/9)
+Precision = 0.11 (3/28)
+F-measure = 0.16
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W07-5-6
+
+Comparing Key  `their hands'
+      and Resp `Shivering, hungry, lost on a mountain in blizzard conditions, two Alberta boys spent a night in a snow cave sleeping in shifts and dreaming of food and rescue'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/28)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W07-5-7
+
+Comparing Key  `weather'
+      and Resp `The weather was so bad that the search parties were called in and the search called off'
+
+Comparing Key  `blizzard'
+      and Resp `The weather was so bad that the search parties were called in and the search called off'
+
+Comparing Key  `wind'
+      and Resp `The weather was so bad that the search parties were called in and the search called off'
+
+Comparing Key  `110-kilometres-an-hour winds'
+      and Resp `The weather was so bad that the search parties were called in and the search called off'
+
+=> Best match in answer key is:
+   `weather'
+
+Recall    = 1.00 (1/1)
+Precision = 0.06 (1/17)
+F-measure = 0.11
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W07-5-8
+
+Comparing Key  `a party of snowmobilers'
+      and Resp `Sandpoint Carol'
+
+Recall    = 0.00 (0/4)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W07-5-12
+
+Comparing Key  `Michael and Carol'
+      and Resp `"They helped my boys live."  The boys soon figured they would have to stick together to survive'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/17)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W08-1-1
+
+Comparing Key  `lying in court'
+      and Resp `The senators were split 50-50 on the charge of obstruction of justice, and only 45 voted Clinton "guilty" on the charge of perjury'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/23)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W08-1-2
+
+Comparing Key  `45'
+      and Resp `45 - only 50'
+
+Recall    = 1.00 (1/1)
+Precision = 0.25 (1/4)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W08-1-3
+
+Comparing Key  `Friday'
+      and Resp `President Clinton was acquitted of the charge of perjury (lying in court) and of obstructing justice (hiding evidence, or getting others to lie in court)'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/25)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W08-1-4
+
+Comparing Key  `the White House'
+      and Resp `White House'
+
+Recall    = 0.67 (2/3)
+Precision = 1.00 (2/2)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W08-1-5
+
+Comparing Key  `Republican senators'
+      and Resp `White House Republican Monica'
+
+Recall    = 0.50 (1/2)
+Precision = 0.25 (1/4)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W08-1-7
+
+Comparing Key  `they climbed'
+      and Resp `In fact, Clinton's approval rating climbed during the trial, which means Americans think he is still fit to be their president'
+
+Recall    = 0.50 (1/2)
+Precision = 0.05 (1/21)
+F-measure = 0.09
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W08-5-2
+
+Comparing Key  `it can help forecast crop yields'
+      and Resp `These satellites can help farmers forecast crop yields, keep track of ice conditions in the Arctic ocean and help mining companies look for mineral resources'
+
+Recall    = 0.83 (5/6)
+Precision = 0.20 (5/25)
+F-measure = 0.32
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W08-5-4
+
+Comparing Key  `NASA is refusing to send the Radarsat-2 satellite into the sky'
+      and Resp `The government may pay another space agency to launch the satellite'
+
+Comparing Key  `NASA Refuses to Launch the Satellite'
+      and Resp `The government may pay another space agency to launch the satellite'
+
+=> Best match in answer key is:
+   `NASA Refuses to Launch the Satellite'
+
+Recall    = 0.67 (4/6)
+Precision = 0.36 (4/11)
+F-measure = 0.47
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W08-5-5
+
+Comparing Key  `the United States'
+      and Resp `NASA American Canadian'
+
+Comparing Key  `the U.S.'
+      and Resp `NASA American Canadian'
+
+Comparing Key  `the U.S. government'
+      and Resp `NASA American Canadian'
+
+Comparing Key  `the United States government'
+      and Resp `NASA American Canadian'
+
+Comparing Key  `the U.S. intelligence community'
+      and Resp `NASA American Canadian'
+
+=> Best match in answer key is:
+   `the United States'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W08-5-6
+
+Comparing Key  `Hugues Gilbert'
+      and Resp `Hugues Gilbert NASA American'
+
+Recall    = 1.00 (2/2)
+Precision = 0.50 (2/4)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W09-5-1
+
+Comparing Key  `a guard with the BCC'
+      and Resp `Moshe Akavak, a guard with the BCC says learning the traditional ways will help the prisoners' rehabilitation'
+
+Comparing Key  `a guard with the Baffin Correctional Centre'
+      and Resp `Moshe Akavak, a guard with the BCC says learning the traditional ways will help the prisoners' rehabilitation'
+
+Comparing Key  `a jail guard'
+      and Resp `Moshe Akavak, a guard with the BCC says learning the traditional ways will help the prisoners' rehabilitation'
+
+=> Best match in answer key is:
+   `a guard with the BCC'
+
+Recall    = 1.00 (5/5)
+Precision = 0.29 (5/17)
+F-measure = 0.45
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W09-5-2
+
+Comparing Key  `16 years ago'
+      and Resp `years ago 16'
+
+Recall    = 1.00 (3/3)
+Precision = 1.00 (3/3)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W09-5-3
+
+Comparing Key  `they have lost their traditional skills'
+      and Resp `"Whenever you have inmates that come out of jail feeling good about themselves and wanting to succeed I think that cost is well borne out in terms of perhaps reduced recidivism [a return to committing crimes]'
+
+Recall    = 0.17 (1/6)
+Precision = 0.03 (1/36)
+F-measure = 0.05
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W09-5-5
+
+Comparing Key  `tens of thousands of dollars'
+      and Resp `"The more you trust other people, you also gain it back."  This is just one of the traditional hunting programs for prisoners'
+
+Recall    = 0.20 (1/5)
+Precision = 0.05 (1/22)
+F-measure = 0.07
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W09-5-6
+
+Comparing Key  `far from the city on the frozen tundra'
+      and Resp `"If they go out, they keep themselves busy doing hunting, repairing equipment, it's good for them."  The party is hunting caribou, far from the city on the frozen tundra'
+
+Comparing Key  `far from the city'
+      and Resp `"If they go out, they keep themselves busy doing hunting, repairing equipment, it's good for them."  The party is hunting caribou, far from the city on the frozen tundra'
+
+Comparing Key  `on the frozen tundra'
+      and Resp `"If they go out, they keep themselves busy doing hunting, repairing equipment, it's good for them."  The party is hunting caribou, far from the city on the frozen tundra'
+
+=> Best match in answer key is:
+   `far from the city on the frozen tundra'
+
+Recall    = 1.00 (8/8)
+Precision = 0.28 (8/29)
+F-measure = 0.43
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W09-5-7
+
+Comparing Key  `seals'
+      and Resp `What happens afterwards is just as important'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/7)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W09-5-8
+
+Comparing Key  `Michael Evic'
+      and Resp `Inuit BCC Centre Baffin Correctional'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/5)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W20-4-2
+
+Comparing Key  `on a patch of downtown Ottawa sidewalk, wedged between a bank and a grocery store'
+      and Resp `Ottawa'
+
+Comparing Key  `Ottawa'
+      and Resp `Ottawa'
+
+Comparing Key  `on a patch of downtown Ottawa sidewalk'
+      and Resp `Ottawa'
+
+=> Best match in answer key is:
+   `Ottawa'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W20-4-4
+
+Comparing Key  `March, 1999'
+      and Resp `This is the first time an individual has challenged begging laws in court'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/13)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W20-4-6
+
+Comparing Key  `Mark Ertle'
+      and Resp `Sean's court case is still a few weeks away'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/9)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W20-4-7
+
+Comparing Key  `laws against pornography and hate propaganda'
+      and Resp `Here's what the Charter says:  Everyone has the following fundamental freedoms:  Freedom of conscience and religion; Freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication; Freedom of peaceful assembly; and Freedom of association'
+
+Comparing Key  `laws against pornography'
+      and Resp `Here's what the Charter says:  Everyone has the following fundamental freedoms:  Freedom of conscience and religion; Freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication; Freedom of peaceful assembly; and Freedom of association'
+
+Comparing Key  `laws against hate propaganda'
+      and Resp `Here's what the Charter says:  Everyone has the following fundamental freedoms:  Freedom of conscience and religion; Freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication; Freedom of peaceful assembly; and Freedom of association'
+
+Comparing Key  `anti-panhandling laws'
+      and Resp `Here's what the Charter says:  Everyone has the following fundamental freedoms:  Freedom of conscience and religion; Freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication; Freedom of peaceful assembly; and Freedom of association'
+
+=> Best match in answer key is:
+   `laws against pornography and hate propaganda'
+
+Recall    = 0.17 (1/6)
+Precision = 0.02 (1/41)
+F-measure = 0.04
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W26-1-1
+
+Comparing Key  `a group of Yugoslavians of Albanian heritage who were fighting against the Yugoslavian army'
+      and Resp `NATO Albanian Yugolsavians Serbian Yugoslavians Yugoslavian'
+
+Recall    = 0.21 (3/14)
+Precision = 0.50 (3/6)
+F-measure = 0.30
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W26-1-2
+
+Comparing Key  `hand over their large weapons to NATO forces and stop wearing military uniforms'
+      and Resp `The deal says that KLA members will hand over their large weapons to NATO forces and stop wearing military uniforms'
+
+Recall    = 1.00 (13/13)
+Precision = 0.65 (13/20)
+F-measure = 0.79
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W26-1-3
+
+Comparing Key  `refugee camps and countries around the world'
+      and Resp `Canada Yugoslavia Kosovo'
+
+Comparing Key  `refugee camps in the countries surrounding Yugoslavia and countries around the world'
+      and Resp `Canada Yugoslavia Kosovo'
+
+Comparing Key  `refugee camps in the countries surrounding Yugoslavia and countries around the world, including Canada'
+      and Resp `Canada Yugoslavia Kosovo'
+
+=> Best match in answer key is:
+   `refugee camps in the countries surrounding Yugoslavia and countries around the world, including Canada'
+
+Recall    = 0.14 (2/14)
+Precision = 0.67 (2/3)
+F-measure = 0.24
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W26-1-6
+
+Comparing Key  `over the weekend'
+      and Resp `At the top of the agenda was coming up with a plan to rebuild the region and make sure that a lasting peace can be maintained'
+
+Comparing Key  `June 19-20, 1999'
+      and Resp `At the top of the agenda was coming up with a plan to rebuild the region and make sure that a lasting peace can be maintained'
+
+=> Best match in answer key is:
+   `over the weekend'
+
+Recall    = 0.33 (1/3)
+Precision = 0.04 (1/26)
+F-measure = 0.07
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W26-1-7
+
+Comparing Key  `more than a hundred billion dollars'
+      and Resp `hundred more billion than dollars'
+
+Recall    = 0.83 (5/6)
+Precision = 1.00 (5/5)
+F-measure = 0.91
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W26-1-9
+
+Comparing Key  `that's the only way that you're going to bring ultimate peace, stability and reconstruction to the area'
+      and Resp `"I don't think there's any doubt that we want to see a democratic society there -- that's the only way that you're going to bring ultimate peace, stability and reconstruction to the area," says Canada's Foreign Affairs Minister Lloyd Axworthy'
+
+Recall    = 0.94 (16/17)
+Precision = 0.40 (16/40)
+F-measure = 0.56
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W27-3-1
+
+Comparing Key  `for song writing credit and a share of money from her first album'
+      and Resp `because of Sarah McLachlan's fame, but also'
+
+Recall    = 0.08 (1/13)
+Precision = 0.14 (1/7)
+F-measure = 0.10
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W27-3-2
+
+Comparing Key  `Vancouver, British Columbia'
+      and Resp `The case all comes down to a question of his word against hers'
+
+Comparing Key  `in a court in Vancouver, British Columbia'
+      and Resp `The case all comes down to a question of his word against hers'
+
+=> Best match in answer key is:
+   `in a court in Vancouver, British Columbia'
+
+Recall    = 0.14 (1/7)
+Precision = 0.08 (1/13)
+F-measure = 0.10
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W27-3-4
+
+Comparing Key  `he co-wrote four of those songs'
+      and Resp `Daryl Neudorf claims he co-wrote four of those songs, including Sad Clown'
+
+Comparing Key  `that he co-wrote four of those songs'
+      and Resp `Daryl Neudorf claims he co-wrote four of those songs, including Sad Clown'
+
+Comparing Key  `he co-wrote four of those songs, including Sad Clown'
+      and Resp `Daryl Neudorf claims he co-wrote four of those songs, including Sad Clown'
+
+=> Best match in answer key is:
+   `he co-wrote four of those songs, including Sad Clown'
+
+Recall    = 1.00 (9/9)
+Precision = 0.75 (9/12)
+F-measure = 0.86
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W27-3-5
+
+Comparing Key  `for pre-production, coordination and production assistance'
+      and Resp `Neudorf is given credit for pre-production, coordination and production assistance'
+
+Recall    = 1.00 (6/6)
+Precision = 0.60 (6/10)
+F-measure = 0.75
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W27-3-6
+
+Comparing Key  `Ms. McLachlan's lawyer'
+      and Resp `"What is the act of authorship," says Jennifer Conkie, Ms'
+
+Comparing Key  `Sarah McLachlan's lawyer'
+      and Resp `"What is the act of authorship," says Jennifer Conkie, Ms'
+
+=> Best match in answer key is:
+   `Ms. McLachlan's lawyer'
+
+Recall    = 0.33 (1/3)
+Precision = 0.10 (1/10)
+F-measure = 0.15
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W27-3-8
+
+Comparing Key  `the law in the United Kingdom'
+      and Resp `Canada's copyright act came into effect in 1924, and is based largely on the law in the United Kingdom'
+
+Recall    = 1.00 (6/6)
+Precision = 0.32 (6/19)
+F-measure = 0.48
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W27-3-9
+
+Comparing Key  `because of the complexity of the case'
+      and Resp `because of the complexity of the case, it may be months before a decision is made'
+
+Recall    = 1.00 (7/7)
+Precision = 0.44 (7/16)
+F-measure = 0.61
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W27-3-10
+
+Comparing Key  `1924'
+      and Resp `1924'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W28-1-1
+
+Comparing Key  `Martensville, Saskatchewan'
+      and Resp `Mexico'
+
+Comparing Key  `Martensville'
+      and Resp `Mexico'
+
+Comparing Key  `Saskatchewan'
+      and Resp `Mexico'
+
+=> Best match in answer key is:
+   `Martensville, Saskatchewan'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W28-1-2
+
+Comparing Key  `cancer'
+      and Resp `Tyrell had a cancerous tumour in his leg'
+
+Comparing Key  `a tumour'
+      and Resp `Tyrell had a cancerous tumour in his leg'
+
+Comparing Key  `Tyrell had a cancerous tumour in his leg'
+      and Resp `Tyrell had a cancerous tumour in his leg'
+
+Comparing Key  `cancer had spread to Tyrell's lungs'
+      and Resp `Tyrell had a cancerous tumour in his leg'
+
+Comparing Key  `Tyrell's tumour started bleeding'
+      and Resp `Tyrell had a cancerous tumour in his leg'
+
+Comparing Key  `Tyrell's tumour started bleeding and he needed blood transfusions'
+      and Resp `Tyrell had a cancerous tumour in his leg'
+
+=> Best match in answer key is:
+   `Tyrell had a cancerous tumour in his leg'
+
+Recall    = 1.00 (8/8)
+Precision = 1.00 (8/8)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W28-1-3
+
+Comparing Key  `herbal, and alternative treatments that included large doses of vitamins and a special diet'
+      and Resp `Tyrell waited three months for treatment as his case went through the courts'
+
+Recall    = 0.00 (0/14)
+Precision = 0.00 (0/13)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W28-1-4
+
+Comparing Key  `The Saskatchewan government didn't think alternative medicine would work'
+      and Resp `He says in Tyrell's case, government interference meant alternative treatment may have been delayed too long'
+
+Comparing Key  `to force him to undergo surgery for the cancer in his leg'
+      and Resp `He says in Tyrell's case, government interference meant alternative treatment may have been delayed too long'
+
+=> Best match in answer key is:
+   `The Saskatchewan government didn't think alternative medicine would work'
+
+Recall    = 0.22 (2/9)
+Precision = 0.13 (2/16)
+F-measure = 0.16
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W28-1-5
+
+Comparing Key  `three months'
+      and Resp `He says in Tyrell's case, government interference meant alternative treatment may have been delayed too long'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/16)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W28-1-6
+
+Comparing Key  `When it was discovered the cancer had spread to Tyrell's lungs'
+      and Resp `months three'
+
+Recall    = 0.00 (0/11)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W28-1-7
+
+Comparing Key  `doctors in Mexico'
+      and Resp `"Tyrell believed alternative cancer therapy was going to improve his chances of survival'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/13)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W28-1-8
+
+Comparing Key  `it may have been delayed too long'
+      and Resp `Joe Bourgeault, a supporter of alternative medicine, helped raise money to pay for Tyrell's treatment in Mexico'
+
+Recall    = 0.00 (0/7)
+Precision = 0.00 (0/17)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W29-4-1
+
+Comparing Key  `to control a disease she has suffered from her whole life'
+      and Resp `Fifteen-year-old Amber Ramirez is recovering in hospital after having part of her brain removed'
+
+Comparing Key  `to control a very rare form of brain disease'
+      and Resp `Fifteen-year-old Amber Ramirez is recovering in hospital after having part of her brain removed'
+
+=> Best match in answer key is:
+   `to control a very rare form of brain disease'
+
+Recall    = 0.22 (2/9)
+Precision = 0.14 (2/14)
+F-measure = 0.17
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W29-4-2
+
+Comparing Key  `a very rare form of brain disease'
+      and Resp `Amber suffers from Rasmussen's disease'
+
+Comparing Key  `a very rare form of brain disease that can occur at any time in childhood'
+      and Resp `Amber suffers from Rasmussen's disease'
+
+=> Best match in answer key is:
+   `a very rare form of brain disease'
+
+Recall    = 0.14 (1/7)
+Precision = 0.20 (1/5)
+F-measure = 0.17
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W29-4-3
+
+Comparing Key  `at any time in childhood'
+      and Resp `Rasmussen's disease is a very rare form of brain disease that can occur at any time in childhood'
+
+Recall    = 1.00 (5/5)
+Precision = 0.28 (5/18)
+F-measure = 0.43
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W29-4-4
+
+Comparing Key  `they become inflamed or puffy when infected'
+      and Resp `It is not known what causes the disease, but it is known that'
+
+Recall    = 0.00 (0/7)
+Precision = 0.00 (0/13)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W29-4-5
+
+Comparing Key  `causes epileptic seizures'
+      and Resp `As a result, the affected brain cells malfunction, and fire off electrical energy when they are not supposed to'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/19)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W29-4-6
+
+Comparing Key  `the left side'
+      and Resp `Rasmussen's disease is a very rare form of brain disease that can occur at any time in childhood'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/18)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W29-4-7
+
+Comparing Key  `she might be unable to talk'
+      and Resp `Amber had the surgery to control a disease she has suffered from her whole life'
+
+Comparing Key  `the surgery could leave Amber without the ability to talk'
+      and Resp `Amber had the surgery to control a disease she has suffered from her whole life'
+
+=> Best match in answer key is:
+   `the surgery could leave Amber without the ability to talk'
+
+Recall    = 0.40 (4/10)
+Precision = 0.27 (4/15)
+F-measure = 0.32
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W29-4-8
+
+Comparing Key  `on younger patients'
+      and Resp `The surgery performed on Amber is called a hemispherectomy, and is usually performed on younger patients'
+
+Recall    = 1.00 (3/3)
+Precision = 0.19 (3/16)
+F-measure = 0.32
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-1-1
+
+Comparing Key  `because it leaves almost no food for other fish'
+      and Resp `because they steal bait and will also hit lures'
+
+Recall    = 0.11 (1/9)
+Precision = 0.11 (1/9)
+F-measure = 0.11
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-1-2
+
+Comparing Key  `Environment Canada'
+      and Resp `Environment Canada'
+
+Comparing Key  `The Fisheries and Oceans Department'
+      and Resp `Environment Canada'
+
+=> Best match in answer key is:
+   `Environment Canada'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-1-3
+
+Comparing Key  `the eggs and young of the sport fish'
+      and Resp `The round goby is about the size of a sardine'
+
+Recall    = 0.38 (3/8)
+Precision = 0.30 (3/10)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-1-4
+
+Comparing Key  `right through the night'
+      and Resp `It can do this because it has special sensors'
+
+Comparing Key  `at night'
+      and Resp `It can do this because it has special sensors'
+
+=> Best match in answer key is:
+   `right through the night'
+
+Recall    = 0.00 (0/4)
+Precision = 0.00 (0/9)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-1-5
+
+Comparing Key  `the Black Sea'
+      and Resp `The round goby is about the size of a sardine'
+
+Recall    = 0.33 (1/3)
+Precision = 0.10 (1/10)
+F-measure = 0.15
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-1-6
+
+Comparing Key  `in water held in the bottom of a boat'
+      and Resp `The round goby came from the Black Sea, likely in water held in the bottom of a boat'
+
+Recall    = 1.00 (9/9)
+Precision = 0.50 (9/18)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-1-7
+
+Comparing Key  `plants'
+      and Resp `Environment Canada is warning people in Ontario about a foreign fish called the round goby'
+
+Comparing Key  `plants that might have small goby in them'
+      and Resp `Environment Canada is warning people in Ontario about a foreign fish called the round goby'
+
+=> Best match in answer key is:
+   `plants that might have small goby in them'
+
+Recall    = 0.25 (2/8)
+Precision = 0.13 (2/15)
+F-measure = 0.17
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-3-1
+
+Comparing Key  `Nova Scotia'
+      and Resp `John Hamm has been elected the new Premier of Nova Scotia'
+
+Comparing Key  `in Nova Scotia'
+      and Resp `John Hamm has been elected the new Premier of Nova Scotia'
+
+=> Best match in answer key is:
+   `Nova Scotia'
+
+Recall    = 1.00 (2/2)
+Precision = 0.18 (2/11)
+F-measure = 0.31
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-3-2
+
+Comparing Key  `the leader of the Liberal Party'
+      and Resp `Liberal leader Russell MacLellan was forced to call the election after the other parties voted against his budget'
+
+Recall    = 0.67 (4/6)
+Precision = 0.22 (4/18)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-3-3
+
+Comparing Key  `29'
+      and Resp `more half than'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-3-4
+
+Comparing Key  `no one party had more than half the seats in the legislature'
+      and Resp `After the last election Nova Scotia had a minority government'
+
+Comparing Key  `no one party has more than half the seats in the legislature'
+      and Resp `After the last election Nova Scotia had a minority government'
+
+=> Best match in answer key is:
+   `no one party had more than half the seats in the legislature'
+
+Recall    = 0.17 (2/12)
+Precision = 0.20 (2/10)
+F-measure = 0.18
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-3-5
+
+Comparing Key  `third'
+      and Resp `The party placed third in the last election'
+
+Recall    = 1.00 (1/1)
+Precision = 0.13 (1/8)
+F-measure = 0.22
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-3-6
+
+Comparing Key  `within three years'
+      and Resp `three years'
+
+Recall    = 0.67 (2/3)
+Precision = 1.00 (2/2)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-3-7
+
+Comparing Key  `the other parties voted against his budget'
+      and Resp `Liberal leader Russell MacLellan was forced to call the election after the other parties voted against his budget'
+
+Recall    = 1.00 (7/7)
+Precision = 0.39 (7/18)
+F-measure = 0.56
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-3-8
+
+Comparing Key  `the legislature has lost confidence in them'
+      and Resp `, like one that is about money, it means the legislature has lost confidence in them'
+
+Recall    = 1.00 (7/7)
+Precision = 0.47 (7/15)
+F-measure = 0.64
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-3-9
+
+Comparing Key  `either quit or call a new election'
+      and Resp `This vote of non-confidence means the premier must either quit, or call a new election'
+
+Recall    = 1.00 (7/7)
+Precision = 0.47 (7/15)
+F-measure = 0.64
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-1
+
+Comparing Key  `to go to the moon'
+      and Resp `Eugene Shoemaker may finally fulfill his lifelong wish to go to the moon'
+
+Recall    = 1.00 (5/5)
+Precision = 0.38 (5/13)
+F-measure = 0.56
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-2
+
+Comparing Key  `lipstick-sized'
+      and Resp `If all goes as planned on Saturday, a lipstick-sized container will carry his ashes to the moon's south pole'
+
+Recall    = 1.00 (1/1)
+Precision = 0.05 (1/19)
+F-measure = 0.10
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-3
+
+Comparing Key  `the moon'
+      and Resp `Eugene Shoemaker'
+
+Comparing Key  `the south pole of the moon'
+      and Resp `Eugene Shoemaker'
+
+=> Best match in answer key is:
+   `the moon'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-4
+
+Comparing Key  `a plume of water which will be visible from Earth with a telescope'
+      and Resp `The Lunar Prospector is a moon-orbiting craft'
+
+Comparing Key  `a plume of water'
+      and Resp `The Lunar Prospector is a moon-orbiting craft'
+
+=> Best match in answer key is:
+   `a plume of water'
+
+Recall    = 0.25 (1/4)
+Precision = 0.14 (1/7)
+F-measure = 0.18
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-5
+
+Comparing Key  `craters and the collisions that cause them'
+      and Resp `He was considered an authority on craters and the collisions that cause them'
+
+Recall    = 1.00 (7/7)
+Precision = 0.54 (7/13)
+F-measure = 0.70
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-6
+
+Comparing Key  `about 20'
+      and Resp `800 about 20'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-7
+
+Comparing Key  `1994'
+      and Resp `1994'
+
+Comparing Key  `in 1994'
+      and Resp `1994'
+
+=> Best match in answer key is:
+   `1994'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-8
+
+Comparing Key  `Jupiter'
+      and Resp `Shoemaker gained worldwide fame in 1994, when he helped discover the comet Shoemaker-Levy 9'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/14)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-9
+
+Comparing Key  `Apollo astronauts'
+      and Resp `Shoemaker was a well-known astronomer and geologist'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/7)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-10
+
+Comparing Key  `because of a medical problem'
+      and Resp `because of a medical problem'
+
+Comparing Key  `a medical problem'
+      and Resp `because of a medical problem'
+
+=> Best match in answer key is:
+   `because of a medical problem'
+
+Recall    = 1.00 (5/5)
+Precision = 1.00 (5/5)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W31-5-11
+
+Comparing Key  `"not going to the moon and banging on it with my own hammer"'
+      and Resp `Shoemaker said shortly before his death the'
+
+Recall    = 0.08 (1/13)
+Precision = 0.14 (1/7)
+F-measure = 0.10
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-4-1
+
+Comparing Key  `Sweden'
+      and Resp `Sweden'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-4-2
+
+Comparing Key  `five'
+      and Resp `nine six metres about five'
+
+Recall    = 1.00 (1/1)
+Precision = 0.20 (1/5)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-4-3
+
+Comparing Key  `about the size of a microwave oven'
+      and Resp `At the third annual Robot World Cup Soccer tournament in Sweden, Iranian robots beat Italian robots 3-1'
+
+Comparing Key  `the size of a microwave oven'
+      and Resp `At the third annual Robot World Cup Soccer tournament in Sweden, Iranian robots beat Italian robots 3-1'
+
+=> Best match in answer key is:
+   `the size of a microwave oven'
+
+Recall    = 0.17 (1/6)
+Precision = 0.06 (1/17)
+F-measure = 0.09
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-4-4
+
+Comparing Key  `how to play during the game'
+      and Resp `At the third annual Robot World Cup Soccer tournament in Sweden, Iranian robots beat Italian robots 3-1'
+
+Recall    = 0.17 (1/6)
+Precision = 0.06 (1/17)
+F-measure = 0.09
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-4-5
+
+Comparing Key  `the year 2050'
+      and Resp `2050 year Wednesday'
+
+Recall    = 0.67 (2/3)
+Precision = 0.67 (2/3)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-4-6
+
+Comparing Key  `Gary Kasparov'
+      and Resp `Garry Kasparov Italian Iranian'
+
+Comparing Key  `chess champion Gary Kasparov'
+      and Resp `Garry Kasparov Italian Iranian'
+
+=> Best match in answer key is:
+   `Gary Kasparov'
+
+Recall    = 0.50 (1/2)
+Precision = 0.25 (1/4)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-4-8
+
+Comparing Key  `almost a hundred'
+      and Resp `Almost 3 24 hundred'
+
+Recall    = 0.67 (2/3)
+Precision = 0.50 (2/4)
+F-measure = 0.57
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-4-9
+
+Comparing Key  `teams of human-size robots with two legs that walk and kick a ball'
+      and Resp `Federation'
+
+Recall    = 0.00 (0/13)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-4-11
+
+Comparing Key  `Australia'
+      and Resp `Australia'
+
+Comparing Key  `in Australia'
+      and Resp `Australia'
+
+=> Best match in answer key is:
+   `Australia'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-5-1
+
+Comparing Key  `near Banff, Alberta'
+      and Resp `Mudslides Alberta Banff'
+
+Recall    = 0.67 (2/3)
+Precision = 0.67 (2/3)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-5-2
+
+Comparing Key  `heavy rains'
+      and Resp `Rainstorms are a common cause of mudslides'
+
+Comparing Key  `heavy rains near the B.C.-Alberta border'
+      and Resp `Rainstorms are a common cause of mudslides'
+
+=> Best match in answer key is:
+   `heavy rains'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/7)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-5-3
+
+Comparing Key  `one metre'
+      and Resp `one metre'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-5-4
+
+Comparing Key  `all four lanes'
+      and Resp `four one metre'
+
+Recall    = 0.33 (1/3)
+Precision = 0.33 (1/3)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-5-5
+
+Comparing Key  `clean up crews'
+      and Resp `, clean up crews were able to re-open the parts of the highway'
+
+Recall    = 1.00 (3/3)
+Precision = 0.25 (3/12)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-5-6
+
+Comparing Key  `in several days'
+      and Resp `Parks Canada say it will take several days before all the debris is cleared, and traffic returns to normal'
+
+Comparing Key  `several days'
+      and Resp `Parks Canada say it will take several days before all the debris is cleared, and traffic returns to normal'
+
+=> Best match in answer key is:
+   `several days'
+
+Recall    = 1.00 (2/2)
+Precision = 0.11 (2/19)
+F-measure = 0.19
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-5-7
+
+Comparing Key  `in steep and mountainous areas'
+      and Resp `Mudslides Alberta Banff'
+
+Recall    = 0.00 (0/5)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-5-8
+
+Comparing Key  `weakened land on hills and mountains'
+      and Resp `Rainstorms are a common cause of mudslides'
+
+Recall    = 0.00 (0/6)
+Precision = 0.00 (0/7)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W32-5-10
+
+Comparing Key  `pick up rocks, trees, houses and cars'
+      and Resp `Mudslides can move quickly and powerfully, picking up rocks, trees, houses and cars'
+
+Recall    = 0.86 (6/7)
+Precision = 0.46 (6/13)
+F-measure = 0.60
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-3-1
+
+Comparing Key  `millions of people in Europe'
+      and Resp `ed the morning for millions of people in Europe on Wednesday'
+
+Comparing Key  `people in Europe'
+      and Resp `ed the morning for millions of people in Europe on Wednesday'
+
+=> Best match in answer key is:
+   `millions of people in Europe'
+
+Recall    = 1.00 (5/5)
+Precision = 0.45 (5/11)
+F-measure = 0.63
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-3-2
+
+Comparing Key  `the moon passes between the Earth and the sun'
+      and Resp `What made this eclipse special is that it was a total eclipse, where the moon totally blocks the sun'
+
+Recall    = 0.44 (4/9)
+Precision = 0.21 (4/19)
+F-measure = 0.29
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-3-3
+
+Comparing Key  `in the Atlantic'
+      and Resp `Iran India Atlantic Europe Turkey'
+
+Recall    = 0.33 (1/3)
+Precision = 0.20 (1/5)
+F-measure = 0.25
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-3-4
+
+Comparing Key  `the moon totally blocks the sun'
+      and Resp `What made this eclipse special is that it was a total eclipse, where the moon totally blocks the sun'
+
+Recall    = 1.00 (6/6)
+Precision = 0.32 (6/19)
+F-measure = 0.48
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-3-5
+
+Comparing Key  `seven'
+      and Resp `two seven'
+
+Recall    = 1.00 (1/1)
+Precision = 0.50 (1/2)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-3-6
+
+Comparing Key  `it was a total eclipse'
+      and Resp `What made this eclipse special is that it was a total eclipse, where the moon totally blocks the sun'
+
+Recall    = 1.00 (5/5)
+Precision = 0.26 (5/19)
+F-measure = 0.42
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-3-7
+
+Comparing Key  `a few minutes'
+      and Resp `for a few minutes, and are rare'
+
+Recall    = 1.00 (3/3)
+Precision = 0.43 (3/7)
+F-measure = 0.60
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-3-8
+
+Comparing Key  `only about an hour of total eclipses'
+      and Resp `only about hour'
+
+Comparing Key  `about an hour'
+      and Resp `only about hour'
+
+=> Best match in answer key is:
+   `about an hour'
+
+Recall    = 0.67 (2/3)
+Precision = 0.67 (2/3)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-3-9
+
+Comparing Key  `Eastern Canada'
+      and Resp `A partial eclipse {where the moon covers part, but not all of the sun} could be seen in Eastern Canada'
+
+Recall    = 1.00 (2/2)
+Precision = 0.10 (2/20)
+F-measure = 0.18
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-3-10
+
+Comparing Key  `the moon covers part, but not all of the sun'
+      and Resp `What made this eclipse special is that it was a total eclipse, where the moon totally blocks the sun'
+
+Recall    = 0.40 (4/10)
+Precision = 0.21 (4/19)
+F-measure = 0.28
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-5-2
+
+Comparing Key  `the federal and provincial governments'
+      and Resp `Lunenburg Harbour'
+
+Recall    = 0.00 (0/5)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-5-3
+
+Comparing Key  `because the town is a United Nations World Heritage Site'
+      and Resp `because the town is a United Nations World Heritage Site'
+
+Recall    = 1.00 (10/10)
+Precision = 1.00 (10/10)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-5-4
+
+Comparing Key  `1920'
+      and Resp `1920 1955'
+
+Recall    = 1.00 (1/1)
+Precision = 0.50 (1/2)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-5-5
+
+Comparing Key  `as a friendly competition between US and Canadian fishing schooners'
+      and Resp `was in 1920'
+
+Recall    = 0.00 (0/10)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-5-6
+
+Comparing Key  `four'
+      and Resp `four'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-5-7
+
+Comparing Key  `in the Caribbean Sea'
+      and Resp `The Bluenose II is a replica of the original Bluenose'
+
+Recall    = 0.25 (1/4)
+Precision = 0.10 (1/10)
+F-measure = 0.14
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-5-8
+
+Comparing Key  `on the tails side of Canadian dimes'
+      and Resp `A picture of the Bluenose has been on the tails side of Canadian dimes since 1937'
+
+Recall    = 1.00 (7/7)
+Precision = 0.44 (7/16)
+F-measure = 0.61
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-5-9
+
+Comparing Key  `a replica of the original Bluenose'
+      and Resp `The Bluenose II is a replica of the original Bluenose'
+
+Recall    = 1.00 (6/6)
+Precision = 0.60 (6/10)
+F-measure = 0.75
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W33-5-10
+
+Comparing Key  `half'
+      and Resp `half the cost of cleaning up Lunenburg Harbour'
+
+Recall    = 1.00 (1/1)
+Precision = 0.13 (1/8)
+F-measure = 0.22
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W34-4-1
+
+Comparing Key  `Izmit'
+      and Resp `Istanbul Colorado'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W34-4-2
+
+Comparing Key  `Istanbul'
+      and Resp `Canada sent disaster assistance troops to Turkey on Wednesday night'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/10)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W34-4-3
+
+Comparing Key  `around 3 o'clock in the morning'
+      and Resp `The centre of the earthquake hit Izmit, the region just south of Istanbul, the country's capital'
+
+Comparing Key  `early Tuesday'
+      and Resp `The centre of the earthquake hit Izmit, the region just south of Istanbul, the country's capital'
+
+=> Best match in answer key is:
+   `around 3 o'clock in the morning'
+
+Recall    = 0.17 (1/6)
+Precision = 0.06 (1/16)
+F-measure = 0.09
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W34-4-4
+
+Comparing Key  `rescue workers'
+      and Resp `Izmit'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W34-4-5
+
+Comparing Key  `at least 21,000'
+      and Resp `more 21,000 6,000 least than at'
+
+Recall    = 1.00 (3/3)
+Precision = 0.50 (3/6)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W34-4-6
+
+Comparing Key  `Turkish hospitals are overcrowded'
+      and Resp `Because of the number of injuries'
+
+Comparing Key  `Turkish hospitals can't take any more patients'
+      and Resp `Because of the number of injuries'
+
+=> Best match in answer key is:
+   `Turkish hospitals are overcrowded'
+
+Recall    = 0.00 (0/4)
+Precision = 0.00 (0/6)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W34-4-7
+
+Comparing Key  `7.8'
+      and Resp `The earthquake had a magnitude of 7.8,'
+
+Recall    = 1.00 (1/1)
+Precision = 0.14 (1/7)
+F-measure = 0.25
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W34-4-8
+
+Comparing Key  `the amount of energy released by an earthquake'
+      and Resp `The earthquake had a magnitude of 7.8, according to the National Earthquake Information Centre in Colorado'
+
+Recall    = 0.38 (3/8)
+Precision = 0.19 (3/16)
+F-measure = 0.25
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W34-4-9
+
+Comparing Key  `vibrations that follow an earthquake'
+      and Resp `Aftershocks are vibrations that follow an earthquake'
+
+Recall    = 1.00 (5/5)
+Precision = 0.71 (5/7)
+F-measure = 0.83
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W34-4-11
+
+Comparing Key  `communication and providing medical assistance'
+      and Resp `to Turkey on Wednesday night'
+
+Recall    = 0.00 (0/5)
+Precision = 0.00 (0/5)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W35-5-2
+
+Comparing Key  `How much television do your kids watch?'
+      and Resp `A group representing Canadian pediatricians - doctors who specialize in treating children - may have a new question for parents when they take their children for a checkup: How much television do your kids watch?  The Canadian Pediatric Society wants doctors to monitor how much time children are sitting in front of electronic screens'
+
+Recall    = 1.00 (7/7)
+Precision = 0.13 (7/54)
+F-measure = 0.23
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W35-5-3
+
+Comparing Key  `because excessive and inappropriate exposure can harm a child's physical, mental and social skills'
+      and Resp `because excessive and inappropriate exposure can harm a child's physical, mental and social skills'
+
+Recall    = 1.00 (14/14)
+Precision = 1.00 (14/14)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W35-5-4
+
+Comparing Key  `no more than two hours'
+      and Resp `more no two hours hour than one'
+
+Recall    = 1.00 (5/5)
+Precision = 0.71 (5/7)
+F-measure = 0.83
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W35-5-5
+
+Comparing Key  `the average high school graduate'
+      and Resp `Canadian'
+
+Recall    = 0.00 (0/5)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W35-5-6
+
+Comparing Key  `violent'
+      and Resp `violent behaviour'
+
+Comparing Key  `violent behaviour'
+      and Resp `violent behaviour'
+
+=> Best match in answer key is:
+   `violent behaviour'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W35-5-7
+
+Comparing Key  `during meal times'
+      and Resp `Pediatricians say that not all television is bad'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/8)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W35-5-9
+
+Comparing Key  `23 hours'
+      and Resp `10 hours 5 23'
+
+Recall    = 1.00 (2/2)
+Precision = 0.50 (2/4)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-2-3
+
+Comparing Key  `our land'
+      and Resp `Besides, I already have a small collection."  Nunavut means "our land"'
+
+Recall    = 1.00 (2/2)
+Precision = 0.18 (2/11)
+F-measure = 0.31
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-2-4
+
+Comparing Key  `April 1'
+      and Resp `1 April'
+
+Comparing Key  `April 1, 1999'
+      and Resp `1 April'
+
+=> Best match in answer key is:
+   `April 1'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-2-5
+
+Comparing Key  `the Nunavut capital of Iqaluit'
+      and Resp `President Chirac is the first foreign leader to visit the territory'
+
+Comparing Key  `Iqaluit'
+      and Resp `President Chirac is the first foreign leader to visit the territory'
+
+=> Best match in answer key is:
+   `the Nunavut capital of Iqaluit'
+
+Recall    = 0.20 (1/5)
+Precision = 0.09 (1/11)
+F-measure = 0.13
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-2-6
+
+Comparing Key  `"the art of living together in a spirit of peace and tolerance"'
+      and Resp `French President Jacques Chirac was full of praise yesterday for the people and the art of Nunavut'
+
+Comparing Key  `"the art of living together"'
+      and Resp `French President Jacques Chirac was full of praise yesterday for the people and the art of Nunavut'
+
+=> Best match in answer key is:
+   `"the art of living together in a spirit of peace and tolerance"'
+
+Recall    = 0.42 (5/12)
+Precision = 0.29 (5/17)
+F-measure = 0.34
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-2-7
+
+Comparing Key  `thirty per cent'
+      and Resp `He arrived in the Nunavut capital of Iqaluit on Sunday accompanied by'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/12)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-2-9
+
+Comparing Key  `a community hall run by the Nunavut Francophone Association'
+      and Resp `President Chirac is the first foreign leader to visit the territory'
+
+Comparing Key  `a community hall'
+      and Resp `President Chirac is the first foreign leader to visit the territory'
+
+=> Best match in answer key is:
+   `a community hall run by the Nunavut Francophone Association'
+
+Recall    = 0.11 (1/9)
+Precision = 0.09 (1/11)
+F-measure = 0.10
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-2-10
+
+Comparing Key  `a virtual museum of Inuit art on the Internet'
+      and Resp `President Chirac is the first foreign leader to visit the territory'
+
+Recall    = 0.11 (1/9)
+Precision = 0.09 (1/11)
+F-measure = 0.10
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-4-1
+
+Comparing Key  `1942'
+      and Resp `- 1942 1939 60-year old'
+
+Comparing Key  `in 1942'
+      and Resp `- 1942 1939 60-year old'
+
+=> Best match in answer key is:
+   `1942'
+
+Recall    = 1.00 (1/1)
+Precision = 0.20 (1/5)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-4-2
+
+Comparing Key  `in Hong Kong'
+      and Resp `Canada Hong Kong'
+
+Comparing Key  `Hong Kong'
+      and Resp `Canada Hong Kong'
+
+=> Best match in answer key is:
+   `Hong Kong'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-4-3
+
+Comparing Key  `a sign of Canadian evolution'
+      and Resp `She's the first immigrant to be named'
+
+Recall    = 0.00 (0/5)
+Precision = 0.00 (0/7)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-4-4
+
+Comparing Key  `Oct. 7'
+      and Resp `She's the first immigrant to be named Canada's governor general'
+
+Comparing Key  `October 7, 1999'
+      and Resp `She's the first immigrant to be named Canada's governor general'
+
+=> Best match in answer key is:
+   `Oct. 7'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/10)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-4-5
+
+Comparing Key  `active yet sensible'
+      and Resp `She says she plans to play an active, yet sensible role in Canadian unity'
+
+Recall    = 1.00 (3/3)
+Precision = 0.21 (3/14)
+F-measure = 0.35
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-4-6
+
+Comparing Key  `more often'
+      and Resp `, more often'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-4-7
+
+Comparing Key  `Romeo LeBlanc'
+      and Resp `Canadian'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-4-9
+
+Comparing Key  `she was a high-profile interviewer and host'
+      and Resp `Adrienne Clarkson calls it a sign of Canadian evolution'
+
+Recall    = 0.14 (1/7)
+Precision = 0.11 (1/9)
+F-measure = 0.13
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W37-4-10
+
+Comparing Key  `more than 300'
+      and Resp `300 more than'
+
+Recall    = 1.00 (3/3)
+Precision = 1.00 (3/3)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W38-1-1
+
+Comparing Key  `as many as 600'
+      and Resp `600'
+
+Recall    = 0.25 (1/4)
+Precision = 1.00 (1/1)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W38-1-2
+
+Comparing Key  `between Indonesia and Australia'
+      and Resp `Australia Dili Indonesia'
+
+Recall    = 0.50 (2/4)
+Precision = 0.67 (2/3)
+F-measure = 0.57
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W38-1-3
+
+Comparing Key  `two weeks ago'
+      and Resp `Two weeks ago'
+
+Recall    = 1.00 (3/3)
+Precision = 1.00 (3/3)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W38-1-4
+
+Comparing Key  `the Indonesian army and local military groups who oppose independence'
+      and Resp `Indonesian Indonesians'
+
+Recall    = 0.10 (1/10)
+Precision = 0.50 (1/2)
+F-measure = 0.17
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W38-1-5
+
+Comparing Key  `Dili'
+      and Resp `The East Timor capitol city of Dili has been turned into a burning, looted ghost town'
+
+Recall    = 1.00 (1/1)
+Precision = 0.06 (1/16)
+F-measure = 0.12
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W38-1-7
+
+Comparing Key  `governments and human rights activists from around the world'
+      and Resp `United UN Nations'
+
+Comparing Key  `governments and human rights activists'
+      and Resp `United UN Nations'
+
+=> Best match in answer key is:
+   `governments and human rights activists from around the world'
+
+Recall    = 0.00 (0/9)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W38-1-8
+
+Comparing Key  `within 30 days'
+      and Resp `30 days'
+
+Recall    = 0.67 (2/3)
+Precision = 1.00 (2/2)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W38-1-9
+
+Comparing Key  `about 3,900'
+      and Resp `3,900 about'
+
+Comparing Key  `3,900'
+      and Resp `3,900 about'
+
+=> Best match in answer key is:
+   `about 3,900'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W38-1-10
+
+Comparing Key  `making sure that the people are protected from violence'
+      and Resp `The peacekeeping troops are making sure that the people living in war-torn Kosovo are protected from violence'
+
+Recall    = 1.00 (9/9)
+Precision = 0.53 (9/17)
+F-measure = 0.69
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-1-1
+
+Comparing Key  `they say their rights are being ignored'
+      and Resp `will be taking the territorial and federal governments to court'
+
+Comparing Key  `their rights are being ignored'
+      and Resp `will be taking the territorial and federal governments to court'
+
+=> Best match in answer key is:
+   `they say their rights are being ignored'
+
+Recall    = 0.00 (0/7)
+Precision = 0.00 (0/10)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-1-2
+
+Comparing Key  `its own language law'
+      and Resp `They say the territorial government isn't respecting its own language law'
+
+Recall    = 1.00 (4/4)
+Precision = 0.36 (4/11)
+F-measure = 0.53
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-1-3
+
+Comparing Key  `a couple of thousand'
+      and Resp `100 of couple every about thousand 2'
+
+Recall    = 0.75 (3/4)
+Precision = 0.43 (3/7)
+F-measure = 0.55
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-1-4
+
+Comparing Key  `president of the federation'
+      and Resp `"The report itself, coming from the NWT language commissioner, is not even published in French," says Andre Legare, the president of the federation'
+
+Comparing Key  `president of the federation representing francophones in the Northwest Territories'
+      and Resp `"The report itself, coming from the NWT language commissioner, is not even published in French," says Andre Legare, the president of the federation'
+
+=> Best match in answer key is:
+   `president of the federation representing francophones in the Northwest Territories'
+
+Recall    = 0.60 (6/10)
+Precision = 0.26 (6/23)
+F-measure = 0.36
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-1-5
+
+Comparing Key  `75 per cent'
+      and Resp `unavailable'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-1-6
+
+Comparing Key  `the NWT language commissioner'
+      and Resp `Northwest Territories'
+
+Comparing Key  `the language commissioner'
+      and Resp `Northwest Territories'
+
+=> Best match in answer key is:
+   `the NWT language commissioner'
+
+Recall    = 0.00 (0/4)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-1-7
+
+Comparing Key  `next month'
+      and Resp `month next'
+
+Comparing Key  `October, 1999'
+      and Resp `month next'
+
+=> Best match in answer key is:
+   `next month'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-1-8
+
+Comparing Key  `in  Nunavut and in the Yukon'
+      and Resp `"Ultimately it's the federal government that is'
+
+Comparing Key  `Nunavut and the Yukon'
+      and Resp `"Ultimately it's the federal government that is'
+
+=> Best match in answer key is:
+   `Nunavut and the Yukon'
+
+Recall    = 0.25 (1/4)
+Precision = 0.14 (1/7)
+F-measure = 0.18
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-3-1
+
+Comparing Key  `four'
+      and Resp `four'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-3-2
+
+Comparing Key  `he will now retire from politics'
+      and Resp `in yesterday's election'
+
+Recall    = 0.00 (0/6)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-3-4
+
+Comparing Key  `hallway medicine'
+      and Resp `what has become known as "hallway medicine." Many of Manitoba's hospitals are so crowded that doctors have had to park patient's beds in the corridors'
+
+Recall    = 0.50 (1/2)
+Precision = 0.04 (1/25)
+F-measure = 0.07
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-3-5
+
+Comparing Key  `31'
+      and Resp `one 31'
+
+Recall    = 1.00 (1/1)
+Precision = 0.50 (1/2)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-3-6
+
+Comparing Key  `in the suburban Winnipeg riding of Assiniboia'
+      and Resp `Manitoba'
+
+Comparing Key  `Assiniboia'
+      and Resp `Manitoba'
+
+=> Best match in answer key is:
+   `in the suburban Winnipeg riding of Assiniboia'
+
+Recall    = 0.00 (0/7)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-3-7
+
+Comparing Key  `Tory Linda McIntosh'
+      and Resp `Gary Party Tory New Filmon Winnipeg Democratic Linda Doer McIntosh'
+
+Recall    = 1.00 (3/3)
+Precision = 0.30 (3/10)
+F-measure = 0.46
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-3-8
+
+Comparing Key  `45'
+      and Resp `last night, the largest share the party has won since Howard Pawley swept Conservative leader Sterling Lyon out of power in 1981'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/22)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-3-9
+
+Comparing Key  `in 1981'
+      and Resp `1981 11 long yesterday years'
+
+Comparing Key  `1981'
+      and Resp `1981 11 long yesterday years'
+
+=> Best match in answer key is:
+   `1981'
+
+Recall    = 1.00 (1/1)
+Precision = 0.20 (1/5)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-5-1
+
+Comparing Key  `the lack of extra-curricular activities in schools'
+      and Resp `The students roved between two east-end high schools and drew between 300 and 400 students at the demonstration's peak'
+
+Recall    = 0.29 (2/7)
+Precision = 0.11 (2/19)
+F-measure = 0.15
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-5-3
+
+Comparing Key  `by refusing to do any activities that are not paid'
+      and Resp `Montreal teachers are in contract discussions with the provincial government'
+
+Recall    = 0.10 (1/10)
+Precision = 0.10 (1/10)
+F-measure = 0.10
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-5-4
+
+Comparing Key  `$100'
+      and Resp `The students who were arrested face $100 fines'
+
+Recall    = 1.00 (1/1)
+Precision = 0.13 (1/8)
+F-measure = 0.22
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-5-5
+
+Comparing Key  `deputy police director Serge Meloche'
+      and Resp `Fontaine Michel Meloche Serge'
+
+Recall    = 0.40 (2/5)
+Precision = 0.50 (2/4)
+F-measure = 0.44
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-5-6
+
+Comparing Key  `during the past few days'
+      and Resp `past days few'
+
+Recall    = 0.60 (3/5)
+Precision = 1.00 (3/3)
+F-measure = 0.75
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-5-7
+
+Comparing Key  `rocks and garbage'
+      and Resp `"Windows of stores were broken, car windows were also broken," says Montreal police spokesman Michel Fontaine, who added that police were also pelted with rocks and garbage'
+
+Recall    = 1.00 (3/3)
+Precision = 0.11 (3/27)
+F-measure = 0.20
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W39-5-8
+
+Comparing Key  `between two east-end high schools'
+      and Resp `The students roved between two east-end high schools and drew between 300 and 400 students at the demonstration's peak'
+
+Recall    = 1.00 (5/5)
+Precision = 0.26 (5/19)
+F-measure = 0.42
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-3-1
+
+Comparing Key  `three kilometres west of London's Paddington Station'
+      and Resp `Great Western and Thames Trains are the companies that operate the two trains involved in the crash'
+
+Recall    = 0.00 (0/7)
+Precision = 0.00 (0/17)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-3-2
+
+Comparing Key  `8:11 a.m.'
+      and Resp `Great Western and Thames Trains are the companies that operate the two trains involved in the crash'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/17)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-3-3
+
+Comparing Key  `a British Broadcasting System reporter'
+      and Resp `British Broadcasting Trains Thames and Western Corporation Great'
+
+Recall    = 0.40 (2/5)
+Precision = 0.25 (2/8)
+F-measure = 0.31
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-3-4
+
+Comparing Key  `trying to account for missing passengers'
+      and Resp `Rescue workers picked through the wreckage, trying to account for missing passengers'
+
+Recall    = 1.00 (6/6)
+Precision = 0.50 (6/12)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-3-5
+
+Comparing Key  `Great Western and Thames Trains'
+      and Resp `Great Western and Thames Trains are the companies that operate the two'
+
+Recall    = 1.00 (5/5)
+Precision = 0.42 (5/12)
+F-measure = 0.59
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-3-6
+
+Comparing Key  `as many as 500'
+      and Resp `100 800,000 km about 500 About as'
+
+Recall    = 0.50 (2/4)
+Precision = 0.29 (2/7)
+F-measure = 0.36
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-3-7
+
+Comparing Key  `Cheltenham'
+      and Resp `London Paddington Cheltenham'
+
+Comparing Key  `Cheltenham, northwest of London'
+      and Resp `London Paddington Cheltenham'
+
+=> Best match in answer key is:
+   `Cheltenham, northwest of London'
+
+Recall    = 0.50 (2/4)
+Precision = 0.67 (2/3)
+F-measure = 0.57
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-3-8
+
+Comparing Key  `about 100 km/h'
+      and Resp `Great Western and Thames Trains are the companies that operate the two trains involved in the crash'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/17)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-3-9
+
+Comparing Key  `rail travel'
+      and Resp `Rail travel'
+
+Recall    = 1.00 (2/2)
+Precision = 1.00 (2/2)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-5-1
+
+Comparing Key  `Supreme Court of Canada Justice Claire L'Heureux Dube'
+      and Resp `CBC Claire L'Heureux Canada Court Dube Supreme'
+
+Recall    = 0.75 (6/8)
+Precision = 0.86 (6/7)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-5-2
+
+Comparing Key  `Ottawa'
+      and Resp `Ms'
+
+Comparing Key  `in front of Supreme Court of Canada'
+      and Resp `Ms'
+
+=> Best match in answer key is:
+   `Ottawa'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-5-3
+
+Comparing Key  `Excellency'
+      and Resp `Ms'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-5-5
+
+Comparing Key  `her 92-year-old father and her mother'
+      and Resp `During a speech, Ms'
+
+Recall    = 0.00 (0/6)
+Precision = 0.00 (0/4)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-5-6
+
+Comparing Key  `1942'
+      and Resp `Ms'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-5-8
+
+Comparing Key  `"as bright, not bright yellow"'
+      and Resp `Clarkson also thanked teachers whom she said treated her as "bright, not bright yellow."  As Governor General, Ms'
+
+Recall    = 0.80 (4/5)
+Precision = 0.22 (4/18)
+F-measure = 0.35
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-5-9
+
+Comparing Key  `the Queen of England'
+      and Resp `Ms'
+
+Recall    = 0.00 (0/4)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W41-5-10
+
+Comparing Key  `the Prime Minister, the Chief Justice of Canada and cabinet ministers'
+      and Resp `Clarkson also thanked teachers whom she said treated her as "bright, not bright yellow."'
+
+Recall    = 0.00 (0/11)
+Precision = 0.00 (0/14)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W43-5-1
+
+Comparing Key  `a news show that airs in some Canadian schools'
+      and Resp `, a news show that airs in some Canadian schools, is in trouble in Manitoba'
+
+Recall    = 1.00 (9/9)
+Precision = 0.64 (9/14)
+F-measure = 0.78
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W43-5-2
+
+Comparing Key  `to make sure it has an audience for its commercial news service'
+      and Resp `- to make sure it has an audience for its commercial news service'
+
+Recall    = 1.00 (12/12)
+Precision = 0.92 (12/13)
+F-measure = 0.96
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W43-5-3
+
+Comparing Key  `by selling advertising space'
+      and Resp `YNN makes a profit by selling advertising space'
+
+Recall    = 1.00 (4/4)
+Precision = 0.50 (4/8)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W43-5-4
+
+Comparing Key  `two and one-half'
+      and Resp `The feature includes two and a half minutes of commercials'
+
+Comparing Key  `two and one-half minutes'
+      and Resp `The feature includes two and a half minutes of commercials'
+
+=> Best match in answer key is:
+   `two and one-half minutes'
+
+Recall    = 0.75 (3/4)
+Precision = 0.30 (3/10)
+F-measure = 0.43
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W43-5-6
+
+Comparing Key  `Education Minister Drew Caldwell'
+      and Resp `YNN Caldwell Drew'
+
+Recall    = 0.50 (2/4)
+Precision = 0.67 (2/3)
+F-measure = 0.57
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W43-5-7
+
+Comparing Key  `Montreal-based Athena Educational Partners'
+      and Resp `YNN is a private company that gives schools free equipment - like televisions and computers - to make sure it has an audience for its commercial news service'
+
+Comparing Key  `Athena Educational Partners'
+      and Resp `YNN is a private company that gives schools free equipment - like televisions and computers - to make sure it has an audience for its commercial news service'
+
+=> Best match in answer key is:
+   `Montreal-based Athena Educational Partners'
+
+Recall    = 0.00 (0/4)
+Precision = 0.00 (0/28)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W43-5-8
+
+Comparing Key  `British Columbia, Nova Scotia and New Brunswick'
+      and Resp `The news this week is that YNN is being kicked out of Manitoba classrooms'
+
+Recall    = 0.00 (0/7)
+Precision = 0.00 (0/14)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W43-5-9
+
+Comparing Key  `on a six-month trial basis'
+      and Resp `d to show the program on a six-month trial basis'
+
+Recall    = 1.00 (5/5)
+Precision = 0.50 (5/10)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W45-5-1
+
+Comparing Key  `Arviat, Northwest Territories'
+      and Resp `Northwest Hudson Manitoba the Bay Churchill Territories'
+
+Recall    = 0.67 (2/3)
+Precision = 0.29 (2/7)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W45-5-2
+
+Comparing Key  `the Canadian Academy of Recording Arts and Sciences'
+      and Resp `Arts Sciences Aglukark Susan 's of Recording Iqaluit Academy Canadian'
+
+Recall    = 0.75 (6/8)
+Precision = 0.60 (6/10)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W45-5-3
+
+Comparing Key  `to present officials with a $10,000 cheque for the purchase of music instruments'
+      and Resp `, pizza and a $10,000 cheque today'
+
+Recall    = 0.23 (3/13)
+Precision = 0.50 (3/6)
+F-measure = 0.32
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W45-5-4
+
+Comparing Key  `about 10 years'
+      and Resp `for about 10 years'
+
+Recall    = 1.00 (3/3)
+Precision = 0.75 (3/4)
+F-measure = 0.86
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W45-5-5
+
+Comparing Key  `for some students where food and shelter is a more pressing concern'
+      and Resp `Inuksuk'
+
+Recall    = 0.00 (0/12)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W45-5-6
+
+Comparing Key  `at the beginning of the school year'
+      and Resp `year'
+
+Recall    = 0.14 (1/7)
+Precision = 1.00 (1/1)
+F-measure = 0.25
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W45-5-7
+
+Comparing Key  `about a quarter'
+      and Resp `About 90 students, or a quarter of the school's population, are'
+
+Recall    = 1.00 (3/3)
+Precision = 0.27 (3/11)
+F-measure = 0.43
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W45-5-8
+
+Comparing Key  `two or three'
+      and Resp `two three or between'
+
+Recall    = 1.00 (3/3)
+Precision = 0.75 (3/4)
+F-measure = 0.86
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W45-5-9
+
+Comparing Key  `the music society'
+      and Resp `MacLeod'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W47-5-2
+
+Comparing Key  `Fujian province'
+      and Resp `The woman also says her family received a notice that she'll be sterilized so she can't have any more babies if she returns to China'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/25)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W47-5-3
+
+Comparing Key  `because of a legal order'
+      and Resp `because of a legal order, but it seems her claim to be accepted as a refugee to Canada may succeed where the claims of 32 people who arrived with her have failed'
+
+Recall    = 1.00 (5/5)
+Precision = 0.16 (5/32)
+F-measure = 0.27
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W47-5-4
+
+Comparing Key  `32'
+      and Resp `32'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W47-5-5
+
+Comparing Key  `they will be sent back to China'
+      and Resp `She planned to seek refugee status and bring her husband and child'
+
+Recall    = 0.14 (1/7)
+Precision = 0.08 (1/12)
+F-measure = 0.11
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W47-5-6
+
+Comparing Key  `seven years ago'
+      and Resp `seven eight months ago years'
+
+Recall    = 1.00 (3/3)
+Precision = 0.60 (3/5)
+F-measure = 0.75
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W47-5-7
+
+Comparing Key  `one'
+      and Resp `one'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W47-5-9
+
+Comparing Key  `she will be sterilized'
+      and Resp `The woman also says her family received a notice that she'll be sterilized so she can't have any more babies if she returns to China'
+
+Recall    = 0.75 (3/4)
+Precision = 0.12 (3/25)
+F-measure = 0.21
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W47-5-11
+
+Comparing Key  `the lawyer representing the Chinese woman from Fujian'
+      and Resp `Larry Smeets, her lawyer, says the Federal Court of Appeal has concluded in the past that forced sterilization was a form of persecution, so this reason could be recognized as a reason for refugees to be allowed to remain in Canada'
+
+Recall    = 0.38 (3/8)
+Precision = 0.07 (3/41)
+F-measure = 0.12
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W49-5-1
+
+Comparing Key  `the planet's fiery red hue'
+      and Resp `In ancient Greece and Rome, the planet's fiery red hue made skywatchers'
+
+Recall    = 1.00 (5/5)
+Precision = 0.42 (5/12)
+F-measure = 0.59
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W49-5-3
+
+Comparing Key  `by radio signals from the Jet Propulsion Laboratory'
+      and Resp `The Polar Lander will try to find evidence that the atmosphere was once warmer and thicker'
+
+Recall    = 0.13 (1/8)
+Precision = 0.06 (1/16)
+F-measure = 0.08
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W49-5-4
+
+Comparing Key  `astronomer Carl Sagan'
+      and Resp `NASA Frozen Sagan Carl'
+
+Recall    = 0.67 (2/3)
+Precision = 0.50 (2/4)
+F-measure = 0.57
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W49-5-5
+
+Comparing Key  `hit a rock or lose contact with NASA scientists back home'
+      and Resp `hit a rock or lose contact with NASA scientists back home'
+
+Recall    = 1.00 (11/11)
+Precision = 1.00 (11/11)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W49-5-6
+
+Comparing Key  `in its northern ice cap'
+      and Resp `"We have never been to the south pole of Mars before and we're not exactly sure what we are going into."  Frozen water exists on Mars in its northern ice cap'
+
+Recall    = 1.00 (5/5)
+Precision = 0.16 (5/31)
+F-measure = 0.28
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W49-5-8
+
+Comparing Key  `underground'
+      and Resp `But scientists believe there may be more underground'
+
+Recall    = 1.00 (1/1)
+Precision = 0.13 (1/8)
+F-measure = 0.22
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W49-5-10
+
+Comparing Key  `fossils or living organisms'
+      and Resp `Any answers from the probe would help focus future missions searching for past or present life, which is dependent on water, though the Lander's instruments cannot detect fossils or living organisms'
+
+Recall    = 1.00 (4/4)
+Precision = 0.13 (4/31)
+F-measure = 0.23
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W51-1-1
+
+Comparing Key  `copyight'
+      and Resp `A Vancouver, British Columbia, judge has thrown out a copyright lawsuit against Canadian pop singer Sarah McLachlan'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/17)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W51-1-2
+
+Comparing Key  `very relieved'
+      and Resp `A Vancouver, British Columbia, judge has thrown out a copyright lawsuit against Canadian pop singer Sarah McLachlan'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/17)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W51-1-3
+
+Comparing Key  `British Columbia Supreme Court Justice Bruce Cohen'
+      and Resp `Darryl Neudorf Cohen Columbia Sarah Bruce Court McLachlan Grammy British Canadian Supreme'
+
+Recall    = 0.86 (6/7)
+Precision = 0.50 (6/12)
+F-measure = 0.63
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W51-1-5
+
+Comparing Key  `Halifax, Nova Scotia'
+      and Resp `Columbia Vancouver British'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W51-1-6
+
+Comparing Key  `to help McLachlan pursue a career as a recording artist'
+      and Resp `because she had never written songs before'
+
+Comparing Key  `to do pre-production work'
+      and Resp `because she had never written songs before'
+
+=> Best match in answer key is:
+   `to help McLachlan pursue a career as a recording artist'
+
+Recall    = 0.00 (0/10)
+Precision = 0.00 (0/7)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W51-1-7
+
+Comparing Key  `proper royalties for producing "Touch"'
+      and Resp `Neudorf, a former drummer with the band 54-40, was recruited to help the then-promising 19-year-old McLachlan, who had just recently moved to Vancouver from Halifax, Nova Scotia, to pursue a career as a recording artist'
+
+Recall    = 0.00 (0/5)
+Precision = 0.00 (0/35)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W51-1-8
+
+Comparing Key  `625,000'
+      and Resp `four 625,000 more than'
+
+Recall    = 1.00 (1/1)
+Precision = 0.25 (1/4)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W51-1-9
+
+Comparing Key  `Lilith Fair'
+      and Resp `McLachlan's lawyer Jennifer Conkie said the performer - the mastermind of the popular Lilith Fair concert series that toured North America - is "very, very pleased and relieved."  "I think she shrieked with delight," Conkie said'
+
+Recall    = 1.00 (2/2)
+Precision = 0.06 (2/36)
+F-measure = 0.11
+
+-----------------------------------------------------------------------------------------
+
+SCORING 1999-W51-1-10
+
+Comparing Key  `sang and played keyboard'
+      and Resp `During the trial, McLachlan occasionally sang and played a keyboard before court staff, reporters and teenaged fans to illustrate how songs are put together'
+
+Comparing Key  `sang and played keyboard before the court staff'
+      and Resp `During the trial, McLachlan occasionally sang and played a keyboard before court staff, reporters and teenaged fans to illustrate how songs are put together'
+
+=> Best match in answer key is:
+   `sang and played keyboard before the court staff'
+
+Recall    = 1.00 (8/8)
+Precision = 0.33 (8/24)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-3-1
+
+Comparing Key  `in 63 communities'
+      and Resp `The Newfoundland government has found that the tap water in 63 communities is contaminated'
+
+Recall    = 1.00 (3/3)
+Precision = 0.21 (3/14)
+F-measure = 0.35
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-3-2
+
+Comparing Key  `when tiny amounts of chlorine are added to drinking water'
+      and Resp `They are formed when tiny amounts of chlorine are added to drinking water'
+
+Recall    = 1.00 (10/10)
+Precision = 0.77 (10/13)
+F-measure = 0.87
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-3-3
+
+Comparing Key  `mainly small towns that can't afford expensive water filtration systems'
+      and Resp `The danger of trihalomethanes in drinking water is faced mainly by small towns that can't afford expensive water filtration systems'
+
+Recall    = 1.00 (10/10)
+Precision = 0.50 (10/20)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-3-4
+
+Comparing Key  `to prevent the outbreak of diseases such as typhoid fever and cholera'
+      and Resp `First, almost all sources of water contain microbiological organisms which have to be removed to prevent the outbreak of diseases such as typhoid fever and cholera'
+
+Recall    = 1.00 (12/12)
+Precision = 0.46 (12/26)
+F-measure = 0.63
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-3-8
+
+Comparing Key  `two years ago'
+      and Resp `Fogo town manager Bruce Pomeroy says that the government "should'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/10)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-3-9
+
+Comparing Key  `they evaporate'
+      and Resp `and many of the chemicals will evaporate'
+
+Comparing Key  `evaporate'
+      and Resp `and many of the chemicals will evaporate'
+
+=> Best match in answer key is:
+   `evaporate'
+
+Recall    = 1.00 (1/1)
+Precision = 0.14 (1/7)
+F-measure = 0.25
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-3-10
+
+Comparing Key  `absorbs them'
+      and Resp `The charcoal will absorb the chemicals'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/6)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-5-1
+
+Comparing Key  `the Fall of 1998'
+      and Resp `the 1998 Fall'
+
+Comparing Key  `1998'
+      and Resp `the 1998 Fall'
+
+=> Best match in answer key is:
+   `the Fall of 1998'
+
+Recall    = 0.75 (3/4)
+Precision = 1.00 (3/3)
+F-measure = 0.86
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-5-2
+
+Comparing Key  `Toronto'
+      and Resp `It is called The'
+
+Comparing Key  `Toronto, Canada'
+      and Resp `It is called The'
+
+=> Best match in answer key is:
+   `Toronto'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/4)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-5-3
+
+Comparing Key  `open people's eyes to the growing farm crisis in Canada'
+      and Resp `It is called The'
+
+Recall    = 0.10 (1/10)
+Precision = 0.25 (1/4)
+F-measure = 0.14
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-5-5
+
+Comparing Key  `it will bring rural problems to the attention of an urban audience, and it will show the country that Toronto cares'
+      and Resp `He says the concert will achieve two things'
+
+Recall    = 0.10 (2/21)
+Precision = 0.25 (2/8)
+F-measure = 0.14
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W02-5-8
+
+Comparing Key  `Federal Agriculture Minister Lyle Vanclief and his provincial counterparts'
+      and Resp `Lyle Vanclief'
+
+Recall    = 0.22 (2/9)
+Precision = 1.00 (2/2)
+F-measure = 0.36
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-1-1
+
+Comparing Key  `the Rankins'
+      and Resp `Rankins Cape Breton Celtic'
+
+Comparing Key  `the former Celtic group the Rankins'
+      and Resp `Rankins Cape Breton Celtic'
+
+=> Best match in answer key is:
+   `the former Celtic group the Rankins'
+
+Recall    = 0.33 (2/6)
+Precision = 0.50 (2/4)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-1-2
+
+Comparing Key  `more than two million'
+      and Resp `more two than five million'
+
+Recall    = 1.00 (4/4)
+Precision = 0.80 (4/5)
+F-measure = 0.89
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-1-3
+
+Comparing Key  `when one's body temperature drops abnormally low'
+      and Resp `Morris Green of Nova Scotia Emergency Health Services said one of the teenagers was being treated for hypothermia -- when one's body temperature drops abnormally low -- and the other two appeared to be OK'
+
+Recall    = 1.00 (7/7)
+Precision = 0.20 (7/35)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-1-4
+
+Comparing Key  `as the truck skidded towards the water'
+      and Resp `"John Morris told them to jump and they got out," she said'
+
+Recall    = 0.00 (0/7)
+Precision = 0.00 (0/12)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-1-5
+
+Comparing Key  `a Farm Aid concert in Toronto'
+      and Resp `He could laugh and smile and have fun with very simple things in life."  Rankin's brother Jimmy Rankin left a Farm Aid concert in Toronto after being notified of the death'
+
+Comparing Key  `a Farm Aid concert'
+      and Resp `He could laugh and smile and have fun with very simple things in life."  Rankin's brother Jimmy Rankin left a Farm Aid concert in Toronto after being notified of the death'
+
+Comparing Key  `Toronto'
+      and Resp `He could laugh and smile and have fun with very simple things in life."  Rankin's brother Jimmy Rankin left a Farm Aid concert in Toronto after being notified of the death'
+
+=> Best match in answer key is:
+   `a Farm Aid concert in Toronto'
+
+Recall    = 1.00 (6/6)
+Precision = 0.19 (6/31)
+F-measure = 0.32
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-1-6
+
+Comparing Key  `fiddle and piano'
+      and Resp `ed fiddle and piano with the popular musical family from Cape Breton'
+
+Comparing Key  `keyboard and fiddle'
+      and Resp `ed fiddle and piano with the popular musical family from Cape Breton'
+
+=> Best match in answer key is:
+   `fiddle and piano'
+
+Recall    = 1.00 (3/3)
+Precision = 0.25 (3/12)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-1-7
+
+Comparing Key  `13'
+      and Resp `15 13'
+
+Recall    = 1.00 (1/1)
+Precision = 0.50 (1/2)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-1-8
+
+Comparing Key  `Russell De Carle'
+      and Resp `De Family Nova Carle Scotia Russell'
+
+Recall    = 1.00 (3/3)
+Precision = 0.50 (3/6)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-1-9
+
+Comparing Key  `friend of the Rankin family'
+      and Resp `Family friend and musician Denis Ryan said news of the accident spread quickly through the Nova Scotia music community'
+
+Comparing Key  `musician'
+      and Resp `Family friend and musician Denis Ryan said news of the accident spread quickly through the Nova Scotia music community'
+
+Comparing Key  `someone who played music with Rankin in the mid '80s.'
+      and Resp `Family friend and musician Denis Ryan said news of the accident spread quickly through the Nova Scotia music community'
+
+=> Best match in answer key is:
+   `friend of the Rankin family'
+
+Recall    = 0.80 (4/5)
+Precision = 0.21 (4/19)
+F-measure = 0.33
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-1-10
+
+Comparing Key  `so its members could pursue independent careers and interests'
+      and Resp `John Morris Rankin, a member of the former Celtic group the Rankins, was killed in the accident'
+
+Recall    = 0.00 (0/9)
+Precision = 0.00 (0/17)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-2-1
+
+Comparing Key  `December 3, 1999'
+      and Resp `3 December 90-day'
+
+Recall    = 0.67 (2/3)
+Precision = 0.67 (2/3)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-2-2
+
+Comparing Key  `Richard Cook'
+      and Resp `NASA Laboratory Richard Propulsion Jet Cook'
+
+Recall    = 1.00 (2/2)
+Precision = 0.33 (2/6)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-2-3
+
+Comparing Key  `near Mars' south pole'
+      and Resp `The Mars Polar Lander was on a mission to Mars to study its atmosphere and search for water, something that could help scientists determine whether life ever existed on Mars'
+
+Recall    = 0.25 (1/4)
+Precision = 0.03 (1/30)
+F-measure = 0.06
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-2-4
+
+Comparing Key  `took high-resolution images of the planned Polar Lander landing site'
+      and Resp `to take high-resolution images of the landing site to search for signs of the lander'
+
+Comparing Key  `searched for signs of the lander'
+      and Resp `to take high-resolution images of the landing site to search for signs of the lander'
+
+=> Best match in answer key is:
+   `took high-resolution images of the planned Polar Lander landing site'
+
+Recall    = 0.70 (7/10)
+Precision = 0.47 (7/15)
+F-measure = 0.56
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-2-5
+
+Comparing Key  `study Mars' atmosphere and search for water'
+      and Resp `The'
+
+Recall    = 0.00 (0/7)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-2-7
+
+Comparing Key  `more than $200 million dollars'
+      and Resp `Polar Lander was to have touched down December 3 for a 90-day mission'
+
+Recall    = 0.00 (0/5)
+Precision = 0.00 (0/13)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-2-8
+
+Comparing Key  `576 kilograms'
+      and Resp `1.06 metres 3.6'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/3)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-2-9
+
+Comparing Key  `the lander'
+      and Resp `Another lander and orbiter are scheduled to launch next year, but at least part of the mission is now in doubt'
+
+Recall    = 1.00 (2/2)
+Precision = 0.10 (2/21)
+F-measure = 0.17
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-2-11
+
+Comparing Key  `three'
+      and Resp `could have touched down on the side of a canyon and toppled over'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/13)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-3-2
+
+Comparing Key  `taxpayers'
+      and Resp `Canada'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-3-3
+
+Comparing Key  `they were going broke'
+      and Resp `The Federal government has come up with an idea to keep National Hockey League teams in Canada'
+
+Comparing Key  `business is better in America'
+      and Resp `The Federal government has come up with an idea to keep National Hockey League teams in Canada'
+
+Comparing Key  `money'
+      and Resp `The Federal government has come up with an idea to keep National Hockey League teams in Canada'
+
+=> Best match in answer key is:
+   `business is better in America'
+
+Recall    = 0.20 (1/5)
+Precision = 0.06 (1/17)
+F-measure = 0.09
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-3-4
+
+Comparing Key  `1.3 million dollars'
+      and Resp `million half'
+
+Recall    = 0.33 (1/3)
+Precision = 0.50 (1/2)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-3-5
+
+Comparing Key  `hockey player'
+      and Resp `He says that it is not fair that millionaire hockey players like Turner Stevenson and Pavel Bure are getting help while hundreds of Olympic athletes have to scramble every month just to pay their bills'
+
+Recall    = 0.50 (1/2)
+Precision = 0.03 (1/35)
+F-measure = 0.05
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-3-6
+
+Comparing Key  `money given to help someone out'
+      and Resp `The Federal government has come up with an idea to keep National Hockey League teams in Canada'
+
+Recall    = 0.17 (1/6)
+Precision = 0.06 (1/17)
+F-measure = 0.09
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-3-7
+
+Comparing Key  `training for the Sydney Olympics'
+      and Resp `But Olympic 100 metre sprinter Glenroy Gilbert is disgusted'
+
+Recall    = 0.00 (0/5)
+Precision = 0.00 (0/9)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-3-8
+
+Comparing Key  `Rosann Wowchuk'
+      and Resp `National John Manley Hockey Wowchuk League Rosann'
+
+Recall    = 1.00 (2/2)
+Precision = 0.29 (2/7)
+F-measure = 0.44
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-3-9
+
+Comparing Key  `It's fine, as long as the poor are taken care of first.'
+      and Resp `Putting money into NHL hockey is fine, Gilbert says, as long as the poor are taken care of first -- and he says that hasn't happened'
+
+Recall    = 0.92 (11/12)
+Precision = 0.42 (11/26)
+F-measure = 0.58
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W03-3-10
+
+Comparing Key  `in four years'
+      and Resp `four years'
+
+Recall    = 0.67 (2/3)
+Precision = 1.00 (2/2)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W05-4-1
+
+Comparing Key  `they accuse Mehta of insulting Hindu traditions'
+      and Resp `so they divided the country into two - India in the south, where a majority of the population believes in the Hindu religion, and Pakistan in the north, where the majority of the population believes in the Muslim religion'
+
+Recall    = 0.43 (3/7)
+Precision = 0.08 (3/39)
+F-measure = 0.13
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W05-4-2
+
+Comparing Key  `Earth and Fire'
+      and Resp `Her other two films were entitled Earth and Fire'
+
+Recall    = 1.00 (3/3)
+Precision = 0.33 (3/9)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W05-4-3
+
+Comparing Key  `the Indian federal Information and Broadcasting Ministry and the government of the state where the film is being shot'
+      and Resp `from the Indian federal Information and Broadcasting Ministry, as well as the government of the state where the film is being shot'
+
+Recall    = 0.95 (18/19)
+Precision = 0.82 (18/22)
+F-measure = 0.88
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W05-4-4
+
+Comparing Key  `strongly religious people who refuse anything that disagrees with their faith'
+      and Resp `But after the attack by fundamentalists (strongly religious people who refuse anything that disagrees with their faith), Indian government authorities withdrew their permission to shoot the film in Varanasi'
+
+Recall    = 0.91 (10/11)
+Precision = 0.34 (10/29)
+F-measure = 0.50
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W05-4-5
+
+Comparing Key  `Varanasi'
+      and Resp `Mehta had obtained permission to shoot the film from the Indian federal Information and Broadcasting Ministry, as well as the government of the state where the film is being shot'
+
+Recall    = 0.00 (0/1)
+Precision = 0.00 (0/30)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W05-4-6
+
+Comparing Key  `about a million dollars'
+      and Resp `dollars million about'
+
+Recall    = 0.75 (3/4)
+Precision = 1.00 (3/3)
+F-measure = 0.86
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W05-4-7
+
+Comparing Key  `the relationship of two women caught in unhappy marriages'
+      and Resp `was pulled from theatres in India after violent protests by Hindu nationalists'
+
+Recall    = 0.11 (1/9)
+Precision = 0.08 (1/12)
+F-measure = 0.10
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W05-4-8
+
+Comparing Key  `1947'
+      and Resp `1858 1947'
+
+Recall    = 1.00 (1/1)
+Precision = 0.50 (1/2)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W05-4-9
+
+Comparing Key  `Mahatma Ghandi'
+      and Resp `Gandhi Mahatma Indians'
+
+Recall    = 0.50 (1/2)
+Precision = 0.33 (1/3)
+F-measure = 0.40
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W06-5-1
+
+Comparing Key  `Cochrane, Alberta'
+      and Resp `Cochrane Alberta Canada'
+
+Recall    = 1.00 (2/2)
+Precision = 0.67 (2/3)
+F-measure = 0.80
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W06-5-2
+
+Comparing Key  `six other climbers'
+      and Resp `in the Yukon Territory'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/4)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W06-5-3
+
+Comparing Key  `in the Yukon Territory'
+      and Resp `Alberta Territory Cochrane the Canada Yukon'
+
+Comparing Key  `Yukon Territory'
+      and Resp `Alberta Territory Cochrane the Canada Yukon'
+
+=> Best match in answer key is:
+   `in the Yukon Territory'
+
+Recall    = 0.75 (3/4)
+Precision = 0.50 (3/6)
+F-measure = 0.60
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W06-5-4
+
+Comparing Key  `as a "scrambler"'
+      and Resp `Ross Watson, a town councillor from Cochrane, Alberta, is hoping to become the first blind climber to reach the peak of Canada's highest mountain'
+
+Recall    = 0.33 (1/3)
+Precision = 0.04 (1/24)
+F-measure = 0.07
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W06-5-5
+
+Comparing Key  `his lack of technical climbing ability'
+      and Resp `The 49-year-old Watson, who lost his vision from a pellet gun at the age of 12, says his lack of technical climbing ability is more of a challenge than his blindness'
+
+Recall    = 1.00 (6/6)
+Precision = 0.19 (6/31)
+F-measure = 0.32
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W06-5-6
+
+Comparing Key  `ten years ago'
+      and Resp `this Ten ago years May'
+
+Recall    = 1.00 (3/3)
+Precision = 0.60 (3/5)
+F-measure = 0.75
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W06-5-7
+
+Comparing Key  `"When (sighted people) are climbing, we look down and we get scared because the wrong messages are rolling through our head"'
+      and Resp `because the wrong messages are rolling through our heads'
+
+Recall    = 0.38 (8/21)
+Precision = 0.89 (8/9)
+F-measure = 0.53
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W06-5-8
+
+Comparing Key  `at age 12'
+      and Resp `May this'
+
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/2)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W06-5-9
+
+Comparing Key  `from a pellet gun'
+      and Resp `The 49-year-old Watson, who lost his vision from a pellet gun at the age of 12, says his lack of technical climbing ability is more of a challenge than his blindness'
+
+Recall    = 1.00 (4/4)
+Precision = 0.13 (4/31)
+F-measure = 0.23
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W06-5-10
+
+Comparing Key  `Mt. Everest'
+      and Resp `It would certainly mean some dedicated training, but it would be an experience."'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/13)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W07-5-1
+
+Comparing Key  `Freedom Party'
+      and Resp `Austrian politician Joerg Haider has ended a controversial two-day visit to Canada'
+
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/12)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W07-5-2
+
+Comparing Key  `Montreal, Quebec's Dorval airport'
+      and Resp `Canada Montreal'
+
+Comparing Key  `Montreal'
+      and Resp `Canada Montreal'
+
+=> Best match in answer key is:
+   `Montreal'
+
+Recall    = 1.00 (1/1)
+Precision = 0.50 (1/2)
+F-measure = 0.67
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W07-5-3
+
+Comparing Key  `a Nazi sympathizer'
+      and Resp `Haider is accused of being a Nazi sympathizer'
+
+Recall    = 1.00 (3/3)
+Precision = 0.38 (3/8)
+F-measure = 0.55
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W07-5-5
+
+Comparing Key  `Jewish and human rights groups in Canada and the United States'
+      and Resp `Austrian Jewish Joerg'
+
+Recall    = 0.09 (1/11)
+Precision = 0.33 (1/3)
+F-measure = 0.14
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W07-5-6
+
+Comparing Key  `to try to attend the wedding of a well known Hasidic leader's relative'
+      and Resp `because even their clothes reflect their beliefs'
+
+Recall    = 0.00 (0/13)
+Precision = 0.00 (0/7)
+F-measure = 0.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W07-5-7
+
+Comparing Key  `because even their clothes reflect their beliefs'
+      and Resp `because even their clothes reflect their beliefs'
+
+Recall    = 1.00 (7/7)
+Precision = 1.00 (7/7)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W07-5-8
+
+Comparing Key  `300'
+      and Resp `300'
+
+Recall    = 1.00 (1/1)
+Precision = 1.00 (1/1)
+F-measure = 1.00
+
+-----------------------------------------------------------------------------------------
+
+SCORING 2000-W07-5-9
+
+Comparing Key  `at the memorial to Raoul Wallenberg'
+      and Resp `Montreal'
+
+Recall    = 0.00 (0/6)
+Precision = 0.00 (0/1)
+F-measure = 0.00
+
+
+
+Finished processing 313 questions, 313 of which had responses.
+*************************************************************************
+
+FINAL RESULTS
+
+AVERAGE RECALL =    0.5328  (166.75 / 313)
+AVERAGE PRECISION = 0.3171  (99.25 / 313)
+AVERAGE F-MEASURE = 0.3976
+
+*************************************************************************
