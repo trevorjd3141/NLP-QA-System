@@ -1,5 +1,6 @@
 C:\Users\Spencer\Desktop\CS5340\NLP-QA-System\data
 1999-W02-5
+1999-W03-4
 1999-W03-5
 1999-W04-5
 1999-W05-4
