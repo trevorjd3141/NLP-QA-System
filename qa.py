@@ -9,6 +9,27 @@ SENTENCEWINDOW = 3
 BACKUPWINDOW = 1
 SENTENCETRIM = 2
 
+def whatAnswer(question, story, nlp):
+    mostLikelySentences = textWeighter.filterQuestions(question, story[1], 5, ranked=True)
+    mostLikelySentence = mostLikelySentences[0]
+    doc = nlp(question.text)
+    qRootLemma = 0
+    for token in doc:
+        if token.dep_ == 'ROOT':
+            qRootLemma = token.lemma
+
+    for sent in mostLikelySentences:
+        doc = nlp(sent)
+        for token in doc:
+            if token.dep_ == 'ROOT':
+                if token.lemma == qRootLemma:
+                    return sent
+
+    return mostLikelySentence
+
+
+
+
 # Retrieves all common words like
 # 'of', 'and', and 'the' that we don't
 # want to consider.
@@ -151,6 +172,9 @@ def classify(question, story, nlp):
     whySplitAnswer = whySplit(question, story)
     if whySplitAnswer and len(whySplitAnswer) > 0:
         return whySplitAnswer
+
+    if question.type == 'What':
+        return whatAnswer(question, story, nlp)
     
     entityMatchAnswer = entityMatch(question, story, nlp)
     if entityMatchAnswer and len(entityMatchAnswer) > 0:
