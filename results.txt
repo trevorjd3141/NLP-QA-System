@@ -23,11 +23,11 @@ F-measure = 0.16
 SCORING 1999-W07-5-2
 
 Comparing Key  `A.J. Kolla'
-      and Resp `Kolla, who celebrated his 14th birthday on Tuesday, two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho'
+      and Resp `The weather was so bad that the search parties were called in and the search called off'
 
-Recall    = 0.50 (1/2)
-Precision = 0.04 (1/28)
-F-measure = 0.07
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/17)
+F-measure = 0.00
 
 -----------------------------------------------------------------------------------------
 
@@ -105,10 +105,10 @@ F-measure = 0.11
 SCORING 1999-W07-5-8
 
 Comparing Key  `a party of snowmobilers'
-      and Resp `Sandpoint Carol'
+      and Resp `"They helped my boys live."  The boys soon figured they would have to stick together to survive'
 
 Recall    = 0.00 (0/4)
-Precision = 0.00 (0/2)
+Precision = 0.00 (0/17)
 F-measure = 0.00
 
 -----------------------------------------------------------------------------------------
@@ -138,7 +138,7 @@ F-measure = 0.00
 SCORING 1999-W08-1-2
 
 Comparing Key  `45'
-      and Resp `50 - 45 only'
+      and Resp `- only 50 45'
 
 Recall    = 1.00 (1/1)
 Precision = 0.25 (1/4)
@@ -160,7 +160,7 @@ F-measure = 0.00
 SCORING 1999-W08-1-4
 
 Comparing Key  `the White House'
-      and Resp `White House'
+      and Resp `House White'
 
 Recall    = 0.67 (2/3)
 Precision = 1.00 (2/2)
@@ -171,11 +171,11 @@ F-measure = 0.80
 SCORING 1999-W08-1-5
 
 Comparing Key  `Republican senators'
-      and Resp `Republican Monica White House'
+      and Resp `Republican'
 
 Recall    = 0.50 (1/2)
-Precision = 0.25 (1/4)
-F-measure = 0.33
+Precision = 1.00 (1/1)
+F-measure = 0.67
 
 -----------------------------------------------------------------------------------------
 
@@ -221,64 +221,64 @@ F-measure = 0.47
 SCORING 1999-W08-5-5
 
 Comparing Key  `the United States'
-      and Resp `American Canadian NASA'
+      and Resp `A new Canadian radar satellite sees too much, too clearly, according to NASA, the American space agency'
 
 Comparing Key  `the U.S.'
-      and Resp `American Canadian NASA'
+      and Resp `A new Canadian radar satellite sees too much, too clearly, according to NASA, the American space agency'
 
 Comparing Key  `the U.S. government'
-      and Resp `American Canadian NASA'
+      and Resp `A new Canadian radar satellite sees too much, too clearly, according to NASA, the American space agency'
 
 Comparing Key  `the United States government'
-      and Resp `American Canadian NASA'
+      and Resp `A new Canadian radar satellite sees too much, too clearly, according to NASA, the American space agency'
 
 Comparing Key  `the U.S. intelligence community'
-      and Resp `American Canadian NASA'
+      and Resp `A new Canadian radar satellite sees too much, too clearly, according to NASA, the American space agency'
 
 => Best match in answer key is:
-   `the United States'
+   `the U.S.'
 
-Recall    = 0.00 (0/3)
-Precision = 0.00 (0/3)
-F-measure = 0.00
+Recall    = 0.50 (1/2)
+Precision = 0.06 (1/17)
+F-measure = 0.11
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W08-5-6
 
 Comparing Key  `Hugues Gilbert'
-      and Resp `Gilbert American NASA Hugues'
+      and Resp `intelligence community," said Hugues Gilbert, director of strategic development for the Canadian Space Agency'
 
 Recall    = 1.00 (2/2)
-Precision = 0.50 (2/4)
-F-measure = 0.67
+Precision = 0.14 (2/14)
+F-measure = 0.25
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W09-5-1
 
 Comparing Key  `a guard with the BCC'
-      and Resp `Moshe Akavak, a guard with the BCC says learning the traditional ways will help the prisoners' rehabilitation'
+      and Resp `When Moshe Akavak became a jail guard 16 years ago, he was appalled so many Inuit had lost their traditional skills'
 
 Comparing Key  `a guard with the Baffin Correctional Centre'
-      and Resp `Moshe Akavak, a guard with the BCC says learning the traditional ways will help the prisoners' rehabilitation'
+      and Resp `When Moshe Akavak became a jail guard 16 years ago, he was appalled so many Inuit had lost their traditional skills'
 
 Comparing Key  `a jail guard'
-      and Resp `Moshe Akavak, a guard with the BCC says learning the traditional ways will help the prisoners' rehabilitation'
+      and Resp `When Moshe Akavak became a jail guard 16 years ago, he was appalled so many Inuit had lost their traditional skills'
 
 => Best match in answer key is:
-   `a guard with the BCC'
+   `a jail guard'
 
-Recall    = 1.00 (5/5)
-Precision = 0.29 (5/17)
-F-measure = 0.45
+Recall    = 1.00 (3/3)
+Precision = 0.14 (3/21)
+F-measure = 0.25
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W09-5-2
 
 Comparing Key  `16 years ago'
-      and Resp `ago 16 years'
+      and Resp `16 ago years'
 
 Recall    = 1.00 (3/3)
 Precision = 1.00 (3/3)
@@ -342,10 +342,10 @@ F-measure = 0.00
 SCORING 1999-W09-5-8
 
 Comparing Key  `Michael Evic'
-      and Resp `Inuit Centre Correctional Baffin BCC'
+      and Resp `"The more you trust other people, you also gain it back."  This is just one of the traditional hunting programs for prisoners'
 
 Recall    = 0.00 (0/2)
-Precision = 0.00 (0/5)
+Precision = 0.00 (0/22)
 F-measure = 0.00
 
 -----------------------------------------------------------------------------------------
@@ -418,11 +418,11 @@ F-measure = 0.04
 SCORING 1999-W26-1-1
 
 Comparing Key  `a group of Yugoslavians of Albanian heritage who were fighting against the Yugoslavian army'
-      and Resp `Yugoslavians Yugoslavian NATO Yugolsavians Albanian Serbian'
+      and Resp `Yugoslavian NATO'
 
-Recall    = 0.21 (3/14)
-Precision = 0.50 (3/6)
-F-measure = 0.30
+Recall    = 0.07 (1/14)
+Precision = 0.50 (1/2)
+F-measure = 0.13
 
 -----------------------------------------------------------------------------------------
 
@@ -440,13 +440,13 @@ F-measure = 0.79
 SCORING 1999-W26-1-3
 
 Comparing Key  `refugee camps and countries around the world'
-      and Resp `Yugoslavia Canada Kosovo'
+      and Resp `Canada Yugoslavia Kosovo'
 
 Comparing Key  `refugee camps in the countries surrounding Yugoslavia and countries around the world'
-      and Resp `Yugoslavia Canada Kosovo'
+      and Resp `Canada Yugoslavia Kosovo'
 
 Comparing Key  `refugee camps in the countries surrounding Yugoslavia and countries around the world, including Canada'
-      and Resp `Yugoslavia Canada Kosovo'
+      and Resp `Canada Yugoslavia Kosovo'
 
 => Best match in answer key is:
    `refugee camps in the countries surrounding Yugoslavia and countries around the world, including Canada'
@@ -477,7 +477,7 @@ F-measure = 0.07
 SCORING 1999-W26-1-7
 
 Comparing Key  `more than a hundred billion dollars'
-      and Resp `than more billion dollars hundred'
+      and Resp `hundred more than billion dollars'
 
 Recall    = 0.83 (5/6)
 Precision = 1.00 (5/5)
@@ -558,17 +558,17 @@ F-measure = 0.75
 SCORING 1999-W27-3-6
 
 Comparing Key  `Ms. McLachlan's lawyer'
-      and Resp `"What is the act of authorship," says Jennifer Conkie, Ms'
+      and Resp `Lawyers for singer Sarah McLachlan and producer Daryl Neudorf were back in front of a judge yesterday in Vancouver, British Columbia'
 
 Comparing Key  `Sarah McLachlan's lawyer'
-      and Resp `"What is the act of authorship," says Jennifer Conkie, Ms'
+      and Resp `Lawyers for singer Sarah McLachlan and producer Daryl Neudorf were back in front of a judge yesterday in Vancouver, British Columbia'
 
 => Best match in answer key is:
-   `Ms. McLachlan's lawyer'
+   `Sarah McLachlan's lawyer'
 
 Recall    = 0.33 (1/3)
-Precision = 0.10 (1/10)
-F-measure = 0.15
+Precision = 0.05 (1/21)
+F-measure = 0.08
 
 -----------------------------------------------------------------------------------------
 
@@ -696,7 +696,7 @@ F-measure = 0.00
 SCORING 1999-W28-1-6
 
 Comparing Key  `When it was discovered the cancer had spread to Tyrell's lungs'
-      and Resp `months three'
+      and Resp `three months'
 
 Recall    = 0.00 (0/11)
 Precision = 0.00 (0/2)
@@ -947,18 +947,18 @@ F-measure = 0.31
 SCORING 1999-W31-3-2
 
 Comparing Key  `the leader of the Liberal Party'
-      and Resp `Liberal leader Russell MacLellan was forced to call the election after the other parties voted against his budget'
+      and Resp `Hamm is the leader of the Nova Scotia Progressive Conservative Party'
 
-Recall    = 0.67 (4/6)
-Precision = 0.22 (4/18)
-F-measure = 0.33
+Recall    = 0.83 (5/6)
+Precision = 0.45 (5/11)
+F-measure = 0.59
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W31-3-3
 
 Comparing Key  `29'
-      and Resp `more half than'
+      and Resp `than more half'
 
 Recall    = 0.00 (0/1)
 Precision = 0.00 (0/3)
@@ -1063,10 +1063,10 @@ F-measure = 0.10
 SCORING 1999-W31-5-3
 
 Comparing Key  `the moon'
-      and Resp `Eugene Shoemaker'
+      and Resp `Shoemaker Eugene'
 
 Comparing Key  `the south pole of the moon'
-      and Resp `Eugene Shoemaker'
+      and Resp `Shoemaker Eugene'
 
 => Best match in answer key is:
    `the moon'
@@ -1108,7 +1108,7 @@ F-measure = 0.70
 SCORING 1999-W31-5-6
 
 Comparing Key  `about 20'
-      and Resp `about 800 20'
+      and Resp `800 20 about'
 
 Recall    = 1.00 (2/2)
 Precision = 0.67 (2/3)
@@ -1197,7 +1197,7 @@ F-measure = 1.00
 SCORING 1999-W32-4-2
 
 Comparing Key  `five'
-      and Resp `metres about nine six five'
+      and Resp `six nine metres five about'
 
 Recall    = 1.00 (1/1)
 Precision = 0.20 (1/5)
@@ -1208,17 +1208,17 @@ F-measure = 0.33
 SCORING 1999-W32-4-3
 
 Comparing Key  `about the size of a microwave oven'
-      and Resp `At the third annual Robot World Cup Soccer tournament in Sweden, Iranian robots beat Italian robots 3-1'
+      and Resp `Each robot is about the size of a microwave oven'
 
 Comparing Key  `the size of a microwave oven'
-      and Resp `At the third annual Robot World Cup Soccer tournament in Sweden, Iranian robots beat Italian robots 3-1'
+      and Resp `Each robot is about the size of a microwave oven'
 
 => Best match in answer key is:
-   `the size of a microwave oven'
+   `about the size of a microwave oven'
 
-Recall    = 0.17 (1/6)
-Precision = 0.06 (1/17)
-F-measure = 0.09
+Recall    = 1.00 (7/7)
+Precision = 0.70 (7/10)
+F-measure = 0.82
 
 -----------------------------------------------------------------------------------------
 
@@ -1236,7 +1236,7 @@ F-measure = 0.09
 SCORING 1999-W32-4-5
 
 Comparing Key  `the year 2050'
-      and Resp `year Wednesday 2050'
+      and Resp `2050 Wednesday year'
 
 Recall    = 0.67 (2/3)
 Precision = 0.67 (2/3)
@@ -1247,24 +1247,24 @@ F-measure = 0.67
 SCORING 1999-W32-4-6
 
 Comparing Key  `Gary Kasparov'
-      and Resp `Italian Iranian Kasparov Garry'
+      and Resp `He said the idea was not as far-fetched as it may sound since IBM's Deep Blue supercomputer beat chess champion Garry Kasparov'
 
 Comparing Key  `chess champion Gary Kasparov'
-      and Resp `Italian Iranian Kasparov Garry'
+      and Resp `He said the idea was not as far-fetched as it may sound since IBM's Deep Blue supercomputer beat chess champion Garry Kasparov'
 
 => Best match in answer key is:
-   `Gary Kasparov'
+   `chess champion Gary Kasparov'
 
-Recall    = 0.50 (1/2)
-Precision = 0.25 (1/4)
-F-measure = 0.33
+Recall    = 0.75 (3/4)
+Precision = 0.14 (3/22)
+F-measure = 0.23
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W32-4-8
 
 Comparing Key  `almost a hundred'
-      and Resp `24 3 hundred Almost'
+      and Resp `Almost 24 hundred 3'
 
 Recall    = 0.67 (2/3)
 Precision = 0.50 (2/4)
@@ -1275,11 +1275,11 @@ F-measure = 0.57
 SCORING 1999-W32-4-9
 
 Comparing Key  `teams of human-size robots with two legs that walk and kick a ball'
-      and Resp `Federation'
+      and Resp `Teams of human-size robots with two legs that walk and kick a ball are expected to be competing in the 2002 tournament'
 
-Recall    = 0.00 (0/13)
-Precision = 0.00 (0/1)
-F-measure = 0.00
+Recall    = 1.00 (13/13)
+Precision = 0.59 (13/22)
+F-measure = 0.74
 
 -----------------------------------------------------------------------------------------
 
@@ -1303,7 +1303,7 @@ F-measure = 1.00
 SCORING 1999-W32-5-1
 
 Comparing Key  `near Banff, Alberta'
-      and Resp `Banff Alberta Mudslides'
+      and Resp `Alberta Banff Mudslides'
 
 Recall    = 0.67 (2/3)
 Precision = 0.67 (2/3)
@@ -1353,11 +1353,11 @@ F-measure = 0.33
 SCORING 1999-W32-5-5
 
 Comparing Key  `clean up crews'
-      and Resp `, clean up crews were able to re-open the parts of the highway'
+      and Resp `After many hours of work, clean up crews were able to re-open the parts of the highway'
 
 Recall    = 1.00 (3/3)
-Precision = 0.25 (3/12)
-F-measure = 0.40
+Precision = 0.18 (3/17)
+F-measure = 0.30
 
 -----------------------------------------------------------------------------------------
 
@@ -1381,7 +1381,7 @@ F-measure = 0.19
 SCORING 1999-W32-5-7
 
 Comparing Key  `in steep and mountainous areas'
-      and Resp `Banff Alberta Mudslides'
+      and Resp `Alberta Banff Mudslides'
 
 Recall    = 0.00 (0/5)
 Precision = 0.00 (0/3)
@@ -1442,7 +1442,7 @@ F-measure = 0.56
 SCORING 1999-W33-3-3
 
 Comparing Key  `in the Atlantic'
-      and Resp `Europe India Turkey Iran Atlantic'
+      and Resp `Atlantic India Turkey Iran Europe'
 
 Recall    = 0.33 (1/3)
 Precision = 0.20 (1/5)
@@ -1486,21 +1486,21 @@ F-measure = 0.42
 SCORING 1999-W33-3-7
 
 Comparing Key  `a few minutes'
-      and Resp `for a few minutes, and are rare'
+      and Resp `These total eclipses last for a few minutes, and are rare'
 
 Recall    = 1.00 (3/3)
-Precision = 0.43 (3/7)
-F-measure = 0.60
+Precision = 0.27 (3/11)
+F-measure = 0.43
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W33-3-8
 
 Comparing Key  `only about an hour of total eclipses'
-      and Resp `about hour only'
+      and Resp `hour only about'
 
 Comparing Key  `about an hour'
-      and Resp `about hour only'
+      and Resp `hour only about'
 
 => Best match in answer key is:
    `about an hour'
@@ -1536,11 +1536,11 @@ F-measure = 0.28
 SCORING 1999-W33-5-2
 
 Comparing Key  `the federal and provincial governments'
-      and Resp `Harbour Lunenburg'
+      and Resp `Now town officials want the federal and provincial governments to help clean up the harbour'
 
-Recall    = 0.00 (0/5)
-Precision = 0.00 (0/2)
-F-measure = 0.00
+Recall    = 1.00 (5/5)
+Precision = 0.33 (5/15)
+F-measure = 0.50
 
 -----------------------------------------------------------------------------------------
 
@@ -1558,7 +1558,7 @@ F-measure = 1.00
 SCORING 1999-W33-5-4
 
 Comparing Key  `1920'
-      and Resp `1920 1955'
+      and Resp `1955 1920'
 
 Recall    = 1.00 (1/1)
 Precision = 0.50 (1/2)
@@ -1569,11 +1569,11 @@ F-measure = 0.67
 SCORING 1999-W33-5-5
 
 Comparing Key  `as a friendly competition between US and Canadian fishing schooners'
-      and Resp `was in 1920'
+      and Resp `It started as a friendly competition between US and Canadian fishing schooners'
 
-Recall    = 0.00 (0/10)
-Precision = 0.00 (0/3)
-F-measure = 0.00
+Recall    = 1.00 (10/10)
+Precision = 0.83 (10/12)
+F-measure = 0.91
 
 -----------------------------------------------------------------------------------------
 
@@ -1635,7 +1635,7 @@ F-measure = 0.22
 SCORING 1999-W34-4-1
 
 Comparing Key  `Izmit'
-      and Resp `Istanbul Colorado'
+      and Resp `Colorado Istanbul'
 
 Recall    = 0.00 (0/1)
 Precision = 0.00 (0/2)
@@ -1674,18 +1674,18 @@ F-measure = 0.09
 SCORING 1999-W34-4-4
 
 Comparing Key  `rescue workers'
-      and Resp `Izmit'
+      and Resp `Rescue workers spent hours digging through the rubble, frantically trying to save people trapped under concrete and metal'
 
-Recall    = 0.00 (0/2)
-Precision = 0.00 (0/1)
-F-measure = 0.00
+Recall    = 1.00 (2/2)
+Precision = 0.11 (2/18)
+F-measure = 0.20
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W34-4-5
 
 Comparing Key  `at least 21,000'
-      and Resp `21,000 6,000 than more least at'
+      and Resp `21,000 6,000 least at more than'
 
 Recall    = 1.00 (3/3)
 Precision = 0.50 (3/6)
@@ -1779,7 +1779,7 @@ F-measure = 1.00
 SCORING 1999-W35-5-4
 
 Comparing Key  `no more than two hours'
-      and Resp `hour than one no more hours two'
+      and Resp `hours than two more no hour one'
 
 Recall    = 1.00 (5/5)
 Precision = 0.71 (5/7)
@@ -1941,10 +1941,10 @@ F-measure = 0.10
 SCORING 1999-W37-4-1
 
 Comparing Key  `1942'
-      and Resp `1942 1939 - 60-year old'
+      and Resp `1939 - 1942 old 60-year'
 
 Comparing Key  `in 1942'
-      and Resp `1942 1939 - 60-year old'
+      and Resp `1939 - 1942 old 60-year'
 
 => Best match in answer key is:
    `1942'
@@ -1958,10 +1958,10 @@ F-measure = 0.33
 SCORING 1999-W37-4-2
 
 Comparing Key  `in Hong Kong'
-      and Resp `Canada Kong Hong'
+      and Resp `Canada Hong Kong'
 
 Comparing Key  `Hong Kong'
-      and Resp `Canada Kong Hong'
+      and Resp `Canada Hong Kong'
 
 => Best match in answer key is:
    `Hong Kong'
@@ -2014,21 +2014,21 @@ F-measure = 0.00
 SCORING 1999-W37-4-6
 
 Comparing Key  `more often'
-      and Resp `, more often'
+      and Resp `For example, Clarkson says, she and her husband, author John Ralston Saul, plan to use the governor general's Quebec City residence, the Citadel, more often'
 
 Recall    = 1.00 (2/2)
-Precision = 1.00 (2/2)
-F-measure = 1.00
+Precision = 0.08 (2/25)
+F-measure = 0.15
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W37-4-7
 
 Comparing Key  `Romeo LeBlanc'
-      and Resp `Canadian'
+      and Resp `She's the first immigrant to be named Canada's governor general'
 
 Recall    = 0.00 (0/2)
-Precision = 0.00 (0/1)
+Precision = 0.00 (0/10)
 F-measure = 0.00
 
 -----------------------------------------------------------------------------------------
@@ -2047,7 +2047,7 @@ F-measure = 0.08
 SCORING 1999-W37-4-10
 
 Comparing Key  `more than 300'
-      and Resp `more 300 than'
+      and Resp `than 300 more'
 
 Recall    = 1.00 (3/3)
 Precision = 1.00 (3/3)
@@ -2080,7 +2080,7 @@ F-measure = 0.57
 SCORING 1999-W38-1-3
 
 Comparing Key  `two weeks ago'
-      and Resp `ago weeks Two'
+      and Resp `ago Two weeks'
 
 Recall    = 1.00 (3/3)
 Precision = 1.00 (3/3)
@@ -2091,11 +2091,11 @@ F-measure = 1.00
 SCORING 1999-W38-1-4
 
 Comparing Key  `the Indonesian army and local military groups who oppose independence'
-      and Resp `Indonesians Indonesian'
+      and Resp `Indonesian'
 
 Recall    = 0.10 (1/10)
-Precision = 0.50 (1/2)
-F-measure = 0.17
+Precision = 1.00 (1/1)
+F-measure = 0.18
 
 -----------------------------------------------------------------------------------------
 
@@ -2113,16 +2113,16 @@ F-measure = 0.00
 SCORING 1999-W38-1-7
 
 Comparing Key  `governments and human rights activists from around the world'
-      and Resp `United Nations UN'
+      and Resp `Habibie has refused to allow United Nations peacekeeping troops into his country'
 
 Comparing Key  `governments and human rights activists'
-      and Resp `United Nations UN'
+      and Resp `Habibie has refused to allow United Nations peacekeeping troops into his country'
 
 => Best match in answer key is:
    `governments and human rights activists from around the world'
 
 Recall    = 0.00 (0/9)
-Precision = 0.00 (0/3)
+Precision = 0.00 (0/12)
 F-measure = 0.00
 
 -----------------------------------------------------------------------------------------
@@ -2141,10 +2141,10 @@ F-measure = 0.80
 SCORING 1999-W38-1-9
 
 Comparing Key  `about 3,900'
-      and Resp `about 3,900'
+      and Resp `3,900 about'
 
 Comparing Key  `3,900'
-      and Resp `about 3,900'
+      and Resp `3,900 about'
 
 => Best match in answer key is:
    `about 3,900'
@@ -2197,7 +2197,7 @@ F-measure = 0.53
 SCORING 1999-W39-1-3
 
 Comparing Key  `a couple of thousand'
-      and Resp `of about every 2 100 thousand couple'
+      and Resp `couple about of 2 100 thousand every'
 
 Recall    = 0.75 (3/4)
 Precision = 0.43 (3/7)
@@ -2208,17 +2208,17 @@ F-measure = 0.55
 SCORING 1999-W39-1-4
 
 Comparing Key  `president of the federation'
-      and Resp `"The report itself, coming from the NWT language commissioner, is not even published in French," says Andre Legare, the president of the federation'
+      and Resp `There are a couple of thousand French speakers in the Northwest Territories, or about 2 people out every 100'
 
 Comparing Key  `president of the federation representing francophones in the Northwest Territories'
-      and Resp `"The report itself, coming from the NWT language commissioner, is not even published in French," says Andre Legare, the president of the federation'
+      and Resp `There are a couple of thousand French speakers in the Northwest Territories, or about 2 people out every 100'
 
 => Best match in answer key is:
    `president of the federation representing francophones in the Northwest Territories'
 
-Recall    = 0.60 (6/10)
-Precision = 0.26 (6/23)
-F-measure = 0.36
+Recall    = 0.50 (5/10)
+Precision = 0.26 (5/19)
+F-measure = 0.34
 
 -----------------------------------------------------------------------------------------
 
@@ -2236,10 +2236,10 @@ F-measure = 0.00
 SCORING 1999-W39-1-6
 
 Comparing Key  `the NWT language commissioner'
-      and Resp `Northwest Territories'
+      and Resp `Territories Northwest'
 
 Comparing Key  `the language commissioner'
-      and Resp `Northwest Territories'
+      and Resp `Territories Northwest'
 
 => Best match in answer key is:
    `the NWT language commissioner'
@@ -2320,7 +2320,7 @@ F-measure = 0.06
 SCORING 1999-W39-3-5
 
 Comparing Key  `31'
-      and Resp `31 one'
+      and Resp `one 31'
 
 Recall    = 1.00 (1/1)
 Precision = 0.50 (1/2)
@@ -2348,11 +2348,11 @@ F-measure = 0.00
 SCORING 1999-W39-3-7
 
 Comparing Key  `Tory Linda McIntosh'
-      and Resp `Winnipeg Linda McIntosh Democratic Doer Party Tory Filmon Gary New'
+      and Resp `There'll be a recount -- where every vote is counted again to make sure there are no mistakes -- in the suburban Winnipeg riding of Assiniboia, where Tory Linda McIntosh beat the NDP's Jim Rondeau by 3 votes'
 
 Recall    = 1.00 (3/3)
-Precision = 0.30 (3/10)
-F-measure = 0.46
+Precision = 0.08 (3/38)
+F-measure = 0.15
 
 -----------------------------------------------------------------------------------------
 
@@ -2370,10 +2370,10 @@ F-measure = 0.06
 SCORING 1999-W39-3-9
 
 Comparing Key  `in 1981'
-      and Resp `1981 long years 11 yesterday'
+      and Resp `11 long yesterday years 1981'
 
 Comparing Key  `1981'
-      and Resp `1981 long years 11 yesterday'
+      and Resp `11 long yesterday years 1981'
 
 => Best match in answer key is:
    `1981'
@@ -2420,18 +2420,18 @@ F-measure = 0.22
 SCORING 1999-W39-5-5
 
 Comparing Key  `deputy police director Serge Meloche'
-      and Resp `Serge Michel Fontaine Meloche'
+      and Resp `Serge Meloche'
 
 Recall    = 0.40 (2/5)
-Precision = 0.50 (2/4)
-F-measure = 0.44
+Precision = 1.00 (2/2)
+F-measure = 0.57
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W39-5-6
 
 Comparing Key  `during the past few days'
-      and Resp `past few days'
+      and Resp `days past few'
 
 Recall    = 0.60 (3/5)
 Precision = 1.00 (3/3)
@@ -2486,11 +2486,11 @@ F-measure = 0.13
 SCORING 1999-W41-3-3
 
 Comparing Key  `a British Broadcasting System reporter'
-      and Resp `and Western Corporation Great British Broadcasting Thames Trains'
+      and Resp `Corporation Broadcasting British'
 
 Recall    = 0.40 (2/5)
-Precision = 0.25 (2/8)
-F-measure = 0.31
+Precision = 0.67 (2/3)
+F-measure = 0.50
 
 -----------------------------------------------------------------------------------------
 
@@ -2519,7 +2519,7 @@ F-measure = 0.45
 SCORING 1999-W41-3-6
 
 Comparing Key  `as many as 500'
-      and Resp `800,000 about About 500 100 as km'
+      and Resp `800,000 About 100 about 500 km as'
 
 Recall    = 0.50 (2/4)
 Precision = 0.29 (2/7)
@@ -2530,10 +2530,10 @@ F-measure = 0.36
 SCORING 1999-W41-3-7
 
 Comparing Key  `Cheltenham'
-      and Resp `Paddington London Cheltenham'
+      and Resp `London Paddington Cheltenham'
 
 Comparing Key  `Cheltenham, northwest of London'
-      and Resp `Paddington London Cheltenham'
+      and Resp `London Paddington Cheltenham'
 
 => Best match in answer key is:
    `Cheltenham, northwest of London'
@@ -2569,11 +2569,11 @@ F-measure = 0.21
 SCORING 1999-W41-5-1
 
 Comparing Key  `Supreme Court of Canada Justice Claire L'Heureux Dube'
-      and Resp `Court L'Heureux Dube Supreme Canada CBC Claire'
+      and Resp `The Governor General must also swear the Oath of Allegiance, the Oath of Office and Oath of Keeper of the Great Seal of Canada'
 
-Recall    = 0.75 (6/8)
-Precision = 0.86 (6/7)
-F-measure = 0.80
+Recall    = 0.25 (2/8)
+Precision = 0.08 (2/24)
+F-measure = 0.13
 
 -----------------------------------------------------------------------------------------
 
@@ -2641,11 +2641,11 @@ F-measure = 0.35
 SCORING 1999-W41-5-9
 
 Comparing Key  `the Queen of England'
-      and Resp `Ms'
+      and Resp `'
 
 Recall    = 0.00 (0/4)
-Precision = 0.00 (0/1)
-F-measure = 0.00
+Precision = N/A (0/0)
+F-measure = N/A
 
 -----------------------------------------------------------------------------------------
 
@@ -2713,11 +2713,11 @@ F-measure = 0.43
 SCORING 1999-W43-5-6
 
 Comparing Key  `Education Minister Drew Caldwell'
-      and Resp `Drew YNN Caldwell'
+      and Resp `Drew Caldwell'
 
 Recall    = 0.50 (2/4)
-Precision = 0.67 (2/3)
-F-measure = 0.57
+Precision = 1.00 (2/2)
+F-measure = 0.67
 
 -----------------------------------------------------------------------------------------
 
@@ -2763,7 +2763,7 @@ F-measure = 0.53
 SCORING 1999-W45-5-1
 
 Comparing Key  `Arviat, Northwest Territories'
-      and Resp `Hudson Northwest Manitoba Territories Churchill Bay the'
+      and Resp `Bay Northwest Manitoba the Hudson Territories Churchill'
 
 Recall    = 0.67 (2/3)
 Precision = 0.29 (2/7)
@@ -2774,11 +2774,11 @@ F-measure = 0.40
 SCORING 1999-W45-5-2
 
 Comparing Key  `the Canadian Academy of Recording Arts and Sciences'
-      and Resp `Canadian of 's Iqaluit Aglukark Sciences Recording Academy Susan Arts'
+      and Resp `Students at Iqaluit's Inuksuk High School are celebrating the revival of their music program with singer Susan Aglukark, pizza and a $10,000 cheque today'
 
-Recall    = 0.75 (6/8)
-Precision = 0.60 (6/10)
-F-measure = 0.67
+Recall    = 0.38 (3/8)
+Precision = 0.13 (3/24)
+F-measure = 0.19
 
 -----------------------------------------------------------------------------------------
 
@@ -2796,22 +2796,22 @@ F-measure = 0.32
 SCORING 1999-W45-5-4
 
 Comparing Key  `about 10 years'
-      and Resp `for about 10 years'
+      and Resp `Inuksuk has been without a music program for about 10 years'
 
 Recall    = 1.00 (3/3)
-Precision = 0.75 (3/4)
-F-measure = 0.86
+Precision = 0.27 (3/11)
+F-measure = 0.43
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W45-5-5
 
 Comparing Key  `for some students where food and shelter is a more pressing concern'
-      and Resp `Inuksuk'
+      and Resp `For some students where food and shelter is a more pressing concern, it is the responsibility of the music society and of the school to provide an instrument," MacLeod says'
 
-Recall    = 0.00 (0/12)
-Precision = 0.00 (0/1)
-F-measure = 0.00
+Recall    = 1.00 (12/12)
+Precision = 0.40 (12/30)
+F-measure = 0.57
 
 -----------------------------------------------------------------------------------------
 
@@ -2840,7 +2840,7 @@ F-measure = 0.30
 SCORING 1999-W45-5-8
 
 Comparing Key  `two or three'
-      and Resp `three or two between'
+      and Resp `two or between three'
 
 Recall    = 1.00 (3/3)
 Precision = 0.75 (3/4)
@@ -2851,10 +2851,10 @@ F-measure = 0.86
 SCORING 1999-W45-5-9
 
 Comparing Key  `the music society'
-      and Resp `MacLeod'
+      and Resp `Recording Canadian Sciences and of Academy Arts'
 
 Recall    = 0.00 (0/3)
-Precision = 0.00 (0/1)
+Precision = 0.00 (0/7)
 F-measure = 0.00
 
 -----------------------------------------------------------------------------------------
@@ -2906,7 +2906,7 @@ F-measure = 0.11
 SCORING 1999-W47-5-6
 
 Comparing Key  `seven years ago'
-      and Resp `ago eight years months seven'
+      and Resp `ago eight years seven months'
 
 Recall    = 1.00 (3/3)
 Precision = 0.60 (3/5)
@@ -2939,11 +2939,11 @@ F-measure = 0.21
 SCORING 1999-W47-5-11
 
 Comparing Key  `the lawyer representing the Chinese woman from Fujian'
-      and Resp `Larry Smeets, her lawyer, says the Federal Court of Appeal has concluded in the past that forced sterilization was a form of persecution, so this reason could be recognized as a reason for refugees to be allowed to remain in Canada'
+      and Resp `She was on one of the boats from China that was intercepted by the Coast Guard off the coast of British Columbia earlier this year'
 
 Recall    = 0.38 (3/8)
-Precision = 0.07 (3/41)
-F-measure = 0.12
+Precision = 0.12 (3/25)
+F-measure = 0.18
 
 -----------------------------------------------------------------------------------------
 
@@ -2961,22 +2961,22 @@ F-measure = 0.43
 SCORING 1999-W49-5-3
 
 Comparing Key  `by radio signals from the Jet Propulsion Laboratory'
-      and Resp `The Polar Lander will try to find evidence that the atmosphere was once warmer and thicker'
+      and Resp `The American space ship is being navigated by radio signals from the Jet Propulsion Laboratory'
 
-Recall    = 0.13 (1/8)
-Precision = 0.06 (1/16)
-F-measure = 0.08
+Recall    = 1.00 (8/8)
+Precision = 0.53 (8/15)
+F-measure = 0.70
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W49-5-4
 
 Comparing Key  `astronomer Carl Sagan'
-      and Resp `Carl Frozen Sagan NASA'
+      and Resp `For the first time ever, NASA has included a microphone on a spacecraft sent to Mars, an idea originally proposed by astronomer Carl Sagan'
 
-Recall    = 0.67 (2/3)
-Precision = 0.50 (2/4)
-F-measure = 0.57
+Recall    = 1.00 (3/3)
+Precision = 0.13 (3/24)
+F-measure = 0.22
 
 -----------------------------------------------------------------------------------------
 
@@ -3049,18 +3049,18 @@ F-measure = 0.00
 SCORING 1999-W51-1-3
 
 Comparing Key  `British Columbia Supreme Court Justice Bruce Cohen'
-      and Resp `Neudorf Darryl Canadian Bruce Court Cohen British Supreme Grammy Sarah Columbia McLachlan'
+      and Resp `Court Columbia Darryl Neudorf Bruce Cohen Supreme'
 
-Recall    = 0.86 (6/7)
-Precision = 0.50 (6/12)
-F-measure = 0.63
+Recall    = 0.71 (5/7)
+Precision = 0.71 (5/7)
+F-measure = 0.71
 
 -----------------------------------------------------------------------------------------
 
 SCORING 1999-W51-1-5
 
 Comparing Key  `Halifax, Nova Scotia'
-      and Resp `British Columbia Vancouver'
+      and Resp `Vancouver Columbia British'
 
 Recall    = 0.00 (0/3)
 Precision = 0.00 (0/3)
@@ -3099,7 +3099,7 @@ F-measure = 0.00
 SCORING 1999-W51-1-8
 
 Comparing Key  `625,000'
-      and Resp `more than 625,000 four'
+      and Resp `625,000 than four more'
 
 Recall    = 1.00 (1/1)
 Precision = 0.25 (1/4)
@@ -3221,10 +3221,10 @@ F-measure = 0.00
 SCORING 2000-W02-5-1
 
 Comparing Key  `the Fall of 1998'
-      and Resp `Fall the 1998'
+      and Resp `the 1998 Fall'
 
 Comparing Key  `1998'
-      and Resp `Fall the 1998'
+      and Resp `the 1998 Fall'
 
 => Best match in answer key is:
    `the Fall of 1998'
@@ -3277,7 +3277,7 @@ F-measure = 0.14
 SCORING 2000-W02-5-8
 
 Comparing Key  `Federal Agriculture Minister Lyle Vanclief and his provincial counterparts'
-      and Resp `Vanclief Lyle'
+      and Resp `Lyle Vanclief'
 
 Recall    = 0.22 (2/9)
 Precision = 1.00 (2/2)
@@ -3288,24 +3288,24 @@ F-measure = 0.36
 SCORING 2000-W03-1-1
 
 Comparing Key  `the Rankins'
-      and Resp `Rankins Cape Celtic Breton'
+      and Resp `Cape Breton'
 
 Comparing Key  `the former Celtic group the Rankins'
-      and Resp `Rankins Cape Celtic Breton'
+      and Resp `Cape Breton'
 
 => Best match in answer key is:
-   `the former Celtic group the Rankins'
+   `the Rankins'
 
-Recall    = 0.33 (2/6)
-Precision = 0.50 (2/4)
-F-measure = 0.40
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/2)
+F-measure = 0.00
 
 -----------------------------------------------------------------------------------------
 
 SCORING 2000-W03-1-2
 
 Comparing Key  `more than two million'
-      and Resp `million than more five two'
+      and Resp `million two five more than'
 
 Recall    = 1.00 (4/4)
 Precision = 0.80 (4/5)
@@ -3375,7 +3375,7 @@ F-measure = 0.33
 SCORING 2000-W03-1-7
 
 Comparing Key  `13'
-      and Resp `15 13'
+      and Resp `13 15'
 
 Recall    = 1.00 (1/1)
 Precision = 0.50 (1/2)
@@ -3386,31 +3386,31 @@ F-measure = 0.67
 SCORING 2000-W03-1-8
 
 Comparing Key  `Russell De Carle'
-      and Resp `Scotia De Carle Russell Nova Family'
+      and Resp `Three teenage boys were able to escape a truck that crashed in the Gulf of St'
 
-Recall    = 1.00 (3/3)
-Precision = 0.50 (3/6)
-F-measure = 0.67
+Recall    = 0.00 (0/3)
+Precision = 0.00 (0/16)
+F-measure = 0.00
 
 -----------------------------------------------------------------------------------------
 
 SCORING 2000-W03-1-9
 
 Comparing Key  `friend of the Rankin family'
-      and Resp `Family friend and musician Denis Ryan said news of the accident spread quickly through the Nova Scotia music community'
+      and Resp `Why is it always the good people that die?"  Ryan described Rankin as a dedicated family man and master carpenter who was like a younger brother to him'
 
 Comparing Key  `musician'
-      and Resp `Family friend and musician Denis Ryan said news of the accident spread quickly through the Nova Scotia music community'
+      and Resp `Why is it always the good people that die?"  Ryan described Rankin as a dedicated family man and master carpenter who was like a younger brother to him'
 
 Comparing Key  `someone who played music with Rankin in the mid '80s.'
-      and Resp `Family friend and musician Denis Ryan said news of the accident spread quickly through the Nova Scotia music community'
+      and Resp `Why is it always the good people that die?"  Ryan described Rankin as a dedicated family man and master carpenter who was like a younger brother to him'
 
 => Best match in answer key is:
    `friend of the Rankin family'
 
-Recall    = 0.80 (4/5)
-Precision = 0.21 (4/19)
-F-measure = 0.33
+Recall    = 0.60 (3/5)
+Precision = 0.11 (3/28)
+F-measure = 0.18
 
 -----------------------------------------------------------------------------------------
 
@@ -3428,7 +3428,7 @@ F-measure = 0.00
 SCORING 2000-W03-2-1
 
 Comparing Key  `December 3, 1999'
-      and Resp `90-day 3 December'
+      and Resp `90-day December 3'
 
 Recall    = 0.67 (2/3)
 Precision = 0.67 (2/3)
@@ -3439,11 +3439,11 @@ F-measure = 0.67
 SCORING 2000-W03-2-2
 
 Comparing Key  `Richard Cook'
-      and Resp `Propulsion Cook NASA Jet Richard Laboratory'
+      and Resp `Polar Lander was to have touched down December 3 for a 90-day mission'
 
-Recall    = 1.00 (2/2)
-Precision = 0.33 (2/6)
-F-measure = 0.50
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/13)
+F-measure = 0.00
 
 -----------------------------------------------------------------------------------------
 
@@ -3500,7 +3500,7 @@ F-measure = 0.00
 SCORING 2000-W03-2-8
 
 Comparing Key  `576 kilograms'
-      and Resp `3.6 metres 1.06'
+      and Resp `1.06 metres 3.6'
 
 Recall    = 0.00 (0/2)
 Precision = 0.00 (0/3)
@@ -3608,11 +3608,11 @@ F-measure = 0.00
 SCORING 2000-W03-3-8
 
 Comparing Key  `Rosann Wowchuk'
-      and Resp `Manley John Wowchuk National Rosann League Hockey'
+      and Resp `The reaction to the program has been very mixed'
 
-Recall    = 1.00 (2/2)
-Precision = 0.29 (2/7)
-F-measure = 0.44
+Recall    = 0.00 (0/2)
+Precision = 0.00 (0/9)
+F-measure = 0.00
 
 -----------------------------------------------------------------------------------------
 
@@ -3630,7 +3630,7 @@ F-measure = 0.58
 SCORING 2000-W03-3-10
 
 Comparing Key  `in four years'
-      and Resp `years four'
+      and Resp `four years'
 
 Recall    = 0.67 (2/3)
 Precision = 1.00 (2/2)
@@ -3696,7 +3696,7 @@ F-measure = 0.00
 SCORING 2000-W05-4-6
 
 Comparing Key  `about a million dollars'
-      and Resp `about million dollars'
+      and Resp `dollars about million'
 
 Recall    = 0.75 (3/4)
 Precision = 1.00 (3/3)
@@ -3729,11 +3729,11 @@ F-measure = 0.67
 SCORING 2000-W05-4-9
 
 Comparing Key  `Mahatma Ghandi'
-      and Resp `Indians Gandhi Mahatma'
+      and Resp `Gandhi Mahatma'
 
 Recall    = 0.50 (1/2)
-Precision = 0.33 (1/3)
-F-measure = 0.40
+Precision = 0.50 (1/2)
+F-measure = 0.50
 
 -----------------------------------------------------------------------------------------
 
@@ -3762,10 +3762,10 @@ F-measure = 0.20
 SCORING 2000-W06-5-3
 
 Comparing Key  `in the Yukon Territory'
-      and Resp `Territory Canada Cochrane Yukon the Alberta'
+      and Resp `Canada Territory Alberta the Yukon Cochrane'
 
 Comparing Key  `Yukon Territory'
-      and Resp `Territory Canada Cochrane Yukon the Alberta'
+      and Resp `Canada Territory Alberta the Yukon Cochrane'
 
 => Best match in answer key is:
    `in the Yukon Territory'
@@ -3801,7 +3801,7 @@ F-measure = 0.32
 SCORING 2000-W06-5-6
 
 Comparing Key  `ten years ago'
-      and Resp `ago years May Ten this'
+      and Resp `this May ago years Ten'
 
 Recall    = 1.00 (3/3)
 Precision = 0.60 (3/5)
@@ -3823,7 +3823,7 @@ F-measure = 0.53
 SCORING 2000-W06-5-8
 
 Comparing Key  `at age 12'
-      and Resp `this May'
+      and Resp `May this'
 
 Recall    = 0.00 (0/3)
 Precision = 0.00 (0/2)
@@ -3895,11 +3895,11 @@ F-measure = 0.55
 SCORING 2000-W07-5-5
 
 Comparing Key  `Jewish and human rights groups in Canada and the United States'
-      and Resp `Jewish Joerg Austrian'
+      and Resp `Jewish'
 
 Recall    = 0.09 (1/11)
-Precision = 0.33 (1/3)
-F-measure = 0.14
+Precision = 1.00 (1/1)
+F-measure = 0.17
 
 -----------------------------------------------------------------------------------------
 
@@ -3947,13 +3947,13 @@ F-measure = 0.00
 
 
 
-Finished processing 313 questions, 313 of which had responses.
+Finished processing 313 questions, 312 of which had responses.
 *************************************************************************
 
 FINAL RESULTS
 
-AVERAGE RECALL =    0.5624  (176.02 / 313)
-AVERAGE PRECISION = 0.3226  (100.98 / 313)
-AVERAGE F-MEASURE = 0.4100
+AVERAGE RECALL =    0.5709  (178.68 / 313)
+AVERAGE PRECISION = 0.3280  (102.34 / 312)
+AVERAGE F-MEASURE = 0.4166
 
 *************************************************************************

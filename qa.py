@@ -1,6 +1,7 @@
 import typeQuestions
 import namedEntityRecognition
 import textWeighter
+import dependencyAnswerExtraction
 import sys
 import os
 import spacy
@@ -8,60 +9,6 @@ import spacy
 SENTENCEWINDOW = 3
 BACKUPWINDOW = 1
 SENTENCETRIM = 2
-
-def whatAnswer(question, story, nlp):
-
-
-    mostLikelySentences = textWeighter.filterQuestions(question, story[1], ranked=True)
-    mostLikelySentence = mostLikelySentences[0]
-    qDoc = nlp(question.text)
-    qRootLemma = 0
-    for token in qDoc:
-        if token.dep_ == 'ROOT':
-            qRootLemma = token.lemma
-
-    # rootedSents = []
-    # rootedDocs = []
-    for sent in mostLikelySentences:
-        doc = nlp(sent)
-        for token in doc:
-            if token.dep_ == 'ROOT':
-                if token.lemma == qRootLemma:
-                    #return sent
-                    return entityMatcherWhat(sent, doc, question)
-                    # rootedDocs.append(doc)
-                    # rootedSents.append(sent)
-                    # break
-
-    # if len(rootedSents) > 0:
-    #     return entityMatcherWhat(rootedSents, rootedDocs, question)
-
-    return mostLikelySentence
-
-def entityMatcherWhat(sent, sentTokens, question):
-    potentialEntities = questionMatchEntity(question)
-    potentialAnswers = []
-    for token in sentTokens:
-        if token.ent_type_ in potentialEntities:
-            potentialAnswers.append(token.text)
-
-    if len(potentialAnswers) > 0:
-        return ' '.join(set(word for word in potentialAnswers if word not in question.text))
-    else:
-        return sent
-    # for docs in sentTokens:
-    #     for token in docs:
-    #         if token.ent_type_ in potentialEntities:
-    #             potentialAnswers.append(token.text)
-    #
-    # if len(potentialAnswers) > 0:
-    #     return ' '.join(set(word for word in potentialAnswers if word not in question.text))
-    # else:
-    #     return sent[0]
-
-
-
-
 
 # Retrieves all common words like
 # 'of', 'and', and 'the' that we don't
@@ -203,10 +150,8 @@ def findBetween(s, first, last):
 # sentence
 def classify(question, story, nlp):
 
-    # WHAT: Recall: .5624 | Precision: .3226 | F-Measure: .4100
-    # WHAT: Recall: .5624 | Precision: .3226 | F-Measure: .4100
-    if question.type == 'What':
-        return whatAnswer(question, story, nlp)
+    if question.type == 'What' or question.type == 'How' or question.type == 'Who':
+        return dependencyAnswerExtraction.answer(question, story, nlp)
 
     whySplitAnswer = whySplit(question, story)
     if whySplitAnswer and len(whySplitAnswer) > 0:
