@@ -150,12 +150,12 @@ def findBetween(s, first, last):
 # sentence
 def classify(question, story, nlp):
 
-    if question.type == 'What' or question.type == 'How' or question.type == 'Who':
-        return dependencyAnswerExtraction.answer(question, story, nlp)
-
     whySplitAnswer = whySplit(question, story)
     if whySplitAnswer and len(whySplitAnswer) > 0:
         return whySplitAnswer
+
+    if question.type == 'What' or question.type == 'How' or question.type == 'Who':
+        return dependencyAnswerExtraction.answer(question, story, nlp)
 
     entityMatchAnswer = entityMatch(question, story, nlp)
     if entityMatchAnswer and len(entityMatchAnswer) > 0:
@@ -248,7 +248,9 @@ def qa():
     questions = typeQuestions.getQuestions(directory)
     stories = namedEntityRecognition.getNamedEntities(directory)
 
-    nlp = spacy.load("en_core_web_sm")
+    #nlp = spacy.load("en_core_web_sm")
+    nlp = spacy.load("en_core_web_md")
+
     for id in storyIDs:
         filteredQuestions = filterQuestions(id, questions)
         story = filterStories(id, stories)

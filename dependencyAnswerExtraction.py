@@ -57,29 +57,61 @@ def testing2(potentialAnswer, question):
 def answer(question, story, nlp):
     mostLikelySentences = textWeighter.filterQuestions(question, story[1], ranked=True)
     mostLikelySentence = mostLikelySentences[0]
+    # mostLikelySentence = stopParse(question, mostLikelySentences, nlp)
+    mostLikelySentence = rootStrictLemma(question, mostLikelySentences, nlp)
+    return mostLikelySentence
+
+    #return entityMatcher(mostLikelySentence, nlp(mostLikelySentence), question)
+
+def rootStrictLemma(question, mostLikelySentences, nlp):
     qDoc = nlp(question.text)
     qRootLemma = 0
     for token in qDoc:
         if token.dep_ == 'ROOT':
+            qRoot =token
             qRootLemma = token.lemma
 
-    # rootedSents = []
-    # rootedDocs = []
+    #[t for t in doc if not token.is_stop]
     for sent in mostLikelySentences:
         doc = nlp(sent)
         for token in doc:
-            if token.dep_ == 'ROOT':
-                if token.lemma == qRootLemma:
-                    #return sent
-                    return entityMatcher(sent, doc, question)
-                    # rootedDocs.append(doc)
-                    # rootedSents.append(sent)
-                    # break
+            if token.lemma == qRootLemma:
+                return entityMatcher(sent, doc, question)
 
-    # if len(rootedSents) > 0:
-    #     return entityMatcherWhat(rootedSents, rootedDocs, question)
+    return mostLikelySentences[0]
 
-    return mostLikelySentence
+def stopParse(question, mostLikelySentences, nlp):
+
+    questionTokens = removeStops(question.text, nlp)
+
+    bestSent = mostLikelySentences[0]
+    bestSentTokens =[]
+    score = 0
+    for sent in mostLikelySentences:
+        sentTokens = removeStops(sent, nlp)
+        potScore = 0
+        potSentTokens = []
+        for qToken in questionTokens:
+            for sToken in sentTokens:
+                if qToken.similarity(sToken) > 0.5:
+                    potScore += 1
+                else:
+                    potSentTokens.append(sToken)
+        if potScore > score or (potScore == score and len(potSentTokens) > len(bestSentTokens)):
+            score = potScore
+            bestSentTokens = potSentTokens
+            bestSent = sent
+
+    return entityMatcher(bestSent, bestSentTokens, question)
+
+def removeStops(sentence, nlp):
+    doc = nlp(sentence)
+    # tokens = []
+    # for token in doc:
+    #     if not token.is_stop:
+    #         tokens.append(token)
+    tokens = [token for token in doc if not token.is_stop]
+    return tokens
 
 def entityMatcher(sent, sentTokens, question):
     potentialEntities = qa.questionMatchEntity(question)
@@ -101,3 +133,6 @@ def entityMatcher(sent, sentTokens, question):
     #     return ' '.join(set(word for word in potentialAnswers if word not in question.text))
     # else:
     #     return sent[0]
+
+    doc = spacy_nlp(article)
+    tokens = [token.text for token in doc if not token.is_stop]
