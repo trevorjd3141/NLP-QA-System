@@ -154,12 +154,16 @@ def classify(question, story, nlp):
     if whySplitAnswer and len(whySplitAnswer) > 0:
         return whySplitAnswer
 
-    if question.type == 'What' or question.type == 'How' or question.type == 'Who':
-        return dependencyAnswerExtraction.answer(question, story, nlp)
+    lemons = dependencyAnswerExtraction.answer(question, story, nlp)
+    if lemons and len(lemons) > 0:
+        return lemons
 
-    entityMatchAnswer = entityMatch(question, story, nlp)
-    if entityMatchAnswer and len(entityMatchAnswer) > 0:
-        return entityMatchAnswer
+    # if question.type == 'What' or question.type == 'How' or question.type == 'Who':
+    #     return dependencyAnswerExtraction.answer(question, story, nlp)
+    #
+    # entityMatchAnswer = entityMatch(question, story, nlp)
+    # if entityMatchAnswer and len(entityMatchAnswer) > 0:
+    #     return entityMatchAnswer
 
     if question.type == 'According' and False:
         subject = findSubject(question.text)

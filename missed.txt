@@ -1,0 +1,393 @@
+1999-W07-5-1
+Question: Where did the Kolla boys get lost?
+Comparing Key  `a ski resort'
+      and Resp `Alberta'
+Comparing Key  `the Schweitzer Mountain Ski Resort in Sandpoint, Idaho'
+      and Resp `Alberta'
+Comparing Key  `the Schweitzer Mountain Ski Resort'
+      and Resp `Alberta'
+   `a ski resort'
+
+1999-W07-5-8
+Question: Who found the boys?
+Comparing Key  `a party of snowmobilers'
+      and Resp `Carol'
+
+1999-W07-5-12
+Question: What are the boys' parents' names?
+Comparing Key  `Michael and Carol'
+      and Resp `The boys were skiing by themselves while their father attended a veterinary conference'
+
+1999-W08-1-2
+Question: How many senators voted that President Clinton was guilty of perjury?
+Comparing Key  `45'
+      and Resp `- 50'
+
+1999-W08-1-3
+Question: When was Clinton acquitted of the charges of perjury and obstructing justice?
+Comparing Key  `Friday'
+      and Resp `President Clinton was acquitted of the charge of perjury (lying in court) and of obstructing justice (hiding evidence, or getting others to lie in court)'
+
+1999-W08-5-5
+Question: Who is concerned about Radarsat-2's powerful abilities?
+Comparing Key  `the United States'
+      and Resp `Canadian'
+Comparing Key  `the U.S.'
+      and Resp `Canadian'
+Comparing Key  `the U.S. government'
+      and Resp `Canadian'
+Comparing Key  `the United States government'
+      and Resp `Canadian'
+Comparing Key  `the U.S. intelligence community'
+      and Resp `Canadian'
+   `the United States'
+
+1999-W09-5-7
+Question: What kind of animal do the inmates hunt in the summertime?
+Comparing Key  `seals'
+      and Resp `Depending on how well they do they could be sent to an outpost camp where they'll hunt and fish for months at a time'
+
+1999-W09-5-8
+Question: Who is one of the prisoners on today's hunt?
+Comparing Key  `Michael Evic'
+      and Resp `Depending on how well they do they could be sent to an outpost camp where they'll hunt and fish for months at a time'
+
+1999-W20-4-4
+Question: When was Sean fined for begging?
+Comparing Key  `March, 1999'
+      and Resp `"You can understand that the police would see it was sort of fruitless to charge people who are begging with an offence for which they're going to receive a fine, which they can never pay anyway'
+
+1999-W20-4-6
+Question: Who is Sean's lawyer?
+Comparing Key  `Mark Ertle'
+      and Resp `Sean's court case is still a few weeks away'
+
+1999-W28-1-1
+Question: Where was Tyrell Dueck from?
+Comparing Key  `Martensville, Saskatchewan'
+      and Resp `Funeral services were held over the weekend for Tyrell Dueck'
+Comparing Key  `Martensville'
+      and Resp `Funeral services were held over the weekend for Tyrell Dueck'
+Comparing Key  `Saskatchewan'
+      and Resp `Funeral services were held over the weekend for Tyrell Dueck'
+   `Martensville, Saskatchewan'
+
+1999-W28-1-3
+Question: What kind of treatment did Tyrell and his parents want to try for his condition?
+Comparing Key  `herbal, and alternative treatments that included large doses of vitamins and a special diet'
+      and Resp `Tyrell waited three months for treatment as his case went through the courts'
+
+1999-W28-1-5
+Question: How long was Tyrell's treatment delayed while the case went through the courts?
+Comparing Key  `three months'
+      and Resp `He says in Tyrell's case, government interference meant alternative treatment may have been delayed too long'
+
+1999-W28-1-7
+Question: Who claimed that Tyrell didn't have cancer?
+Comparing Key  `doctors in Mexico'
+      and Resp `"Tyrell believed alternative cancer therapy was going to improve his chances of survival'
+
+1999-W28-1-8
+Question: According to Joe Bourgeault, why did the alternative medicine fail to work in Tyrell's case?
+Comparing Key  `it may have been delayed too long'
+      and Resp `Joe Bourgeault, a supporter of alternative medicine, helped raise money to pay for Tyrell's treatment in Mexico'
+
+1999-W29-4-5
+Question: How does the electrical energy being fired off when it is not supposed to affect the brain?
+Comparing Key  `causes epileptic seizures'
+      and Resp `As a result, the affected brain cells malfunction, and fire off electrical energy when they are not supposed to'
+
+1999-W31-3-1
+Question: Where were elections for premier held?
+Comparing Key  `Nova Scotia'
+      and Resp `This vote of non-confidence means the premier must either quit, or call a new election'
+Comparing Key  `in Nova Scotia'
+      and Resp `This vote of non-confidence means the premier must either quit, or call a new election'
+   `Nova Scotia'
+
+1999-W31-3-3
+Question: How many seats in the legislature did the Progressive Conservatives win in the election?
+Comparing Key  `29'
+      and Resp `The Conservatives were able to win a majority government, meaning they will have more members in the legislature than both parties combined'
+
+1999-W31-3-6
+Question: By when has Hamm promised to cut people's taxes?
+Comparing Key  `within three years'
+      and Resp `The PC party defeated both the Liberal Party government led by Premier Russell MacLellan and Robert Chisholm's New Democratic Party'
+
+1999-W31-5-2
+Question: How big is the container holding Shoemaker's ashes?
+Comparing Key  `lipstick-sized'
+      and Resp `His ashes will be aboard NASA's Lunar Prospector'
+
+1999-W32-4-1
+Question: Where was the third annual Robot World Cup Soccer tournament held?
+Comparing Key  `Sweden'
+      and Resp `The RoboCup tournament is getting more attention as robots with artificial intelligence become smarter and faster'
+
+1999-W32-4-8
+Question: How many teams competed in the third annual RoboCup tournament?
+Comparing Key  `almost a hundred'
+      and Resp `two'
+
+1999-W32-5-2
+Question: What caused the mudslides?
+Comparing Key  `heavy rains'
+      and Resp `Rainstorms are a common cause of mudslides'
+Comparing Key  `heavy rains near the B.C.-Alberta border'
+      and Resp `Rainstorms are a common cause of mudslides'
+   `heavy rains'
+
+1999-W32-5-8
+Question: What usually causes mudslides?
+Comparing Key  `weakened land on hills and mountains'
+      and Resp `Rainstorms are a common cause of mudslides'
+
+1999-W34-4-1
+Question: Where did the centre of the earthquake hit?
+Comparing Key  `Izmit'
+      and Resp `Istanbul'
+
+1999-W34-4-6
+Question: Why are earthquake victims being treated on the streets?
+Comparing Key  `Turkish hospitals are overcrowded'
+      and Resp `Because of the number of injuries'
+Comparing Key  `Turkish hospitals can't take any more patients'
+      and Resp `Because of the number of injuries'
+   `Turkish hospitals are overcrowded'
+
+1999-W34-4-7
+Question: What was the magnitude of the earthquake, according to the National Earthquake Information Centre in Colorado?
+Comparing Key  `7.8'
+      and Resp `Despite the much higher death toll, Tuesday's earthquake wasn't quite as powerful as a 1906 earthquake in San Francisco which had a magnitude of 7.9'
+
+1999-W35-5-5
+Question: At their current viewing rates, who will spend more time watching TV than they will in the classroom?
+Comparing Key  `the average high school graduate'
+      and Resp `Canadian'
+
+1999-W35-5-7
+Question: When do pediatricians say the TV should be turned off?
+Comparing Key  `during meal times'
+      and Resp `Pediatricians say that not all television is bad'
+
+1999-W37-4-5
+Question: What kind of role does Clarkson plan to play in Canadian unity?
+Comparing Key  `active yet sensible'
+      and Resp `For example, Clarkson says, she and her husband, author John Ralston Saul, plan to use the governor general's Quebec City residence, the Citadel, more often'
+
+1999-W37-4-7
+Question: Who is Adrienne Clarkson replacing as governor general?
+Comparing Key  `Romeo LeBlanc'
+      and Resp `Adrienne Clarkson calls it a sign of Canadian evolution'
+
+1999-W37-4-9
+Question: What did Adrienne Clarkson do during her career on CBC-TV?
+Comparing Key  `she was a high-profile interviewer and host'
+      and Resp `"I am very humbled by the idea of serving beyond, really, what I could ever have expected to do for my country," said Clarkson'
+
+1999-W38-1-1
+Question: How many soldiers is Canada sending to East Timor?
+Comparing Key  `as many as 600'
+      and Resp `He said that the conflict in East Timor was a matter for Indonesians to work out between themselves'
+
+1999-W38-1-9
+Question: How many peacekeeping troops does Canada now have in 22 nations around the world?
+Comparing Key  `about 3,900'
+      and Resp `Prime Minister Chretien expects Canada to have troops in East Timor within 30 days'
+Comparing Key  `3,900'
+      and Resp `Prime Minister Chretien expects Canada to have troops in East Timor within 30 days'
+   `about 3,900'
+
+1999-W39-1-3
+Question: How many people in the Northwest Territories speak French?
+Comparing Key  `a couple of thousand'
+      and Resp `"Parlez-vous francais?" (Do you speak French?)  Francophones (French speakers) in the Northwest Territories say that their rights are being ignored'
+
+1999-W39-1-5
+Question: What percentage of documents requested from the territorial government in French were unavailable, according to a one-day survey?
+Comparing Key  `75 per cent'
+      and Resp `That was the result of a one-day survey conducted for them last February'
+
+1999-W39-3-6
+Question: Where will a recount take place?
+Comparing Key  `in the suburban Winnipeg riding of Assiniboia'
+      and Resp `Manitoba'
+Comparing Key  `Assiniboia'
+      and Resp `Manitoba'
+   `in the suburban Winnipeg riding of Assiniboia'
+
+1999-W39-3-8
+Question: What per cent of the popular vote did the NDP take?
+Comparing Key  `45'
+      and Resp `It took him four tries, but yesterday evening New Democratic Party leader Gary Doer finally achieved what he set out to do: win a provincial election and become the Premier of Manitoba'
+
+1999-W39-5-4
+Question: How large a fine do the students who are arrested face?
+Comparing Key  `$100'
+      and Resp `To put pressure on the government, they are refusing to do any activities that are not paid'
+
+1999-W41-3-8
+Question: How fast were the two trains going when they hit one another?
+Comparing Key  `about 100 km/h'
+      and Resp `A British Broadcasting Corporation reporter says the initial investigation suggests one of the trains passed one red and two yellow warning signals before hitting the other train'
+
+1999-W41-5-5
+Question: Who did Ms. Clarkson praise during her speech?
+Comparing Key  `her 92-year-old father and her mother'
+      and Resp `During a speech, Ms'
+
+1999-W41-5-9
+Question: As Governor General, who does Ms. Clarkson represent?
+Comparing Key  `the Queen of England'
+      and Resp `Ms'
+
+1999-W43-5-7
+Question: What company runs YNN?
+Comparing Key  `Montreal-based Athena Educational Partners'
+      and Resp `Earlier this year, CBC4Kids ran stories about how schools in Quebec and Ontario are testing out the controversial concept in some classrooms'
+Comparing Key  `Athena Educational Partners'
+      and Resp `Earlier this year, CBC4Kids ran stories about how schools in Quebec and Ontario are testing out the controversial concept in some classrooms'
+   `Montreal-based Athena Educational Partners'
+
+1999-W45-5-2
+Question: Who donated the pizza and the $10,000 cheque to Inuksuk High School?
+Comparing Key  `the Canadian Academy of Recording Arts and Sciences'
+      and Resp `Aglukark Iqaluit Susan'
+
+1999-W45-5-4
+Question: How long has Inuksuk High School been without a music program?
+Comparing Key  `about 10 years'
+      and Resp `Students at Iqaluit's Inuksuk High School are celebrating the revival of their music program with singer Susan Aglukark, pizza and a $10,000 cheque today'
+
+1999-W45-5-9
+Question: Who will be able to use the school's instruments?
+Comparing Key  `the music society'
+      and Resp `MacLeod'
+
+1999-W47-5-2
+Question: Where in China did the woman come from?
+Comparing Key  `Fujian province'
+      and Resp `The woman also says her family received a notice that she'll be sterilized so she can't have any more babies if she returns to China'
+
+1999-W49-5-6
+Question: Where on Mars do scientists know there is frozen water?
+Comparing Key  `in its northern ice cap'
+      and Resp `But scientists believe there may be more underground'
+
+1999-W49-5-8
+Question: Where on Mars do scientists think there may be more water?
+Comparing Key  `underground'
+      and Resp `Rome Greece'
+
+1999-W51-1-1
+Question: What kind of lawsuit was filed against Sarah McLachlan?
+Comparing Key  `copyight'
+      and Resp `A Vancouver, British Columbia, judge has thrown out a copyright lawsuit against Canadian pop singer Sarah McLachlan'
+
+1999-W51-1-2
+Question: How did McLachlan feel about the suit being thrown out?
+Comparing Key  `very relieved'
+      and Resp `A Vancouver, British Columbia, judge has thrown out a copyright lawsuit against Canadian pop singer Sarah McLachlan'
+
+1999-W51-1-6
+Question: Why was Bruce Neudorf hired, according to McLachlan?
+Comparing Key  `to help McLachlan pursue a career as a recording artist'
+      and Resp `because she had never written songs before'
+Comparing Key  `to do pre-production work'
+      and Resp `because she had never written songs before'
+   `to help McLachlan pursue a career as a recording artist'
+
+1999-W51-1-7
+Question: What did Neudorf claim he did not receive from McLachlan?
+Comparing Key  `proper royalties for producing "Touch"'
+      and Resp `McLachlan and the other defendants rejected Neudorf's claims, suggesting he was not hired to write songs, but rather to do pre-production work'
+
+1999-W51-1-8
+Question: How many copies of the album "Touch" were sold?
+Comparing Key  `625,000'
+      and Resp `They said Neudorf was properly compensated, receiving about $4,000 in wages and royalties worth 16 cents on each "Touch" album sold'
+
+1999-W51-1-9
+Question: What concert series did McLachlan mastermind?
+Comparing Key  `Lilith Fair'
+      and Resp `McLachlan and the other defendants rejected Neudorf's claims, suggesting he was not hired to write songs, but rather to do pre-production work'
+
+2000-W02-3-10
+Question: What does charcoal do to chemicals in water?
+Comparing Key  `absorbs them'
+      and Resp `Fogo town manager Bruce Pomeroy says that the government "should have made everyone aware if there were risks -- like they are doing now -- two years ago."  There are easy ways of getting rid of many of the THMs in drinking water'
+
+2000-W02-5-2
+Question: Where is the Family Farm Tribute concert being held?
+Comparing Key  `Toronto'
+      and Resp `It is called The Family Farm Tribute'
+Comparing Key  `Toronto, Canada'
+      and Resp `It is called The Family Farm Tribute'
+   `Toronto'
+
+2000-W03-1-5
+Question: Where was Jimmy Rankin when he heard the news of his brother's death?
+Comparing Key  `a Farm Aid concert in Toronto'
+      and Resp `Family friend Russell De Carle, lead singer for Prairie Oyster, said he was stunned when he heard the news at the benefit'
+Comparing Key  `a Farm Aid concert'
+      and Resp `Family friend Russell De Carle, lead singer for Prairie Oyster, said he was stunned when he heard the news at the benefit'
+Comparing Key  `Toronto'
+      and Resp `Family friend Russell De Carle, lead singer for Prairie Oyster, said he was stunned when he heard the news at the benefit'
+   `a Farm Aid concert in Toronto'
+
+2000-W03-2-8
+Question: How much did the Polar Lander weigh?
+Comparing Key  `576 kilograms'
+      and Resp `Polar Lander was to have touched down December 3 for a 90-day mission'
+
+2000-W03-2-11
+Question: How many legs did the Mars Polar Lander have?
+Comparing Key  `three'
+      and Resp `The Mars Polar Lander could have touched down on the side of a canyon and toppled over'
+
+2000-W03-3-2
+Question: Where will the money come from that the government gives to the hockey teams
+Comparing Key  `taxpayers'
+      and Resp `Canada'
+
+2000-W03-3-6
+Question: What is a subsidy?
+Comparing Key  `money given to help someone out'
+      and Resp `NHL teams like the Ottawa Senators and the Edmonton Oilers have said for years that they are going broke'
+
+2000-W05-4-2
+Question: What are the other two films in Mehta's trilogy?
+Comparing Key  `Earth and Fire'
+      and Resp `Water is the third in a controversial trilogy (a set of three) of films by the Indian-born film maker'
+
+2000-W05-4-5
+Question: Where was the film Water being shot?
+Comparing Key  `Varanasi'
+      and Resp `Mehta had obtained permission to shoot the film from the Indian federal Information and Broadcasting Ministry, as well as the government of the state where the film is being shot'
+
+2000-W05-4-8
+Question: When was India partitioned?
+Comparing Key  `1947'
+      and Resp `1858'
+
+2000-W06-5-3
+Question: Where is Mt. Logan?
+Comparing Key  `in the Yukon Territory'
+      and Resp `Alberta Canada Cochrane'
+Comparing Key  `Yukon Territory'
+      and Resp `Alberta Canada Cochrane'
+   `in the Yukon Territory'
+
+2000-W07-5-6
+Question: According to Rabbi Marvin Hier, why had Haider had flown to Canada?
+Comparing Key  `to try to attend the wedding of a well known Hasidic leader's relative'
+      and Resp `because even their clothes reflect their beliefs'
+
+Where: 14
+When: 4
+What: 17
+Who: 9
+Why: 2
+How: 16
+According: 2

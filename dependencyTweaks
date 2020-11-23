@@ -1,0 +1,73 @@
+Documenting Specific tweaks and affects
+
+First Line: calls checking for the root of the question in the top returned vectors
+Second Line: exact same but includes entity checking
+
+    #BASE: Recall: .5328 | Precision: .3171 | F-Measure: .3976
+
+    # WHY: Recall: .5363 | Precision: .3083 | F-Measure: .3915
+    # WHY: Recall: .5363 | Precision: .3083 | F-Measure: .3915
+    # if question.type == 'Why':
+    #     return whatAnswer(question, story, nlp)
+
+    # WHAT: Recall: .5624 | Precision: .3226 | F-Measure: .4100
+    # WHAT: Recall: .5624 | Precision: .3226 | F-Measure: .4100
+    # if question.type == 'What':
+    #     return whatAnswer(question, story, nlp)
+
+    # HOW: Recall: .5414 | Precision: .3154 | F-Measure: .3986
+    # HOW: Recall: .5414 | Precision: .3184 | F-Measure: .4009
+    # if question.type == 'How':
+    #     return whatAnswer(question, story, nlp)
+
+    # WHEN: Recall: .5406 | Precision: .2800 | F-Measure: .3689
+    # WHEN: Recall: .5387 | Precision: .2989 | F-Measure: .3845
+    # if question.type == 'When':
+    #     return whatAnswer(question, story, nlp)
+
+    # WHERE: Recall: .5496 | Precision: .3030 | F-Measure: .3906
+    # WHERE: Recall: .5281 | Precision: .3151 | F-Measure: .3947
+    # if question.type == 'Where':
+    #     return whatAnswer(question, story, nlp)
+
+    # WHO: Recall: .5547 | Precision: .3028 | F-Measure: .3917
+    # WHO: Recall: .5326 | Precision: .3212 | F-Measure: .4008
+    # if question.type == 'Who':
+    #     return whatAnswer(question, story, nlp)
+
+
+    what, how, who for strict qRootLemma with entitiyMatch
+    FINAL RESULTS
+    AVERAGE RECALL =  0.5709  (178.68 / 313)
+    AVERAGE PRECISION = 0.3280  (102.34 / 312)
+    AVERAGE F-MEASURE = 0.4166
+
+
+    Root, dobj, nsubj, pobj
+    AVERAGE RECALL =    0.6118  (191.50 / 313)
+    AVERAGE PRECISION = 0.3583  (112.15 / 313)
+    AVERAGE F-MEASURE = 0.4519
+
+    NO pobj
+    AVERAGE RECALL =    0.6155  (192.67 / 313)
+    AVERAGE PRECISION = 0.3551  (111.15 / 313)
+    AVERAGE F-MEASURE = 0.4504
+
+    NO nsubj
+    AVERAGE RECALL =    0.6145  (192.35 / 313)
+    AVERAGE PRECISION = 0.3559  (111.40 / 313)
+    AVERAGE F-MEASURE = 0.4508
+
+    NO dobj
+    AVERAGE RECALL =    0.6159  (192.78 / 313)
+    AVERAGE PRECISION = 0.3593  (112.45 / 313)
+    AVERAGE F-MEASURE = 0.4538
+
+    NO root
+    AVERAGE RECALL =    0.5396  (168.90 / 313)
+    AVERAGE PRECISION = 0.3290  (102.99 / 313)
+    AVERAGE F-MEASURE = 0.4088
+
+
+
+
