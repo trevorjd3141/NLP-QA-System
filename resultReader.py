@@ -1,11 +1,12 @@
 import sys
 
+# resultReader was used to identify what questions were still
+# being missed completely, match them to their respective
+# question, answer, and response. This allowed for
+# quicker and more precise assessments
+
 def getQuestion(questionID, answerKeyLines):
     return answerKeyLines[answerKeyLines.index('QuestionID: ' + questionID)+1]
-    # for i in range(len(answerKeyLines)):
-    #     if questionID in answerKeyLines[i]:
-    #         question = answerKeyLines[i + 1]
-    #         return question
 
 def getMissed(resultLines, missedIDWrite):
     dict = {

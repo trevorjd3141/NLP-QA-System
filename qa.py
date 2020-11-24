@@ -154,16 +154,9 @@ def classify(question, story, nlp):
     if whySplitAnswer and len(whySplitAnswer) > 0:
         return whySplitAnswer
 
-    lemons = answerExtraction.answer(question, story, nlp)
-    if lemons and len(lemons) > 0:
-        return lemons
-
-    # if question.type == 'What' or question.type == 'How' or question.type == 'Who':
-    #     return dependencyAnswerExtraction.answer(question, story, nlp)
-    #
-    # entityMatchAnswer = entityMatch(question, story, nlp)
-    # if entityMatchAnswer and len(entityMatchAnswer) > 0:
-    #     return entityMatchAnswer
+    answerExtract = answerExtraction.answer(question, story, nlp)
+    if answerExtract and len(answerExtract) > 0:
+        return answerExtract
 
     if question.type == 'According' and False:
         subject = findSubject(question.text)
@@ -252,7 +245,6 @@ def qa():
     questions = typeQuestions.getQuestions(directory)
     stories = namedEntityRecognition.getNamedEntities(directory)
 
-    #nlp = spacy.load("en_core_web_sm")
     nlp = spacy.load("en_core_web_md")
 
     for id in storyIDs:
