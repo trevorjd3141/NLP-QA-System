@@ -8,6 +8,38 @@ Comparing Key  `the Schweitzer Mountain Ski Resort'
       and Resp `Alberta'
    `a ski resort'
 
+1999-W07-5-2
+Question: Who is the youngest brother?
+Comparing Key  `A.J. Kolla'
+      and Resp `Kolla, who celebrated his 14th birthday on Tuesday, two days after he and his brother were caught out overnight at the Schweitzer Mountain Ski Resort in Sandpoint, Idaho'
+
+1999-W07-5-4
+Question: When did the boys realize they were lost?
+Comparing Key  `when they reached a riverbank around 4 p.m.'
+      and Resp `"When we were hiking back and it was starting to get dark, we realized 'Oh oh, we're going to be here for a while,'" said A.J'
+Comparing Key  `when they reached a riverbank'
+      and Resp `"When we were hiking back and it was starting to get dark, we realized 'Oh oh, we're going to be here for a while,'" said A.J'
+Comparing Key  `around 4 p.m'
+      and Resp `"When we were hiking back and it was starting to get dark, we realized 'Oh oh, we're going to be here for a while,'" said A.J'
+   `when they reached a riverbank'
+
+1999-W07-5-6
+Question: What did they use to dig the snow cave?
+Comparing Key  `their hands'
+      and Resp `Using their hands, the two dug into the snow hollow around the base of a tree, covered the floor with pine boughs and settled in for a long, cold night'
+
+1999-W07-5-7
+Question: Why was the search for the boys called off?
+Comparing Key  `weather'
+      and Resp `The weather was so bad that the search parties were called in and the search called off'
+Comparing Key  `blizzard'
+      and Resp `The weather was so bad that the search parties were called in and the search called off'
+Comparing Key  `wind'
+      and Resp `The weather was so bad that the search parties were called in and the search called off'
+Comparing Key  `110-kilometres-an-hour winds'
+      and Resp `The weather was so bad that the search parties were called in and the search called off'
+   `weather'
+
 1999-W07-5-8
 Question: Who found the boys?
 Comparing Key  `a party of snowmobilers'
@@ -18,6 +50,11 @@ Question: What are the boys' parents' names?
 Comparing Key  `Michael and Carol'
       and Resp `The boys were skiing by themselves while their father attended a veterinary conference'
 
+1999-W08-1-1
+Question: What does "perjury" mean?
+Comparing Key  `lying in court'
+      and Resp `In fact, Clinton's approval rating climbed during the trial, which means Americans think he is still fit to be their president'
+
 1999-W08-1-2
 Question: How many senators voted that President Clinton was guilty of perjury?
 Comparing Key  `45'
@@ -27,6 +64,11 @@ Comparing Key  `45'
 Question: When was Clinton acquitted of the charges of perjury and obstructing justice?
 Comparing Key  `Friday'
       and Resp `President Clinton was acquitted of the charge of perjury (lying in court) and of obstructing justice (hiding evidence, or getting others to lie in court)'
+
+1999-W08-1-7
+Question: What happened to Clinton's approval ratings during the impeachment trial?
+Comparing Key  `they climbed'
+      and Resp `In fact, Clinton's approval rating climbed during the trial, which means Americans think he is still fit to be their president'
 
 1999-W08-5-5
 Question: Who is concerned about Radarsat-2's powerful abilities?
@@ -41,6 +83,16 @@ Comparing Key  `the United States government'
 Comparing Key  `the U.S. intelligence community'
       and Resp `Canadian'
    `the United States'
+
+1999-W09-5-3
+Question: Why does Akavak think some Inuits commit crimes?
+Comparing Key  `they have lost their traditional skills'
+      and Resp `"Whenever you have inmates that come out of jail feeling good about themselves and wanting to succeed I think that cost is well borne out in terms of perhaps reduced recidivism [a return to committing crimes]'
+
+1999-W09-5-5
+Question: How much do the hunting programs cost?
+Comparing Key  `tens of thousands of dollars'
+      and Resp `"Whenever you have inmates that come out of jail feeling good about themselves and wanting to succeed I think that cost is well borne out in terms of perhaps reduced recidivism [a return to committing crimes]'
 
 1999-W09-5-7
 Question: What kind of animal do the inmates hunt in the summertime?
@@ -61,6 +113,31 @@ Comparing Key  `March, 1999'
 Question: Who is Sean's lawyer?
 Comparing Key  `Mark Ertle'
       and Resp `Sean's court case is still a few weeks away'
+
+1999-W20-4-7
+Question: What kinds of laws have governments passed that limit the freedom of expression?
+Comparing Key  `laws against pornography and hate propaganda'
+      and Resp `Here's what the Charter says:  Everyone has the following fundamental freedoms:  Freedom of conscience and religion; Freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication; Freedom of peaceful assembly; and Freedom of association'
+Comparing Key  `laws against pornography'
+      and Resp `Here's what the Charter says:  Everyone has the following fundamental freedoms:  Freedom of conscience and religion; Freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication; Freedom of peaceful assembly; and Freedom of association'
+Comparing Key  `laws against hate propaganda'
+      and Resp `Here's what the Charter says:  Everyone has the following fundamental freedoms:  Freedom of conscience and religion; Freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication; Freedom of peaceful assembly; and Freedom of association'
+Comparing Key  `anti-panhandling laws'
+      and Resp `Here's what the Charter says:  Everyone has the following fundamental freedoms:  Freedom of conscience and religion; Freedom of thought, belief, opinion and expression, including freedom of the press and other media of communication; Freedom of peaceful assembly; and Freedom of association'
+   `laws against pornography and hate propaganda'
+
+1999-W26-1-2
+Question: As part of the peace deal with the KLA, what have KLA members agreed to do?
+Comparing Key  `hand over their large weapons to NATO forces and stop wearing military uniforms'
+      and Resp `One of the major questions is this: what will happen to those Serbs who decide to remain in Kosovo? Will Albanians and Serbs be able to live together in peace?  The NATO bombing of Yugoslavia destroyed hundreds of roads, bridges, factories, oil refineries, electric generating plants and office buildings'
+
+1999-W27-3-2
+Question: Where is this case being tried?
+Comparing Key  `Vancouver, British Columbia'
+      and Resp `The case all comes down to a question of his word against hers'
+Comparing Key  `in a court in Vancouver, British Columbia'
+      and Resp `The case all comes down to a question of his word against hers'
+   `in a court in Vancouver, British Columbia'
 
 1999-W28-1-1
 Question: Where was Tyrell Dueck from?
@@ -97,6 +174,14 @@ Question: How does the electrical energy being fired off when it is not supposed
 Comparing Key  `causes epileptic seizures'
       and Resp `As a result, the affected brain cells malfunction, and fire off electrical energy when they are not supposed to'
 
+1999-W29-4-7
+Question: What might happen to Amber as a result of the surgery?
+Comparing Key  `she might be unable to talk'
+      and Resp `It is not known what causes the disease, but it is known that cells in one half of the brain become inflamed, or puffy when infected'
+Comparing Key  `the surgery could leave Amber without the ability to talk'
+      and Resp `It is not known what causes the disease, but it is known that cells in one half of the brain become inflamed, or puffy when infected'
+   `the surgery could leave Amber without the ability to talk'
+
 1999-W31-3-1
 Question: Where were elections for premier held?
 Comparing Key  `Nova Scotia'
@@ -120,10 +205,23 @@ Question: How big is the container holding Shoemaker's ashes?
 Comparing Key  `lipstick-sized'
       and Resp `His ashes will be aboard NASA's Lunar Prospector'
 
+1999-W31-5-5
+Question: On what was Shoemaker considered an authority?
+Comparing Key  `craters and the collisions that cause them'
+      and Resp `Shoemaker will be the first human to be laid to rest on another celestial body'
+
 1999-W32-4-1
 Question: Where was the third annual Robot World Cup Soccer tournament held?
 Comparing Key  `Sweden'
       and Resp `The RoboCup tournament is getting more attention as robots with artificial intelligence become smarter and faster'
+
+1999-W32-4-3
+Question: How large are the soccer-playing robots?
+Comparing Key  `about the size of a microwave oven'
+      and Resp `The RoboCup tournament is getting more attention as robots with artificial intelligence become smarter and faster'
+Comparing Key  `the size of a microwave oven'
+      and Resp `The RoboCup tournament is getting more attention as robots with artificial intelligence become smarter and faster'
+   `the size of a microwave oven'
 
 1999-W32-4-8
 Question: How many teams competed in the third annual RoboCup tournament?
@@ -143,10 +241,33 @@ Question: What usually causes mudslides?
 Comparing Key  `weakened land on hills and mountains'
       and Resp `Rainstorms are a common cause of mudslides'
 
+1999-W33-5-10
+Question: How much of the cleanup cost for Lunenberg Harbor does the mayor of Lunenberg want the federal and provincial governments to pay?
+Comparing Key  `half'
+      and Resp `Now the Mayor wants the federal and provincial governments to pay half the cost of cleaning up Lunenburg Harbour'
+
 1999-W34-4-1
 Question: Where did the centre of the earthquake hit?
 Comparing Key  `Izmit'
       and Resp `Istanbul'
+
+1999-W34-4-2
+Question: What is the capital of Turkey?
+Comparing Key  `Istanbul'
+      and Resp `Izmit is about 90 kilometres southeast of Istanbul on the Sea of Marmara'
+
+1999-W34-4-3
+Question: When did the earthquake hit?
+Comparing Key  `around 3 o'clock in the morning'
+      and Resp `The centre of the earthquake hit Izmit, the region just south of Istanbul, the country's capital'
+Comparing Key  `early Tuesday'
+      and Resp `The centre of the earthquake hit Izmit, the region just south of Istanbul, the country's capital'
+   `around 3 o'clock in the morning'
+
+1999-W34-4-5
+Question: About how many people were reportedly injured by the earthquake?
+Comparing Key  `at least 21,000'
+      and Resp `The earthquake hit at about 3 o'clock in the morning, while many people were still sleeping'
 
 1999-W34-4-6
 Question: Why are earthquake victims being treated on the streets?
@@ -161,6 +282,11 @@ Question: What was the magnitude of the earthquake, according to the National Ea
 Comparing Key  `7.8'
       and Resp `Despite the much higher death toll, Tuesday's earthquake wasn't quite as powerful as a 1906 earthquake in San Francisco which had a magnitude of 7.9'
 
+1999-W35-5-4
+Question: How much time should school children spend watching TV each day?
+Comparing Key  `no more than two hours'
+      and Resp `At current Canadian rates, the average high school graduate will have spent more time watching TV than they did learning in a classroom'
+
 1999-W35-5-5
 Question: At their current viewing rates, who will spend more time watching TV than they will in the classroom?
 Comparing Key  `the average high school graduate'
@@ -171,9 +297,30 @@ Question: When do pediatricians say the TV should be turned off?
 Comparing Key  `during meal times'
       and Resp `Pediatricians say that not all television is bad'
 
+1999-W37-2-5
+Question: Where did President Chirac arrive in the Nunavut territory?
+Comparing Key  `the Nunavut capital of Iqaluit'
+      and Resp `President Chirac is the first foreign leader to visit the territory'
+Comparing Key  `Iqaluit'
+      and Resp `President Chirac is the first foreign leader to visit the territory'
+   `the Nunavut capital of Iqaluit'
+
+1999-W37-2-9
+Question: What site in Nunavut did President Chirat visit?
+Comparing Key  `a community hall run by the Nunavut Francophone Association'
+      and Resp `"Here is a vast country, the land of the aboriginal people, the land of the Inuit, at once English and French speaking, that is perfecting the art of living together in a spirit of peace and tolerance."  Prime Minister Chretien, who was kept busy shaking hands with Nunavut residents, said President Chirac's visit was a boost for the territory'
+Comparing Key  `a community hall'
+      and Resp `"Here is a vast country, the land of the aboriginal people, the land of the Inuit, at once English and French speaking, that is perfecting the art of living together in a spirit of peace and tolerance."  Prime Minister Chretien, who was kept busy shaking hands with Nunavut residents, said President Chirac's visit was a boost for the territory'
+   `a community hall run by the Nunavut Francophone Association'
+
 1999-W37-4-5
 Question: What kind of role does Clarkson plan to play in Canadian unity?
 Comparing Key  `active yet sensible'
+      and Resp `For example, Clarkson says, she and her husband, author John Ralston Saul, plan to use the governor general's Quebec City residence, the Citadel, more often'
+
+1999-W37-4-6
+Question: How does Clarkson plan to use the governor general's Quebec City residence, the Citadel?
+Comparing Key  `more often'
       and Resp `For example, Clarkson says, she and her husband, author John Ralston Saul, plan to use the governor general's Quebec City residence, the Citadel, more often'
 
 1999-W37-4-7
@@ -190,6 +337,11 @@ Comparing Key  `she was a high-profile interviewer and host'
 Question: How many soldiers is Canada sending to East Timor?
 Comparing Key  `as many as 600'
       and Resp `He said that the conflict in East Timor was a matter for Indonesians to work out between themselves'
+
+1999-W38-1-5
+Question: What is the capital city of East Timor?
+Comparing Key  `Dili'
+      and Resp `The East Timor capitol city of Dili has been turned into a burning, looted ghost town'
 
 1999-W38-1-9
 Question: How many peacekeeping troops does Canada now have in 22 nations around the world?
@@ -209,6 +361,11 @@ Question: What percentage of documents requested from the territorial government
 Comparing Key  `75 per cent'
       and Resp `That was the result of a one-day survey conducted for them last February'
 
+1999-W39-3-4
+Question: What has Doer promised to get rid of?
+Comparing Key  `hallway medicine'
+      and Resp `He promised to get rid of what has become known as "hallway medicine." Many of Manitoba's hospitals are so crowded that doctors have had to park patient's beds in the corridors'
+
 1999-W39-3-6
 Question: Where will a recount take place?
 Comparing Key  `in the suburban Winnipeg riding of Assiniboia'
@@ -227,10 +384,20 @@ Question: How large a fine do the students who are arrested face?
 Comparing Key  `$100'
       and Resp `To put pressure on the government, they are refusing to do any activities that are not paid'
 
+1999-W41-3-2
+Question: At what time did the trains collide?
+Comparing Key  `8:11 a.m.'
+      and Resp `The trains collided at 8:11 a.m., three kilometres west of London's Paddington Station'
+
 1999-W41-3-8
 Question: How fast were the two trains going when they hit one another?
 Comparing Key  `about 100 km/h'
       and Resp `A British Broadcasting Corporation reporter says the initial investigation suggests one of the trains passed one red and two yellow warning signals before hitting the other train'
+
+1999-W41-5-3
+Question: While in office, what title does Ms. Clarkson assume?
+Comparing Key  `Excellency'
+      and Resp `The Governor General formally takes office once the oaths have been sworn and assumes the title "Excellency" while in office, and the lifetime title of "Right Honourable"'
 
 1999-W41-5-5
 Question: Who did Ms. Clarkson praise during her speech?
@@ -241,6 +408,14 @@ Comparing Key  `her 92-year-old father and her mother'
 Question: As Governor General, who does Ms. Clarkson represent?
 Comparing Key  `the Queen of England'
       and Resp `Ms'
+
+1999-W43-5-4
+Question: How many minutes of commercials are in YNN's 12-minute daily feature?
+Comparing Key  `two and one-half'
+      and Resp `"We will not have commercials and products being sold in the classrooms," says Education Minister Drew Caldwell'
+Comparing Key  `two and one-half minutes'
+      and Resp `"We will not have commercials and products being sold in the classrooms," says Education Minister Drew Caldwell'
+   `two and one-half'
 
 1999-W43-5-7
 Question: What company runs YNN?
@@ -269,6 +444,16 @@ Comparing Key  `the music society'
 Question: Where in China did the woman come from?
 Comparing Key  `Fujian province'
       and Resp `The woman also says her family received a notice that she'll be sterilized so she can't have any more babies if she returns to China'
+
+1999-W47-5-5
+Question: What will happen to the Chinese people whose requests for refugee status fail?
+Comparing Key  `they will be sent back to China'
+      and Resp `She planned to seek refugee status and bring her husband and child'
+
+1999-W47-5-11
+Question: Who is Larry Smeets?
+Comparing Key  `the lawyer representing the Chinese woman from Fujian'
+      and Resp `Larry Smeets, her lawyer, says the Federal Court of Appeal has concluded in the past that forced sterilization was a form of persecution, so this reason could be recognized as a reason for refugees to be allowed to remain in Canada'
 
 1999-W49-5-6
 Question: Where on Mars do scientists know there is frozen water?
@@ -313,6 +498,27 @@ Question: What concert series did McLachlan mastermind?
 Comparing Key  `Lilith Fair'
       and Resp `McLachlan and the other defendants rejected Neudorf's claims, suggesting he was not hired to write songs, but rather to do pre-production work'
 
+1999-W51-1-10
+Question: What did McLachlan occasionally do during the trial?
+Comparing Key  `sang and played keyboard'
+      and Resp `McLachlan and the other defendants rejected Neudorf's claims, suggesting he was not hired to write songs, but rather to do pre-production work'
+Comparing Key  `sang and played keyboard before the court staff'
+      and Resp `McLachlan and the other defendants rejected Neudorf's claims, suggesting he was not hired to write songs, but rather to do pre-production work'
+   `sang and played keyboard before the court staff'
+
+2000-W02-3-8
+Question: According to Fogo town manager Bruce Pomeroy, when should the government have made everyone aware if there were risks from THMs?
+Comparing Key  `two years ago'
+      and Resp `Fogo town manager Bruce Pomeroy says that the government "should have made everyone aware if there were risks -- like they are doing now -- two years ago."  There are easy ways of getting rid of many of the THMs in drinking water'
+
+2000-W02-3-9
+Question: If water is left in an opened container for 24 hours, what happens to many of the chemicals?
+Comparing Key  `they evaporate'
+      and Resp `You can leave water in an open container for 24 hours, and many of the chemicals will evaporate'
+Comparing Key  `evaporate'
+      and Resp `You can leave water in an open container for 24 hours, and many of the chemicals will evaporate'
+   `evaporate'
+
 2000-W02-3-10
 Question: What does charcoal do to chemicals in water?
 Comparing Key  `absorbs them'
@@ -336,6 +542,19 @@ Comparing Key  `Toronto'
       and Resp `Family friend Russell De Carle, lead singer for Prairie Oyster, said he was stunned when he heard the news at the benefit'
    `a Farm Aid concert in Toronto'
 
+2000-W03-2-3
+Question: Where on Mars was the spacecaft supposed to touch down?
+Comparing Key  `near Mars' south pole'
+      and Resp `The Mars Polar Lander was on a mission to Mars to study its atmosphere and search for water, something that could help scientists determine whether life ever existed on Mars'
+
+2000-W03-2-4
+Question: What did the Mars Global Surveyor do?
+Comparing Key  `took high-resolution images of the planned Polar Lander landing site'
+      and Resp `"We didn't see anything," said Richard Cook, the spacecraft's project manager at NASA's Jet Propulsion Laboratory'
+Comparing Key  `searched for signs of the lander'
+      and Resp `"We didn't see anything," said Richard Cook, the spacecraft's project manager at NASA's Jet Propulsion Laboratory'
+   `searched for signs of the lander'
+
 2000-W03-2-8
 Question: How much did the Polar Lander weigh?
 Comparing Key  `576 kilograms'
@@ -351,20 +570,40 @@ Question: Where will the money come from that the government gives to the hockey
 Comparing Key  `taxpayers'
       and Resp `Canada'
 
+2000-W03-3-5
+Question: What is Pavel Bure's occupation?
+Comparing Key  `hockey player'
+      and Resp `He says that it is not fair that millionaire hockey players like Turner Stevenson and Pavel Bure are getting help while hundreds of Olympic athletes have to scramble every month just to pay their bills'
+
 2000-W03-3-6
 Question: What is a subsidy?
 Comparing Key  `money given to help someone out'
       and Resp `NHL teams like the Ottawa Senators and the Edmonton Oilers have said for years that they are going broke'
+
+2000-W05-4-1
+Question: Why did some members of the Hindu religion destroy the sets for the movie, Water, by Deepa Mehta?
+Comparing Key  `they accuse Mehta of insulting Hindu traditions'
+      and Resp `so they divided the country into two - India in the south, where a majority of the population believes in the Hindu religion, and Pakistan in the north, where the majority of the population believes in the Muslim religion'
 
 2000-W05-4-2
 Question: What are the other two films in Mehta's trilogy?
 Comparing Key  `Earth and Fire'
       and Resp `Water is the third in a controversial trilogy (a set of three) of films by the Indian-born film maker'
 
+2000-W05-4-4
+Question: What are fundamentalists?
+Comparing Key  `strongly religious people who refuse anything that disagrees with their faith'
+      and Resp `Canadian film maker Deepa Mehta is finding out that making a movie in India is never easy'
+
 2000-W05-4-5
 Question: Where was the film Water being shot?
 Comparing Key  `Varanasi'
       and Resp `Mehta had obtained permission to shoot the film from the Indian federal Information and Broadcasting Ministry, as well as the government of the state where the film is being shot'
+
+2000-W05-4-7
+Question: What was Mehta's film, Fire, about?
+Comparing Key  `the relationship of two women caught in unhappy marriages'
+      and Resp `Last year, Mehta's film, Fire, was pulled from theatres in India after violent protests by Hindu nationalists'
 
 2000-W05-4-8
 Question: When was India partitioned?
@@ -379,15 +618,25 @@ Comparing Key  `Yukon Territory'
       and Resp `Alberta Canada Cochrane'
    `in the Yukon Territory'
 
+2000-W06-5-10
+Question: What other mountain would Watson like to climb after Mt. Logan?
+Comparing Key  `Mt. Everest'
+      and Resp `He plans to reach even bigger heights, like the world's tallest mountain - Mount Everest'
+
+2000-W07-5-1
+Question: What party does Joerg Haider lead in Austria?
+Comparing Key  `Freedom Party'
+      and Resp `In an interview published in Montreal's The Gazette, Haider said he and the Freedom Party he leads are being unfairly demonized as neo-fascists by his opponents'
+
 2000-W07-5-6
 Question: According to Rabbi Marvin Hier, why had Haider had flown to Canada?
 Comparing Key  `to try to attend the wedding of a well known Hasidic leader's relative'
       and Resp `because even their clothes reflect their beliefs'
 
-Where: 14
-When: 4
-What: 17
-Who: 9
-Why: 2
-How: 16
-According: 2
+Where: 17
+When: 6
+What: 34
+Who: 11
+Why: 5
+How: 22
+According: 3

@@ -16,8 +16,11 @@ Contributions:
 Trevor Dalton-
 * NRE
 * Question Typing
+* textWeighter
 * Framework for qa.py
 
 Spencer Bonds-
+* resultReader
+* answerExtraction
 * Matching Question Types and Subtypes with Entity Types
 * Wrote 'main' script in qa.py (that is qa())

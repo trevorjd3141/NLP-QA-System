@@ -1,7 +1,7 @@
 import typeQuestions
 import namedEntityRecognition
 import textWeighter
-import dependencyAnswerExtraction
+import answerExtraction
 import sys
 import os
 import spacy
@@ -154,7 +154,7 @@ def classify(question, story, nlp):
     if whySplitAnswer and len(whySplitAnswer) > 0:
         return whySplitAnswer
 
-    lemons = dependencyAnswerExtraction.answer(question, story, nlp)
+    lemons = answerExtraction.answer(question, story, nlp)
     if lemons and len(lemons) > 0:
         return lemons
 

@@ -153,20 +153,32 @@ def entityMatcher(sent, sentTokens, question):
     else:
         return sent
 
-# text = 'What was the magnitude of the earthquake, according to the National Earthquake Information Centre in Colorado?'
-#
-# nlp = spacy.load('en_core_web_sm')
-# doc = nlp(text)
-# prnt = ''
-# for token in doc:
-#     prnt += (token.text + '/' + token.dep_ + ' ')
+qText = 'If water is left in an opened container for 24 hours, what happens to many of the chemicals?'
+text = 'You can leave water in an open container for 24 hours, and many of the chemicals will evaporate'
+
+
+nlp = spacy.load('en_core_web_md')
+#doc = nlp(text)
+p = ''
+# for ent in doc.ents:
+#     print(ent.text + ': ' + ent.label_)
+doc = nlp(qText)
+for token in doc:
+    #p += (token.text + ': ' + token.ent_type_ + ' ')
+    p += (token.text + '/' + token.dep_ + ' ')
+
+doc = nlp(text)
+for token in doc:
+    #p += (token.text + ': ' + token.ent_type_ + ' ')
+    p += (token.text + '/' + token.dep_ + ' ')
+
 # #     if token.text == 'summer':
 # #         print('summer ancestors')
 # #         print([token.text for token in token.ancestors])
-#     # if token.text == 'seals':
-#     #     print('seals/ head: ' + token.head.text + ' / lefts: ')
-#     #     print([token.text for token in token.lefts])
-#     #     print(' / rights: ')
-#     #     print([token.text for token in token.rights])
-# print(prnt)
+#      if token.text == 'seals':
+#          print('seals/ head: ' + token.head.text + ' / lefts: ')
+#          print([token.text for token in token.lefts])
+#          print(' / rights: ')
+#          print([token.text for token in token.rights])
+print(p)
 # #print(token.text + ' ' + token.dep_ for token in doc)
