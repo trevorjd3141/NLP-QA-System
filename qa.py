@@ -84,7 +84,7 @@ def trimParse(question, story, requirements=None):
             combinations.append(string)
     combinations.sort(key=len, reverse=True)
 
-    mostLikelySentences = textWeighter.filterQuestions(question, story[1], ranked=True)
+    mostLikelySentences = textWeighter.filterQuestions(question, story[0], ranked=True)
     mostLikelySentence = mostLikelySentences[0]
 
     if requirements is not None:
@@ -96,7 +96,7 @@ def trimParse(question, story, requirements=None):
     # Go through all combinations and if that combination
     # is in the mostLikelySentence then split and return either
     # before or after that depending on the contents
-    stopwords = fetchStopwords('data/stopwords.txt')
+    stopwords = fetchStopwords('stopwords.txt')
     for combination in combinations:
         # only keep combinations that have a length
         # of SENTENCETRIM without stopwords so we don't
@@ -122,6 +122,48 @@ def trimParse(question, story, requirements=None):
             else:
                 return split[0]
     
+    return mostLikelySentence
+
+
+def trimParseExtract(question, mostLikelySentence):
+    # Get all combinations of the question sentence
+    splitQuestion = question.text.split(' ')
+    combinations = []
+    for i in range(len(splitQuestion)):
+        for j in range(i + 1, len(splitQuestion) + 1):
+            string = ' '.join(splitQuestion[i:j])
+            if string[-1] in '.?!':
+                string = string[:-1]
+            combinations.append(string)
+    combinations.sort(key=len, reverse=True)
+
+    # Go through all combinations and if that combination
+    # is in the mostLikelySentence then split and return either
+    # before or after that depending on the contents
+    stopwords = fetchStopwords('stopwords.txt')
+    for combination in combinations:
+        # only keep combinations that have a length
+        # of SENTENCETRIM without stopwords so we don't
+        # have short splits or splits on stopwords
+        if combination in mostLikelySentence and \
+                len([word for word in combination.split(' ') if word not in stopwords]) > SENTENCETRIM:
+            split = mostLikelySentence.split(combination)
+
+            # Words that would cause the answer to come
+            # before the explanation
+            reverseWords = ['if', 'unless', 'but', 'By']
+
+            if len(split[-1]) > 0 and \
+                    not any([word in mostLikelySentence for word in reverseWords]) and \
+                    split[-1][0] != "'":
+                return split[-1]
+            elif 'By' in mostLikelySentence and ',' in mostLikelySentence:
+                # For cases like "By doing this, this will happen"
+                # only keep the "this will happen"
+                return ''.join(mostLikelySentence.split(',')[1:])
+            else:
+                return split[0]
+
     return mostLikelySentence
 
 # Given a quote question find
@@ -156,16 +198,11 @@ def classify(question, story, nlp):
 
     answerExtract = answerExtraction.answer(question, story, nlp)
     if answerExtract and len(answerExtract) > 0:
+
+        trimParseAnswer = trimParseExtract(question, answerExtract)
+        if trimParseAnswer and len(trimParseAnswer) > 0:
+            return trimParseAnswer
         return answerExtract
-
-    if question.type == 'According' and False:
-        subject = findSubject(question.text)
-        trimParseAnswer = trimParse(question, story, [subject] + ['said', 'say', 'suggested'])
-    else:
-        trimParseAnswer = trimParse(question, story)
-
-    if trimParseAnswer and len(trimParseAnswer) > 0:
-        return trimParseAnswer
 
     return ''
 

@@ -54,7 +54,7 @@ def cosineDistance(x, y):
 def filterQuestions(question, story, k=3, ranked=False):
 
     # Get stopwords
-    stopwords = fetchStopwords('data/stopwords.txt')
+    stopwords = fetchStopwords('stopwords.txt')
 
     # Get vocab
     words = filterSplitText(story, stopwords)

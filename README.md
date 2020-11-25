@@ -10,17 +10,22 @@ Trevor Dalton
 Spencer Bonds
 
 Time Estimate:
-1 second per document.
+2 seconds per document.
 
 Contributions:
 Trevor Dalton-
 * NRE
 * Question Typing
-* textWeighter
 * Framework for qa.py
+* Vector Similarity
+* Keyword Filtering
+* Why Splitting
+* 'According to' splitting
 
 Spencer Bonds-
-* resultReader
-* answerExtraction
 * Matching Question Types and Subtypes with Entity Types
-* Wrote 'main' script in qa.py (that is qa())
+* Answer Extraction
+* Result Reader
+
+Known Limitations:
+None.
